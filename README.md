@@ -1,8 +1,6 @@
 # E7/SU(8) Topological Fluid Universe (SPU)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-Submitted-blue.svg)](https://arxiv.org)
-[![Status: Active](https://img.shields.io/badge/Status-Active-green.svg)]()
+
 
 > A fundamental theory of gravity and cosmology based on E₇/SU(8) gauge structure. Unifies electromagnetism, weak and strong forces, explains gravity as emergent, and derives dark energy from first principles.
 
@@ -334,13 +332,6 @@ SPU is built on solid mathematical foundations:
 
 ---
 
-## 📖 Documentation
-
-| Section | Content |
-|---------|---------|
-| **[THEORY.md](./docs/THEORY.md)** | Complete mathematical derivation |
-| **[PREDICTIONS.md](./docs/PREDICTIONS.md)** | Observable consequences & how to test |
-| **[CALCULATIONS.md](./docs/CALCULATIONS.md)** | Numerical results with uncertainties |
 
 ---
 
@@ -370,29 +361,12 @@ The cosmological tests are just methods to answer this deeper question.
 
 ---
 
-## 📞 Contact
 
-- **Lead Theorist**: [Your Name]
-- **Affiliation**: [Your Institution]
-- **Email**: [your.email@institution.edu]
+- **Lead Theorist**: [marcofa]
 
 ---
 
-## 📖 Cite This Work
 
-```bibtex
-@article{SPU_Fundamental_2024,
-  author = {[Your Name]},
-  title = {E₇/SU(8) Topological Fluid Universe: 
-           A fundamental theory of gravity and unification},
-  journal = {Physical Review D},
-  year = {2024},
-  archivePrefix = {arXiv},
-  eprint = {XXXX.XXXXX}
-}
-```
-
----
 
 ## ⚖️ License
 
