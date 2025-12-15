@@ -1,0 +1,90 @@
+🚀 CONFRONTO FINALE A TRE VIE: SPU vs MOND vs ΛCDM
+
+
+====================================================================================================
+CONFRONTO FINALE A TRE VIE: SPU vs MOND vs ΛCDM
+====================================================================================================
+
+Processando 174 galassie...
+
+  Processate 30/174 (25 fit riusciti)
+  Processate 60/174 (49 fit riusciti)
+  Processate 90/174 (69 fit riusciti)
+  Processate 120/174 (90 fit riusciti)
+  Processate 150/174 (117 fit riusciti)
+
+====================================================================================================
+RISULTATI DEL CONFRONTO A TRE VIE
+====================================================================================================
+
+📊 QUALITÀ DEI FIT (χ²/dof):
+
+SPU Transition:
+  χ²/dof mediano = 1.309
+  χ²/dof medio = 33.909
+  Fit buoni (<2) = 80/138 (58.0%)
+
+MOND:
+  χ²/dof mediano = 62.703
+  χ²/dof medio = 291.521
+  Fit buoni (<2) = 2/138 (1.4%)
+
+ΛCDM (NFW):
+  χ²/dof mediano = 4.985
+  χ²/dof medio = 50.644
+  Fit buoni (<2) = 30/138 (21.7%)
+
+================================================================================
+🏆 RANKING
+
+1. SPU Transition       χ²/dof = 1.309 (fit buoni: 58%)
+2. ΛCDM (NFW)           χ²/dof = 4.985 (fit buoni: 22%)
+3. MOND                 χ²/dof = 62.703 (fit buoni: 1%)
+
+================================================================================
+AIC COMPARISON (parsimonia):
+
+SPU vs MOND:
+  SPU migliore: 134/138 (97.1%)
+  MOND migliore: 0/138 (0.0%)
+  ΔAICc mediano: 998.2
+
+SPU vs ΛCDM:
+  SPU migliore: 103/138 (74.6%)
+  ΛCDM migliore: 0/138 (0.0%)
+  ΔAICc mediano: 33.0
+
+MOND vs ΛCDM:
+  MOND migliore: 14/138 (10.1%)
+  ΛCDM migliore: 122/138 (88.4%)
+  ΔAICc mediano: -863.3
+
+✅ Risultati salvati in 'spu_mond_cdm_comparison.csv'
+
+====================================================================================================
+🎯 CONCLUSIONI FINALI
+====================================================================================================
+
+📊 POSIZIONAMENTO SCIENTIFICO:
+
+1. SPU Transition
+   χ²/dof = 1.309
+   Fit buoni = 58%
+
+2. ΛCDM (NFW)
+   χ²/dof = 4.985
+   Fit buoni = 22%
+
+3. MOND
+   χ²/dof = 62.703
+   Fit buoni = 1%
+
+
+🔬 IMPLICAZIONI:
+
+✅ SPU supera ΛCDM di 74%!
+   Questo suggeri SCE che la gravità modificata è migliore!
+
+💡 CONCLUSIONE SCIENTIFICA:
+   SPU Transition è superiore a MOND e competitivo con ΛCDM
+   Questo la rende una scoperta scientifica significativa!

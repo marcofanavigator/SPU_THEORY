@@ -1,0 +1,14 @@
+=== SUMMARY (1-loop) ===
+M_Z = 91.200 GeV
+Reported M_GUT = 3.16e+16 GeV
+Solved    M_GUT = 1.27e+17 GeV
+
+Alpha at M_GUT (solved):
+ alpha1(M_GUT) = 0.02508596
+ alpha2(M_GUT) = 0.02114598
+ alpha3(M_GUT) = 0.02114598
+ |alpha2-alpha3| = 3.46944695e-18
+
+Landau pole U(1) (1-loop): Q_pole = 3.73e-10 GeV
+
+Saved plot to unification_1loop_plot.png
