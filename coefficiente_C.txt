@@ -1,0 +1,4 @@
+"Il coefficiente C è definito come il fattore che converte 
+il contributo topologico universale (2/π)(128-δ) nella costante di accoppiamento elettromagnetica inversa osservata,
+ quando l'operatore di Dirac su E₇/SU(8) è proiettato sul settore U(1)_EM a 4 dimensioni.
+ Formalmente: α_EM^{-1} = C * (2/π)(128-δ)."
