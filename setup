@@ -1,0 +1,15 @@
+## 🚀 Quick Start: Data Setup
+
+To replicate the results, you need to download the official datasets and place them in the project directory.
+
+### 1. Galaxy Dynamics (SPARC)
+* **Source**: Download from [SPARC Official Site](http://astroweb.cwru.edu/SPARC/).
+* **Setup**: Place the raw data files in a folder named `/raw` within the main directory.
+* **Execution**: Run `spu_galaxy_fit.py`.
+
+### 2. Cluster Dynamics (SDSS DR8)
+* **Source**: Download catalogs `J_ApJS_224_1_mmb_dr8.csv` and `J_ApJS_224_1_cat_dr8.csv`.
+* **Setup**: Place these files directly in the root folder (same level as the Python scripts).
+* **Execution**: Run `spu_cluster_analysis.py`.
+
+*Note: Due to the large file these datasets are not hosted on this repository but are publicly available for independent verification.*
