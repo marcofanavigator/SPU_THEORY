@@ -360,7 +360,7 @@ When we say "Euclid will test SPU," we're asking:
 The cosmological tests are just methods to answer this deeper question.
 
 ---
-
+0.5281/zenodo.17962427
 
 - **Lead Theorist**: [marcofa]
 
