@@ -10,6 +10,6 @@ To replicate the results, you need to download the official datasets and place t
 ### 2. Cluster Dynamics (SDSS DR8)
 * **Source**: Download catalogs `J_ApJS_224_1_mmb_dr8.csv` and `J_ApJS_224_1_cat_dr8.csv`.
 * **Setup**: Place these files directly in the root folder (same level as the Python scripts).
-* **Execution**: Run `spu_cluster_analysis.py`.
+* **Execution**: Run `analisi_ammassi_spu_acdm_mond.py`.
 
 *Note: Due to the large file these datasets are not hosted on this repository but are publicly available for independent verification.*
