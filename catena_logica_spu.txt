@@ -101,10 +101,10 @@ RISULTATO FINALE - TEORIA SPU
 
 
 ============================================================
-VERIFICA CON I VALORI REALI DAI TUOI CALCOLI
+VERIFICA CON I VALORI REALI 
 ============================================================
 
-VALORI OTTIMIZZATI (dai tuoi calcoli):
+VALORI OTTIMIZZATI 
   N_f = 127.365260000000
   δ richiesto = 0.634740000000
   1/α calcolato = 137.035999089329
@@ -114,4 +114,5 @@ VALORI OTTIMIZZATI (dai tuoi calcoli):
   M_GUT = 1.773e+16 GeV
 
 ✅ ACCORDO SPERIMENTALE PERFETTO!
-   La teoria SPU è VERIFICATA numericamente!
+
+  
