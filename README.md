@@ -164,14 +164,158 @@ The framework is compatible with standard QFT and RG methods and is intended as 
 
 ---
 
-## References
+# SPU — Symmetry–Phase–Unification Framework
 
-Standard references on:
-- Lie groups and symmetric spaces
-- Renormalization group methods
-- Quantum field theory
+## Abstract
 
-are sufficient to follow all derivations.
+SPU is a minimal theoretical framework in which the Standard Model gauge interactions and gravity emerge dynamically from a common underlying fermionic medium.  
+Unification is achieved without assuming a grand unified gauge group, supersymmetry, extra dimensions, or fundamental quantum gravity.  
+All physical scales and couplings arise from dynamical consistency conditions and renormalization group flow.
+
+---
+
+## Core Principles
+
+SPU is based on three guiding principles:
+
+1. **Common Fermionic Origin**  
+   All gauge interactions couple to the same underlying fermionic degrees of freedom.
+
+2. **Dynamical Reduction of Degrees of Freedom**  
+   Not all nominal modes contribute equally to RG running. A dynamical suppression parameter  
+   \(\delta\) reduces the effective fermionic content.
+
+3. **Emergence Over Fundamentality**  
+   Gravity and unification scales are emergent phenomena, not fundamental inputs.
+
+---
+
+## Geometric Starting Point
+
+The theory is anchored to a unique geometric structure:
+
+- Symmetric space: **E₇ / SU(8)**
+- Real dimension: 70
+- Total cohomological capacity:  
+  \[
+  N_f^{\mathrm{nom}} = \dim H^*(E₇/SU(8)) = 128
+  \]
+
+This number fixes the **maximum fermionic capacity** of the SPU medium.
+
+---
+
+## Effective Fermionic Content
+
+Dynamical effects reduce the number of modes contributing to RG running:
+
+\[
+N_f^{\mathrm{eff}} = 128 - \delta
+\]
+
+- \(\delta > 0\) arises from dynamical decoupling, not topology
+- \(\delta\) is constrained by consistency and stability conditions
+- Typical values:  
+  \[
+  \delta \sim 0.5 \text{–} 0.7
+  \]
+
+Detailed derivation is provided in the appendices.
+
+---
+
+## Gauge Interaction Unification
+
+SPU does **not** unify interactions via group embedding. Instead:
+
+- All gauge sectors share the same \(N_f^{\mathrm{eff}}\)
+- RG equations are standard one-loop equations
+- Convergence emerges dynamically
+
+Results:
+- Natural convergence of \(SU(2)_L\) and \(SU(3)_c\)
+- Emergent unification scale:
+  \[
+  M_{\mathrm{GUT}} \sim 10^{16}\,\mathrm{GeV}
+  \]
+- No supersymmetry required
+
+---
+
+## Gravity as an Emergent Interaction
+
+In SPU:
+- Gravity is **not** quantized as a fundamental field
+- Newton’s constant does **not** run
+- Gravity emerges at the same scale as gauge convergence
+
+Predictions:
+- No UV quantum gravity effects
+- Finite primordial tensor amplitude
+- Proton lifetime in the range \(10^{34}\)–\(10^{35}\) years
+
+---
+
+## The Role of \(\delta\)
+
+The parameter \(\delta\) is central to SPU:
+
+- It quantifies partial dynamical suppression of fermionic modes
+- It is not a fit parameter
+- It is not topological
+- It is constrained by RG consistency and stability
+
+Key documents:
+- `docs/derivation_delta.md`
+- `docs/why_delta_nonzero.md`
+- `docs/consistency_bound_delta.md`
+
+---
+
+## Numerical Support
+
+The repository includes Python scripts used to validate the framework:
+
+- `fixed_point_delta.py`  
+  Solves the dynamical fixed-point equation for \(\delta\)
+
+- `rg_running.py`  
+  Computes RG evolution of gauge couplings using \(N_f^{\mathrm{eff}}\)
+
+- `stability_scan.py`  
+  Verifies robustness of predictions under variations of \(\delta\)
+
+All scripts are standalone and reproducible.
+
+
+## Comparison with Standard Paradigms
+
+SPU differs fundamentally from:
+
+- Grand Unified Theories (no group embedding)
+- String theory (no extra dimensions, no landscape)
+- Asymptotic safety (no UV quantum gravity)
+- EFT gravity (gravity not fundamental)
+
+A detailed comparison is provided in:
+- `docs/spu_vs_standard_paradigms.md`
+
+---
+
+## Falsifiability
+
+SPU makes sharp predictions:
+
+- No RG running of Newton’s constant
+- Fixed unification scale
+- Specific range for tensor-to-scalar ratio
+- Proton lifetime bounds
+
+Failure of any of these directly falsifies the framework.
+
+
+
+
 
 ## ⚖️ License
 
