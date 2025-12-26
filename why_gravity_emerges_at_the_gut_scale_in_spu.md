@@ -10,20 +10,16 @@ In the SPU framework, gravity is not assumed as a fundamental interaction but em
 
 SPU is based on a single underlying fermionic capacity originating from the symmetric space
 
-\[
-M = E_7 / SU(8)
-\]
+$$M = E_7 / SU(8)$$
 
 with:
 
-- \( \dim H^*(M) = 128 \) nominal fermionic degrees of freedom
+- $\dim H^*(M) = 128$ nominal fermionic degrees of freedom
 - an effective reduction
 
-\[
-N_f^{\mathrm{eff}} = 128 - \delta
-\]
+$$N_f^{\mathrm{eff}} = 128 - \delta$$
 
-where \(\delta > 0\) is dynamically generated.
+where $\delta > 0$ is dynamically generated.
 
 All interactions — gauge and gravitational — must therefore emerge from the same fermionic medium.
 
@@ -35,17 +31,13 @@ In SPU, gravity is induced in the Sakharov sense: integrating out fermionic fluc
 
 Schematically:
 
-\[
-S_{\mathrm{eff}} \supset \int d^4x\, \sqrt{-g}\, M_{\mathrm{grav}}^2\, R
-\]
+$$S_{\mathrm{eff}} \supset \int d^4x\,\sqrt{-g}\,M_{\mathrm{grav}}^2\,R$$
 
 with
 
-\[
-M_{\mathrm{grav}}^2 \sim N_f^{\mathrm{eff}} \int^{\mu_{UV}} \frac{d^4k}{(2\pi)^4} \frac{1}{k^2}
-\]
+$$M_{\mathrm{grav}}^2 \sim N_f^{\mathrm{eff}} \int^{\mu_{UV}} \frac{d^4k}{(2\pi)^4} \frac{1}{k^2}$$
 
-The integral is quadratically divergent and controlled by the UV cutoff \(\mu_{UV}\).
+The integral is quadratically divergent and controlled by the UV cutoff $\mu_{UV}$.
 
 ---
 
@@ -53,9 +45,7 @@ The integral is quadratically divergent and controlled by the UV cutoff \(\mu_{U
 
 In SPU, the highest physically meaningful scale is not the Planck scale but the **dynamical unification scale**:
 
-\[
-\mu_{UV} = M_{\mathrm{GUT}} \sim 10^{16}\,\mathrm{GeV}
-\]
+$$\mu_{UV} = M_{\mathrm{GUT}} \sim 10^{16}\,\mathrm{GeV}$$
 
 Reasons:
 
@@ -63,17 +53,15 @@ Reasons:
 2. Fermionic degrees of freedom reorganize and partially decouple.
 3. The SPU medium ceases to admit additional independent excitations beyond this energy.
 
-Thus, no physical justification exists for extending loop integrals beyond \(M_{\mathrm{GUT}}\).
+Thus, no physical justification exists for extending loop integrals beyond $M_{\mathrm{GUT}}$.
 
 ---
 
 ## 4. Resulting Gravitational Scale
 
-Using \(N_f^{\mathrm{eff}} \approx 127.36\) and \(\mu_{UV} = M_{\mathrm{GUT}}\), one obtains
+Using $N_f^{\mathrm{eff}} \approx 127.36$ and $\mu_{UV} = M_{\mathrm{GUT}}$, one obtains
 
-\[
-M_{\mathrm{grav}} \sim 10^{16}\,\mathrm{GeV}
-\]
+$$M_{\mathrm{grav}} \sim 10^{16}\,\mathrm{GeV}$$
 
 This is **not** the observed Planck mass, but the *bare gravitational stiffness scale* emerging from the fermionic medium.
 
@@ -83,13 +71,11 @@ This is **not** the observed Planck mass, but the *bare gravitational stiffness 
 
 The observed Planck mass
 
-\[
-M_{\mathrm{Pl}}^{\mathrm{obs}} \simeq 1.22 \times 10^{19}\,\mathrm{GeV}
-\]
+$$M_{\mathrm{Pl}}^{\mathrm{obs}} \simeq 1.22 \times 10^{19}\,\mathrm{GeV}$$
 
 is an **infrared-renormalized quantity**.
 
-Between \(M_{\mathrm{GUT}}\) and macroscopic scales, gravity undergoes:
+Between $M_{\mathrm{GUT}}$ and macroscopic scales, gravity undergoes:
 
 - strong IR renormalization,
 - tensorial dressing from spin-2 propagation,
@@ -97,15 +83,11 @@ Between \(M_{\mathrm{GUT}}\) and macroscopic scales, gravity undergoes:
 
 These effects collectively produce a multiplicative enhancement:
 
-\[
-M_{\mathrm{Pl}}^{\mathrm{obs}} = \mathcal{C}_{\mathrm{IR}}\, M_{\mathrm{grav}}
-\]
+$$M_{\mathrm{Pl}}^{\mathrm{obs}} = \mathcal{C}_{\mathrm{IR}} \cdot M_{\mathrm{grav}}$$
 
 with
 
-\[
-\mathcal{C}_{\mathrm{IR}} \sim 10^3
-\]
+$$\mathcal{C}_{\mathrm{IR}} \sim 10^3$$
 
 Such factors are well known in induced-gravity and effective-field-theory treatments.
 
@@ -115,18 +97,18 @@ Such factors are well known in induced-gravity and effective-field-theory treatm
 
 Numerical scans in SPU show:
 
-- stability of \(M_{\mathrm{grav}}\) under variations of \(\delta\),
-- no fine-tuned critical value of \(\delta\),
+- stability of $M_{\mathrm{grav}}$ under variations of $\delta$,
+- no fine-tuned critical value of $\delta$,
 - correct order of magnitude for gravity without introducing new parameters.
 
-The gap between \(M_{\mathrm{grav}}\) and \(M_{\mathrm{Pl}}^{\mathrm{obs}}\) is therefore a **feature**, not a flaw.
+The gap between $M_{\mathrm{grav}}$ and $M_{\mathrm{Pl}}^{\mathrm{obs}}$ is therefore a **feature**, not a flaw.
 
 ---
 
 ## 7. Comparison with Standard Paradigms
 
 | Framework | Gravity Scale |
-|---------|---------------|
+|-----------|---------------|
 | Quantum gravity (fundamental) | Planck scale (assumed) |
 | Sakharov induced gravity | UV cutoff dependent |
 | SPU | GUT scale (derived) |
@@ -150,4 +132,3 @@ This places SPU among a small class of theories where gravity, gauge unification
 ---
 
 **End of document.**
-
