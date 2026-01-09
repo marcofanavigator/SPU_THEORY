@@ -1,106 +1,103 @@
 # SPU Framework: Complete Navigable Document Index
 
-Questo indice fornisce accesso diretto a tutti i documenti del framework SPU con brevi descrizioni. Ogni nome file è un link al documento corrispondente nella directory locale.
+This index provides direct access to all documents in the SPU framework with brief descriptions. Each filename is a clickable link to the corresponding document in the local directory.
 
-## 📚 **Documenti di Base del Framework**
+## 📚 **Core Framework Documents**
 
-- **[README.md](README.md)** - Documento introduttivo principale che presenta il framework SPU, i suoi principi fondamentali, le basi geometriche e il confronto con i paradigmi standard.
+- **[README.md](README.md)** – Main introductory document presenting the SPU framework, its foundational principles, geometric basis, and comparison with standard paradigms.
 
-- **[SPU Theory Symmetry_Phase_Unification Framework.md](SPU%20Theory%20Symmetry_Phase_Unification%20Framework.md)** - Presentazione completa dell'intera teoria SPU, incluse le basi geometriche, la capacità fermionica, l'unificazione di gauge, la gravità emergente e le condizioni di falsificabilità.
+- **[SPU Theory Symmetry_Phase_Unification Framework.md](SPU%20Theory%20Symmetry_Phase_Unification%20Framework.md)** – Comprehensive presentation of the full SPU theory, including geometric foundations, fermionic capacity, gauge unification, emergent gravity, and falsifiability conditions.
 
-- **[What SPU Explains That Standard Paradigms Do Not.md](What%20SPU%20Explains%20That%20Standard%20Paradigms%20Do%20Not.md)** - Analisi comparativa che evidenzia il potere esplicativo di SPU per fenomeni che i paradigmi standard lasciano inspiegati.
+- **[What SPU Explains That Standard Paradigms Do Not.md](What%20SPU%20Explains%20That%20Standard%20Paradigms%20Do%20Not.md)** – Comparative analysis highlighting SPU’s explanatory power for phenomena left unexplained by standard paradigms.
 
-## 🧮 **Fondamenti Geometrici**
+## 🧮 **Geometric Foundations**
 
-- **[spu_geometric_origin_uv-1.md](spu_geometric_origin_uv-1.md)** - Derivazione dettagliata della Lagrangiana UV a partire dalla struttura geometrica $E_7/SU(8)$, che spiega l'origine della capacità fermionica.
+- **[spu_geometric_origin_uv-1.md](spu_geometric_origin_uv-1.md)** – Detailed derivation of the UV Lagrangian from the geometric structure $E_7/SU(8)$, explaining the origin of fermionic capacity.
 
-- **[spu_fermionic_capacity_128.md](spu_fermionic_capacity_128.md)** - Spiegazione del perché la capacità fermionica è fissata a 128 e perché non è regolabile all'interno del framework SPU.
+- **[spu_fermionic_capacity_128.md](spu_fermionic_capacity_128.md)** – Explanation of why fermionic capacity is fixed at 128 and cannot be tuned within the SPU framework.
 
-## δ **Parametro Dinamico δ**
+## δ **Dynamical Parameter δ**
 
-- **[Minimal Microscopic Toy Model Generating a Non_Zero δ under RG Flow.md](Minimal%20Microscopic%20Toy%20Model%20Generating%20a%20Non_Zero%20δ%20under%20RG%20Flow.md)** - Teoria quantistica dei campi UV-completa che mostra che δ ≠ 0 emerge necessariamente dal flusso del gruppo di rinormalizzazione.
+- **[Minimal Microscopic Toy Model Generating a Non_Zero δ under RG Flow.md](Minimal%20Microscopic%20Toy%20Model%20Generating%20a%20Non_Zero%20δ%20under%20RG%20Flow.md)** – A UV-complete quantum field theory demonstrating that δ ≠ 0 necessarily emerges from renormalization group (RG) flow.
 
-- **[rg_origin_of_delta.md](rg_origin_of_delta.md)** - Dimostrazione che δ origina come un punto fisso infrarosso del flusso del gruppo di rinormalizzazione.
+- **[rg_origin_of_delta.md](rg_origin_of_delta.md)** – Proof that δ arises as an infrared fixed point of the renormalization group flow.
 
-- **[derivation_of_δ_rg_and_qft_analysis.md](derivation_of_δ_rg_and_qft_analysis.md)** - Derivazione tecnica QFT di δ da effetti a un loop e meccanismi di disaccoppiamento dinamico.
+- **[derivation_of_δ_rg_and_qft_analysis.md](derivation_of_δ_rg_and_qft_analysis.md)** – Technical QFT derivation of δ from one-loop effects and dynamical decoupling mechanisms.
 
-- **[spu_consistency_bound_delta.md](spu_consistency_bound_delta.md)** - Vincoli di consistenza interni su δ derivati dai requisiti di stabilità RG e controllo perturbativo.
+- **[spu_consistency_bound_delta.md](spu_consistency_bound_delta.md)** – Internal consistency bounds on δ derived from RG stability and perturbative control requirements.
 
-- **[spu_refined_semi_analytic_bound.md](spu_refined_semi_analytic_bound.md)** - Limiti semi-analitici raffinati su δ che combinano sicurezza asintotica, unitarietà e vincoli di disaccoppiamento.
+- **[spu_refined_semi_analytic_bound.md](spu_refined_semi_analytic_bound.md)** – Refined semi-analytic bounds on δ combining asymptotic safety, unitarity, and decoupling constraints.
 
-- **[spu_dynamical_origin_delta.md](spu_dynamical_origin_delta.md)** - Origine dinamica minima di δ senza invocare argomenti topologici o teoremi di indice.
+- **[spu_dynamical_origin_delta.md](spu_dynamical_origin_delta.md)** – Minimal dynamical origin of δ without invoking topological arguments or index theorems.
 
-## ⚡ **Unificazione di Gauge**
+## ⚡ **Gauge Unification**
 
-- **[Gauge_Unification_in_SPU.md](Gauge_Unification_in_SPU.md)** - Spiegazione dell'unificazione di gauge dinamica senza incorporamento di gruppo, basata sull'origine fermionica comune.
+- **[Gauge_Unification_in_SPU.md](Gauge_Unification_in_SPU.md)** – Explanation of dynamical gauge unification without group embedding, based on common fermionic origin.
 
-- **[Weinberg_Angle_in_SPU.md](Weinberg_Angle_in_SPU.md)** - Analisi dell'angolo di Weinberg all'interno del framework SPU (nota: il contenuto potrebbe sovrapporsi a Gauge_Unification_in_SPU.md).
+- **[Weinberg_Angle_in_SPU.md](Weinberg_Angle_in_SPU.md)** – Analysis of the Weinberg angle within the SPU framework (note: content may overlap with Gauge_Unification_in_SPU.md).
 
-- **[spu_appendix_b.md](spu_appendix_b.md)** - Normalizzazione spettrale del settore elettromagnetico, inclusi fattori rappresentativi e contributi dell'η-invariante.
+- **[spu_appendix_b.md](spu_appendix_b.md)** – Spectral normalization of the electromagnetic sector, including representation factors and η-invariant contributions.
 
-## 🌌 **Gravità Emergente**
+## 🌌 **Emergent Gravity**
 
-- **[Minimal Emergent Gravity in the SPU Framework.md](Minimal%20Emergent%20Gravity%20in%20the%20SPU%20Framework.md)** - Derivazione semi-analitica della scala gravitazionale dalla soppressione collettiva nel mezzo fermionico.
+- **[Minimal Emergent Gravity in the SPU Framework.md](Minimal%20Emergent%20Gravity%20in%20the%20SPU%20Framework.md)** – Semi-analytic derivation of the gravitational scale from collective suppression in the fermionic medium.
 
-- **[consistency_bound_gravity_scale.md](consistency_bound_gravity_scale.md)** - Vincoli di consistenza sulla scala gravitazionale emergente dai requisiti di disaccoppiamento e natura collettiva.
+- **[consistency_bound_gravity_scale.md](consistency_bound_gravity_scale.md)** – Consistency constraints on the emergent gravitational scale from decoupling requirements and collective nature.
 
-- **[rg_to_emergent_gravity.md](rg_to_emergent_gravity.md)** - Connessione tra il flusso RG di δ e l'emergenza della gravità alla scala di unificazione.
+- **[rg_to_emergent_gravity.md](rg_to_emergent_gravity.md)** – Connection between the RG flow of δ and the emergence of gravity at the unification scale.
 
-- **[spu_gravity_predictions.md](spu_gravity_predictions.md)** - Previsioni concrete per fenomeni gravitazionali: modi tensoriali, decadimento del protone e assenza di effetti di gravità quantistica UV.
+- **[spu_gravity_predictions.md](spu_gravity_predictions.md)** – Concrete predictions for gravitational phenomena: tensor modes, proton decay, and absence of UV quantum gravity effects.
 
-## 🕰️ **Universo Primordiale e Cosmologia**
+## 🕰️ **Early Universe and Cosmology**
 
-- **[Early-Universe Signatures in the SPU Framework.md](Early-Universe%20Signatures%20in%20the%20SPU%20Framework.md)** - Fenomenologia dell'universo primordiale, inclusa una fase simile all'inflazione e onde gravitazionali primordiali.
+- **[Early-Universe Signatures in the SPU Framework.md](Early-Universe%20Signatures%20in%20the%20SPU%20Framework.md)** – Early-universe phenomenology, including an inflation-like phase and primordial gravitational waves.
 
-- **[semi_analytical_estimate_vacuum_energy.md](semi_analytical_estimate_vacuum_energy.md)** - Stima semi-analitica dell'energia del vuoto con scaling non estensivo proporzionale alla curvatura.
+- **[semi_analytical_estimate_vacuum_energy.md](semi_analytical_estimate_vacuum_energy.md)** – Semi-analytic estimate of vacuum energy with non-extensive scaling proportional to curvature.
 
-## 🌠 **Dinamica Galattica**
+## 🌠 **Galactic Dynamics**
 
-- **[readme_1.md](readme_1.md)** - Applicazione completa di SPU alle curve di rotazione galattiche, derivando il raggio di transizione e la relazione barionica di Tully-Fisher.
+- **[readme_1.md](readme_1.md)** – Full application of SPU to galactic rotation curves, deriving the transition radius and the baryonic Tully-Fisher relation.
 
-- **[spu_critical_surface_density.md](spu_critical_surface_density.md)** - Interpretazione della densità superficiale critica in termini di parametro di carico adimensionale e saturazione del mezzo fermionico.
+- **[spu_critical_surface_density.md](spu_critical_surface_density.md)** – Interpretation of the critical surface density in terms of a dimensionless loading parameter and saturation of the fermionic medium.
 
-- **[spu_scale_separation_vortex.md](spu_scale_separation_vortex.md)** - Spiegazione del perché gli effetti gravitazionali del vortice appaiono solo su scale galattiche, non su scale stellari.
+- **[spu_scale_separation_vortex.md](spu_scale_separation_vortex.md)** – Explanation of why vortex gravitational effects appear only on galactic scales, not on stellar scales.
 
-## 🔬 **Mezzo Fermionico e Spaziotempo**
+## 🔬 **Fermionic Medium and Spacetime**
 
-- **[spu_mezzo_fermionico.md](spu_mezzo_fermionico.md)** - Definizione ontologica del mezzo fermionico, gradi di libertà saturi e lunghezza di coerenza ℓ_SP.
+- **[spu_mezzo_fermionico.md](spu_mezzo_fermionico.md)** – Ontological definition of the fermionic medium, saturated degrees of freedom, and coherence length ℓ_SP.
 
-- **[spu_einstein_hilbert.md](spu_einstein_hilbert.md)** - Derivazione dell'azione di Einstein-Hilbert come risposta collettiva universale del mezzo fermionico.
+- **[spu_einstein_hilbert.md](spu_einstein_hilbert.md)** – Derivation of the Einstein-Hilbert action as the universal collective response of the fermionic medium.
 
-- **[spu_limite_newtoniano.md](spu_limite_newtoniano.md)** - Recupero del limite newtoniano dall'azione di Einstein-Hilbert attraverso approssimazioni standard.
+- **[spu_limite_newtoniano.md](spu_limite_newtoniano.md)** – Recovery of the Newtonian limit from the Einstein-Hilbert action through standard approximations.
 
-- **[spu_fallimento_eh.md](spu_fallimento_eh.md)** - Condizioni per il fallimento di Einstein-Hilbert a scale inferiori a ℓ_SP o in regimi di alta curvatura.
+- **[spu_fallimento_eh.md](spu_fallimento_eh.md)** – Conditions for the breakdown of Einstein-Hilbert at scales below ℓ_SP or in high-curvature regimes.
 
-- **[spu_n3_vortex.md](spu_n3_vortex.md)** - Emergenza del vortice n=3 nel condensato fermionico da argomentazioni di stabilità energetica e vincoli di capacità.
+- **[spu_n3_vortex.md](spu_n3_vortex.md)** – Emergence of the n=3 vortex in the fermionic condensate from energetic stability arguments and capacity constraints.
 
-## 🧪 **Falsificabilità e Consistenza**
+## 🧪 **Falsifiability and Consistency**
 
-- **[Minimal falsification conditions for SPU.md](Minimal%20falsification%20conditions%20for%20SPU.md)** - Criteri di falsificazione indipendenti dal modello che coprono il comportamento RG, l'unificazione, l'emergenza della gravità e i modi tensoriali.
+- **[Minimal falsification conditions for SPU.md](Minimal%20falsification%20conditions%20for%20SPU.md)** – Model-independent falsification criteria covering RG behavior, unification, gravity emergence, and tensor modes.
 
-- **[spu_falsification_conditions.md](spu_falsification_conditions.md)** - Formulazione alternativa delle condizioni di falsificazione focalizzata sulle previsioni strutturali e la consistenza RG.
+- **[spu_falsification_conditions.md](spu_falsification_conditions.md)** – Alternative formulation of falsification conditions focused on structural predictions and RG consistency.
 
-## 📖 **Appendici Tecniche**
+## 📖 **Technical Appendices**
 
-- **[spu_appendix_a.md](spu_appendix_a.md)** - Derivazione spettrale e chiarimento del ruolo di δ, separando la struttura topologica dalle correzioni RG dinamiche.
+- **[spu_appendix_a.md](spu_appendix_a.md)** – Spectral derivation and clarification of δ’s role, separating topological structure from dynamical RG corrections.
 
-- **[spu_consistency_bound.md](spu_consistency_bound.md)** - Documento sui vincoli di consistenza focalizzato sui vincoli teorici generali all'interno di SPU.
-
----
-
-## 🔄 **Percorso di Lettura Logico**
-
-Per una comprensione coerente di SPU, considera questa sequenza di lettura:
-
-1. **Inizia con:** [README.md](README.md) → [SPU Theory Symmetry_Phase_Unification Framework.md](SPU%20Theory%20Symmetry_Phase_Unification%20Framework.md)
-2. **Base geometrica:** [spu_geometric_origin_uv-1.md](spu_geometric_origin_uv-1.md)
-3. **Dinamica di δ:** [Minimal Microscopic Toy Model Generating a Non_Zero δ under RG Flow.md](Minimal%20Microscopic%20Toy%20Model%20Generating%20a%20Non_Zero%20δ%20under%20RG%20Flow.md) → [rg_origin_of_delta.md](rg_origin_of_delta.md)
-4. **Unificazione di gauge:** [Gauge_Unification_in_SPU.md](Gauge_Unification_in_SPU.md)
-5. **Emergenza della gravità:** [Minimal Emergent Gravity in the SPU Framework.md](Minimal%20Emergent%20Gravity%20in%20the%20SPU%20Framework.md) → [rg_to_emergent_gravity.md](rg_to_emergent_gravity.md)
-6. **Cosmologia:** [Early-Universe Signatures in the SPU Framework.md](Early-Universe%20Signatures%20in%20the%20SPU%20Framework.md)
-7. **Fisica galattica:** [readme_1.md](readme_1.md)
-8. **Struttura del mezzo:** [spu_mezzo_fermionico.md](spu_mezzo_fermionico.md) → [spu_einstein_hilbert.md](spu_einstein_hilbert.md)
-9. **Falsificabilità:** [Minimal falsification conditions for SPU.md](Minimal%20falsification%20conditions%20for%20SPU.md)
+- **[spu_consistency_bound.md](spu_consistency_bound.md)** – Document on consistency bounds focusing on general theoretical constraints within SPU.
 
 ---
 
+## 🔄 **Logical Reading Path**
+
+For a coherent understanding of SPU, consider this reading sequence:
+
+1. **Start with:** [README.md](README.md) → [SPU Theory Symmetry_Phase_Unification Framework.md](SPU%20Theory%20Symmetry_Phase_Unification%20Framework.md)
+2. **Geometric foundation:** [spu_geometric_origin_uv-1.md](spu_geometric_origin_uv-1.md)
+3. **δ dynamics:** [Minimal Microscopic Toy Model Generating a Non_Zero δ under RG Flow.md](Minimal%20Microscopic%20Toy%20Model%20Generating%20a%20Non_Zero%20δ%20under%20RG%20Flow.md) → [rg_origin_of_delta.md](rg_origin_of_delta.md)
+4. **Gauge unification:** [Gauge_Unification_in_SPU.md](Gauge_Unification_in_SPU.md)
+5. **Emergent gravity:** [Minimal Emergent Gravity in the SPU Framework.md](Minimal%20Emergent%20Gravity%20in%20the%20SPU%20Framework.md) → [rg_to_emergent_gravity.md](rg_to_emergent_gravity.md)
+6. **Cosmology:** [Early-Universe Signatures in the SPU Framework.md](Early-Universe%20Signatures%20in%20the%20SPU%20Framework.md)
+7. **Galactic physics:** [readme_1.md](readme_1.md)
+8. **Medium structure:** [spu_mezzo_fermionico.md](spu_mezzo_fermionico.md) → [spu_einstein_hilbert.md](spu_einstein_hilbert.md)
+9. **Falsifiability:** [Minimal falsification conditions for SPU.md](Minimal%20falsification%20conditions%20for%20SPU.md)
