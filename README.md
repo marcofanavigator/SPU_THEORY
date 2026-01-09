@@ -4,7 +4,7 @@ This index provides direct access to all documents in the SPU framework with bri
 
 ## 📚 **Core Framework Documents**
 
-- **[README.md](README.md)** – Main introductory document presenting the SPU framework, its foundational principles, geometric basis, and comparison with standard paradigms.
+- **[index.md](index.md)** – Main introductory document presenting the SPU framework, its foundational principles, geometric basis, and comparison with standard paradigms.
 
 - **[SPU Theory Symmetry_Phase_Unification Framework.md](SPU%20Theory%20Symmetry_Phase_Unification%20Framework.md)** – Comprehensive presentation of the full SPU theory, including geometric foundations, fermionic capacity, gauge unification, emergent gravity, and falsifiability conditions.
 
