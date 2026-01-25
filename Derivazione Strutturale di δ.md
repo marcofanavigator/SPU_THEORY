@@ -21,7 +21,7 @@ $$\frac{E_7}{E_6 \times U(1)}$$
 - compare naturalmente nella decomposizione di E₇/SU(8)
 
 > 👉 **Qualsiasi effetto di decoupling che esiste nel coset grande deve apparire già qui.**
-> Questo è il nostro laboratorio minimale.
+
 
 ---
 
@@ -132,7 +132,7 @@ $$128 = 2 \text{ (non dinamici)} + (126 - \delta_{\text{dyn}})$$
 
 ## Stato finale (importante)
 
-A questo punto possiamo dire, **senza forzare nulla:**
+
 
 **δ emerge inevitabilmente dalla quantizzazione del coset come conteggio dinamico di modi decoupled, non come parametro scelto a mano.**
 
@@ -271,7 +271,7 @@ $$\delta_{\text{eff}} \;\approx\; \frac{42.7}{1 + 42.7/78.96} \;\approx\; 0.64$$
 
 ---
 
-## 🔥 RISULTATO (ed è enorme)
+## 🔥 RISULTATO 
 
 $$\boxed{\delta_* \;\approx\; 0.6\text{–}0.65}$$
 
@@ -283,4 +283,3 @@ $$\boxed{\delta_* \;\approx\; 0.6\text{–}0.65}$$
 - **nessun ansatz**
 - **nessun fit**
 
-👉 **Questo è esattamente il valore che hai trovato numericamente.**
