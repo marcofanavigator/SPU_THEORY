@@ -98,13 +98,11 @@ $$\gamma_{\text{eff}} = c \,\lambda_{\min}$$
 con:
 $$c \sim \frac{1}{N_f} \;\;\Rightarrow\;\; \gamma \sim 0.05\text{–}0.2$$
 
-👉 **Esattamente quello che stai vedendo nei tuoi scan**
 
-**Questo è enorme.**
 
 ---
 
-## 7️⃣ Schema Concettuale Completo (chiude il cerchio)
+## 7️⃣ Schema Concettuale Completo 
 
 ```
 E₇ / SU(8)
