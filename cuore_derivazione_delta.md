@@ -2,11 +2,6 @@
 
 ## BLOCCO I — Isolare un sotto-coset minimale di E₇/SU(8)
 
-### Il problema iniziale
-Non possiamo (e non dobbiamo) quantizzare subito tutto E₇/SU(8). Serve un sotto-settore universale che:
-- erediti la struttura eccezionale
-- abbia interazioni non lineari
-- sia tecnicamente trattabile
 
 ### Scelta naturale (non arbitraria)
 
@@ -21,8 +16,7 @@ $$\frac{E_7}{E_6 \times U(1)}$$
 - compare naturalmente nella decomposizione di E₇/SU(8)
 
 > 👉 **Qualsiasi effetto di decoupling che esiste nel coset grande deve apparire già qui.**
-> Questo è il nostro laboratorio minimale.
-
+> 
 ---
 
 ## BLOCCO II — Quantizzazione controllata (senza ansatz)
@@ -129,10 +123,6 @@ $$128 = 2 \text{ (non dinamici)} + (126 - \delta_{\text{dyn}})$$
 > 👉 **la "discrepanza" è in realtà la traccia della quantizzazione corretta.**
 
 ---
-
-## Stato finale (importante)
-
-A questo punto possiamo dire, **senza forzare nulla:**
 
 **δ emerge inevitabilmente dalla quantizzazione del coset come conteggio dinamico di modi decoupled, non come parametro scelto a mano.**
 
