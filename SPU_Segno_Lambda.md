@@ -17,7 +17,7 @@ con:
 
 La costante cosmologica nasce come parte scalare del determinante chirale:
 
-$$\boxed{\rho_\Lambda \;\equiv\; +\frac{1}{2} \operatorname{Tr}\,\ln\!\left(\slashed{D}^2\right)}$$
+$$\boxed{\rho_\Lambda \;\equiv\; +\frac{1}{2} \{Tr}\,\ln\!\left(\slashed{D}^2\right)}$$
 
 Scritta come integrale spettrale:
 
@@ -172,7 +172,7 @@ $$\boxed{\text{In SPU, la positività della costante cosmologica non è un'ipote
 | Passo | Risultato | Origine |
 |-------|-----------|---------|
 | 1 | Densità spettrale $\rho_{\text{chir}}(\lambda)$ | Heat kernel su coset |
-| 2 | Definizione $\rho_\Lambda = \frac{1}{2}\operatorname{Tr}\ln(\slashed{D}^2)$ | Determinante chirale |
+| 2 | Definizione $\rho_\Lambda = \frac{1}{2}\{Tr}\ln(\slashed{D}^2)$ | Determinante chirale |
 | 3 | Limite $\mu \to 0$ | Vuoto geometrico puro |
 | 4 | Integrale con funzioni Gamma/digamma | Teoria speciale delle funzioni |
 | 5 | Analisi di segno della parentesi quadra | $\ln(\Lambda_{\mathcal{C}}) \gg \psi(...)$ |
