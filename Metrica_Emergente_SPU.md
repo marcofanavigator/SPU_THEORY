@@ -179,7 +179,7 @@ $$\boxed{\Lambda(\mu) = \mu^4 \sum_n g_n \log\left(1 + \frac{\lambda_n}{\mu^2}\r
 
 ## 🔟 Conclusione Netta
 
-Con questo sviluppo hai:
+Con questo sviluppo :
 
 ✔ **Spazio-tempo emergente** — non assunto, derivato  
 ✔ **Metrica derivata** — come correlatore spettrale  
