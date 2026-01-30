@@ -193,7 +193,7 @@ $$\delta \to 0, \quad G_{\text{eff}} \sim G_N \text{ (costante)}, \quad w \to -1
 ## 7️⃣ Predizioni Testabili
 
 ### 1. Valore di $\Lambda$
-La nostra formula predice:
+La  formula predice:
 
 $$\Lambda_{\text{pred}} \sim \frac{M_{\text{GUT}}^4}{N_{\text{modes}}} \sim 10^{-120} M_{\text{Planck}}^4$$
 
