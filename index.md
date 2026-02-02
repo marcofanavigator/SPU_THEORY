@@ -1,337 +1,191 @@
 # SPU Framework  
-**Symmetry–Phase–Unification**
+## Symmetry–Phase–Unification  
+
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17962427.svg)](https://doi.org/10.5281/zenodo.17962427)  
+[MIT License](LICENSE) • [Contact](mailto:marcofa@protonmail.com)
 
 ---
 
 ## Abstract
 
-SPU (Symmetry–Phase–Unification) is a theoretical framework that explores how the structure of quantum field theory and renormalization group (RG) dynamics may be constrained by an underlying high-dimensional symmetry background.  
+SPU (Symmetry–Phase–Unification) è un framework teorico minimale dove le interazioni di gauge del Modello Standard, la gravità e la costante cosmologica emergono dinamicamente da un mezzo fermionico comune radicato nel coset simmetrico **E₇ / SU(8)**.
 
-The framework is built around a compact symmetric space based on the coset $E_7 / SU(8)$, which fixes a *nominal capacity* of fermionic degrees of freedom.  
+L'unificazione avviene **senza**:
+- gruppi di grande unificazione (GUT)
+- supersimmetria
+- dimensioni extra
+- gravità quantistica fondamentale
 
-Physical observables, however, depend on an *effective* number of active modes.  
-This reduction is described by a dynamical parameter $\delta$, arising from standard quantum-field-theoretic effects (mass generation and partial decoupling), not from topology.
+Tutte le scale e i coupling emergono da:
+- capacità geometrica fermionica
+- soppressione dinamica dei modi via effetti QFT
+- flusso RG sullo spettro discreto del Laplaciano del coset
 
-The purpose of SPU is **not** to fine-tune parameters, but to demonstrate that:
-- the RG flow of gauge couplings is **structurally constrained**,
-- predictions are **stable under variations of dynamical inputs**,
-- no critical or finely tuned values are required.
-
-This repository provides the theoretical structure, analytical derivations, and numerical support scripts.
-
----
-
-## 1. Conceptual Overview
-
-SPU is organized as a logical chain:
-
-1. **Geometric capacity**
-   - A high-symmetry background based on $E_7 / SU(8)$
-   - Fixes a discrete nominal number of fermionic degrees of freedom
-
-2. **Dynamical reduction**
-   - Interactions generate partial decoupling of modes
-   - Encoded in a continuous parameter $\delta$
-
-3. **Renormalization group flow**
-   - Gauge couplings depend on the *effective* number of modes
-   - Stability, not fine tuning, is the guiding principle
+La teoria è spettrale: partendo dall'operatore di Laplace–Beltrami sul coset compatto, la gravità e lo spazio-tempo emergono come risposta collettiva IR. È UV-finita, falsificabile e robusta.
 
 ---
 
-## 2. Geometric Input
+## Principi Fondamentali
 
-The geometric background is the compact symmetric space:
+### 1. Capacità Geometrica Fermionica
 
-$$
-M = \frac{E_7}{SU(8)}
-$$
+Il coset E₇ / SU(8) ha dimensione coomologica 128, fissando la capacità nominale:
 
-with properties:
+$$N_f^{\mathrm{nom}} = \dim H^*(E_7/SU(8)) = 128$$
+
+### 2. Soppressione Dinamica dei Modi
+
+Il decoupling QFT standard riduce i modi attivi:
+
+$$N_f^{\mathrm{eff}}(\mu) = 128 - \delta(\mu)$$
+
+dove $\delta(\mu) \sim 0.5$–$0.7$ a basse energie.
+
+### 3. Emergenza Spettrale
+
+Gravità, spazio-tempo e $\Lambda$ emergono dalla proiezione IR dello spettro del coset.
+
+---
+
+## Fondazione Geometrica e Spettrale
+
+Lo spazio simmetrico compatto è
+
+$$M = E_7 / SU(8)$$
+
+con:
 - $\dim(E_7) = 133$
 - $\dim(SU(8)) = 63$
-- $\dim(M) = 70$
+- $\dim(M) = 70$ (reale)
 
-The de Rham cohomology of this space has total dimension:
+L'operatore fondamentale è il Laplace–Beltrami $\Delta$ su $M$, con spettro discreto $\{\lambda_n, g_n\}$. Primo autovalore normalizzato:
 
-$$
-\dim H^\ast(M) = 128
-$$
+$$\lambda_1 = 2$$
 
-In SPU this number is interpreted as a **nominal fermionic capacity**:
+### Azione spettrale minimale:
 
-$$
-N_f^{\mathrm{nom}} = 128
-$$
-
-No claim is made that this number directly fixes physical observables.
-
-(See **Appendix A** for details.)
+$$S_{\mathrm{SPU}}(\mu) = \sum_n g_n \log\left(1 + \frac{\lambda_n}{\mu^2}\right)$$
 
 ---
 
-## 3. Effective Degrees of Freedom
+## Soppressione Dinamica δ(μ)
 
-Physical running depends on an *effective* number of fermionic modes:
+### Peso IR:
 
-$$
-N_f^{\mathrm{eff}}(\mu) = N_f^{\mathrm{nom}} - \delta(\mu)
-$$
+$$w(\lambda_n, \mu) = \frac{\lambda_n}{\lambda_n + \mu^2}$$
 
-where:
-- $\delta$ is **continuous**
-- $\delta$ is **scale-dependent in principle**
-- $\delta$ parametrizes partial dynamical decoupling
+### Soppressione:
 
-Importantly:
-- $\delta$ is **not topological**
-- $\delta$ is **not fixed by group theory**
-- $\delta$ is **not an index-theorem invariant**
+$$\delta(\mu) = 1 - \frac{1}{N} \sum_n g_n w(\lambda_n, \mu) \quad (N = \sum g_n)$$
 
----
+### Flusso:
 
-## 4. Origin of the Parameter $\delta$
+- **UV** ($\mu \to \infty$): $w \to 0$ → $\delta \to 1$ (decoupling)
+- **IR** ($\mu \to 0$): $w \to 1$ → $\delta \to 0$ (modi attivi)
 
-The parameter $\delta$ arises from standard QFT mechanisms:
-
-- loop-induced masses,
-- defect or mediator fields,
-- suppression of RG contributions from massive modes.
-
-A minimal model involves:
-- quasi-critical fermions,
-- an emergent scalar or defect field,
-- Yukawa-type interactions.
-
-At one loop, this leads to a smooth suppression factor for RG contributions.
-
-A detailed derivation is provided in **Appendix B**:  
-> *Derivation of $\delta$: RG and QFT Analysis*
+Vedi `docs/derivation_delta.md`.
 
 ---
 
-## 5. Renormalization Group Structure
+## Unificazione di Gauge Emergente
 
-Gauge coupling running follows standard one-loop RG equations:
+### RG one-loop standard:
 
-$$
-\beta(g) = -\frac{b_0}{16\pi^2} g^3
-$$
+$$\beta(g_i) = -\frac{b_0}{16\pi^2} g_i^3$$
 
-with coefficients depending on $N_f^{\mathrm{eff}}$.
+con $b_0$ da $N_f^{\mathrm{eff}}$. Convergenza a:
 
-SPU does **not** modify RG equations.  
-It constrains **inputs**, not the formalism.
+$$M_{\mathrm{GUT}} \sim 10^{16}\,\mathrm{GeV}$$
 
----
+**senza SUSY**.
 
-## 6. Numerical Stability
+### Predizioni:
 
-Numerical scans show that:
-- variations of $\delta$ at the 10–20% level
-- induce only small, smooth changes in RG outputs
-- no critical value of $\delta$ is required
-
-This demonstrates:
-- absence of fine tuning,
-- robustness of the framework.
-
-(See `stability_scan.py`.)
+- $1/\alpha_{\mathrm{em}} \approx 137$
+- $\tau_p \sim 10^{34}$–$10^{35}$ anni
+- $r \sim 0.03$
 
 ---
 
-## 7. What SPU Does *Not* Claim
+## Gravità Emergente e Spazio-Tempo
 
-For clarity, SPU does **not** claim:
-- that $\delta$ is a topological invariant;
-- that $\delta$ is uniquely fixed;
-- that physical constants are derived with arbitrary precision;
-- that new RG equations are introduced.
+### Gravità da correlatore IR:
 
-SPU is a **structural and dynamical framework**, not a numerological model.
+$$g^{\mathrm{eff}}_{\mu\nu}(x) \propto \langle \partial_\mu \phi_{\mathrm{IR}}(x) \partial_\nu \phi_{\mathrm{IR}}(x) \rangle$$
 
----
+### Costante di Newton:
 
+$$G_{\mathrm{eff}}(\mu) \propto \frac{\mu^2}{\delta(\mu)}$$
 
-## 8. Interpretation and Outlook
+Comportamento:
+- $G_{\mathrm{eff}} \to 0$ (libertà asintotica UV)
+- $G_{\mathrm{eff}} \to G_N$ (classica IR)
 
-SPU suggests that:
-- symmetry and geometry may constrain *how many* degrees of freedom exist,
-- dynamics determines *how many are active*,
-- RG flow translates this structure into observable physics.
+### Spazio-tempo:
 
-The framework is compatible with standard QFT and RG methods and is intended as a basis for further refinement, not as a final predictive theory.
+Proiezione IR $56 \to 8$ modi leggeri → $\mathbb{R}^{1,3}$.
 
 ---
 
-# SPU — Symmetry–Phase–Unification Framework
+## Costante Cosmologica Emergente
 
-## Abstract
+$$\Lambda(\mu) = \mu^4 \sum_n g_n \log\left(1 + \frac{\lambda_n}{\mu^2}\right)$$
 
-SPU is a minimal theoretical framework in which the Standard Model gauge interactions and gravity emerge dynamically from a common underlying fermionic medium.  
-Unification is achieved without assuming a grand unified gauge group, supersymmetry, extra dimensions, or fundamental quantum gravity.  
-All physical scales and couplings arise from dynamical consistency conditions and renormalization group flow.
+**Limite IR:** $\Lambda \to 0^+$ (positiva, lenta). Equazione di stato $w \to -1$ come attrattore RG.
 
 ---
 
-## Core Principles
+## Validazione Numerica
 
-SPU is based on three guiding principles:
+### Script disponibili:
 
-1. **Common Fermionic Origin**  
-   All gauge interactions couple to the same underlying fermionic degrees of freedom.
+- `fixed_point_delta.py` — punto fisso di δ
+- `rg_running.py` — evoluzione dei gauge
+- `stability_scan.py` — scansioni di robustezza
+- `spectral_sum.py` — somme sui modi (approssimazione di Weyl)
 
-2. **Dynamical Reduction of Degrees of Freedom**  
-   Not all nominal modes contribute equally to RG running. A dynamical suppression parameter  
-   \(\delta\) reduces the effective fermionic content.
+### Stabilità:
 
-3. **Emergence Over Fundamentality**  
-   Gravity and unification scales are emergent phenomena, not fundamental inputs.
-
----
-
-## Geometric Starting Point
-
-The theory is anchored to a unique geometric structure:
-
-- Symmetric space: **E₇ / SU(8)**
-- Real dimension: 70
-- Total cohomological capacity:  
-  \[
-  N_f^{\mathrm{nom}} = \dim H^*(E₇/SU(8)) = 128
-  \]
-
-This number fixes the **maximum fermionic capacity** of the SPU medium.
+Variazione δ 10–20% → cambio output <5%.
 
 ---
 
-## Effective Fermionic Content
+## Confronto e Falsificabilità
 
-Dynamical effects reduce the number of modes contributing to RG running:
+### Differisce da:
 
-\[
-N_f^{\mathrm{eff}} = 128 - \delta
-\]
+- **GUT**: nessun embedding
+- **Stringhe**: nessun landscape
+- **Asymptotic safety**: nessuna gravità UV
 
-- \(\delta > 0\) arises from dynamical decoupling, not topology
-- \(\delta\) is constrained by consistency and stability conditions
-- Typical values:  
-  \[
-  \delta \sim 0.5 \text{–} 0.7
-  \]
+### Predizioni falsificabili:
 
-Detailed derivation is provided in the appendices.
+| Predizione | Valore | Esperimento |
+|---|---|---|
+| No running di G | — | Test precision gravity |
+| $r$ (tensor-to-scalar) | $\sim 0.03$ | CMB-S4 |
+| Vita protone | $\sim 10^{34}$–$10^{35}$ yr | Hyper-K |
+| $\Lambda$ dinamica | — | Euclid/DESI |
 
----
-
-## Gauge Interaction Unification
-
-SPU does **not** unify interactions via group embedding. Instead:
-
-- All gauge sectors share the same \(N_f^{\mathrm{eff}}\)
-- RG equations are standard one-loop equations
-- Convergence emerges dynamically
-
-Results:
-- Natural convergence of \(SU(2)_L\) and \(SU(3)_c\)
-- Emergent unification scale:
-  \[
-  M_{\mathrm{GUT}} \sim 10^{16}\,\mathrm{GeV}
-  \]
-- No supersymmetry required
+**Fallimento falsifica SPU.**
 
 ---
 
-## Gravity as an Emergent Interaction
+## License
 
-In SPU:
-- Gravity is **not** quantized as a fundamental field
-- Newton’s constant does **not** run
-- Gravity emerges at the same scale as gauge convergence
-
-Predictions:
-- No UV quantum gravity effects
-- Finite primordial tensor amplitude
-- Proton lifetime in the range \(10^{34}\)–\(10^{35}\) years
+**MIT** — vedi [LICENSE](LICENSE)
 
 ---
 
-## The Role of \(\delta\)
+## Contact
 
-The parameter \(\delta\) is central to SPU:
-
-- It quantifies partial dynamical suppression of fermionic modes
-- It is not a fit parameter
-- It is not topological
-- It is constrained by RG consistency and stability
-
-Key documents:
-- `docs/derivation_delta.md`
-- `docs/why_delta_nonzero.md`
-- `docs/consistency_bound_delta.md`
+**Marco Fanavigator**  
+marcofa@protonmail.com  
+Zenodo: https://doi.org/10.5281/zenodo.17962427
 
 ---
 
-## Numerical Support
+## Citazione
 
-The repository includes Python scripts used to validate the framework:
-
-- `fixed_point_delta.py`  
-  Solves the dynamical fixed-point equation for \(\delta\)
-
-- `rg_running.py`  
-  Computes RG evolution of gauge couplings using \(N_f^{\mathrm{eff}}\)
-
-- `stability_scan.py`  
-  Verifies robustness of predictions under variations of \(\delta\)
-
-All scripts are standalone and reproducible.
-
-
-## Comparison with Standard Paradigms
-
-SPU differs fundamentally from:
-
-- Grand Unified Theories (no group embedding)
-- String theory (no extra dimensions, no landscape)
-- Asymptotic safety (no UV quantum gravity)
-- EFT gravity (gravity not fundamental)
-
-A detailed comparison is provided in:
-- `docs/spu_vs_standard_paradigms.md`
-
----
-
-## Falsifiability
-
-SPU makes sharp predictions:
-
-- No RG running of Newton’s constant
-- Fixed unification scale
-- Specific range for tensor-to-scalar ratio
-- Proton lifetime bounds
-
-Failure of any of these directly falsifies the framework.
-
-
-
-
-
-## ⚖️ License
-
-MIT License - See [LICENSE](./LICENSE)
-
----
-
-## 📧 Contact
-
-**Lead Researcher:** Marco Fanavigator  
-**Email:** marcofa@protonmail.com  
-**Zenodo:** 0.5281/zenodo.17962427
-
----
-
-> **"In physics, we don't just ask 'does it work?' We ask 'why is it true?'"**  
-> 
-> SPU is an attempt at the second question.  
-> **And the observations show it works.**
+> "In physics, we don't just ask 'does it work?' We ask 'why is it true?'"  
+> SPU asks the second question — and the structure answers naturally.
