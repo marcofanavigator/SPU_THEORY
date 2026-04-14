@@ -470,8 +470,3 @@ NON è numerologia
 👉 è:
 
 Plancherel(E7/SU(8))+RG flow
-Plancherel(E
-7
-	​
-
-/SU(8))+RG flow
