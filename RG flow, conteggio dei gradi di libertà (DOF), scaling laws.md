@@ -142,17 +142,5 @@ $$
 
 **Sistema:** continuo, infinito, dipendente da parametri, landscape-dominated.
 
----
 
-## 🧨 Verdetto matematico (senza filosofia)
 
-**Dove SPU è più forte:**
-* RG fisico con fixed point reale
-* DOF finiti e controllati
-* scaling chiuso senza parametri
-* assenza di divergenze Hagedorn
-
-**Dove String Theory resta più forte:**
-* struttura UV completa (consistente perturbativamente)
-* quantizzazione della gravità formalmente definita
-* dualità (AdS/CFT) matematicamente solide
