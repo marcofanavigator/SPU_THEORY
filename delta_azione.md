@@ -39,6 +39,9 @@ $$
 con:
 - $\delta_* \approx 0.633$ — punto fisso IR
 - $A > 0$, $B > 0$ — derivati dal fixed point RG
+con:
+- $\delta_* \approx 0.633$ — punto fisso IR
+- $A > 0$, $B > 0$ — derivati dal fixed point RG
 
 ---
 
