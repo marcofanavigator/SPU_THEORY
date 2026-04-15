@@ -33,7 +33,7 @@ Deve avere:
 Forma minimale coerente con il flusso RG:
 
 $$
-V(\delta) = A(\delta - \delta_*)^2 + B(\delta - \delta_*)^4
+V(\delta) = A(\delta - \delta_{\ast})^2 + B(\delta - \delta_{\ast})^4
 $$
 
 con:
