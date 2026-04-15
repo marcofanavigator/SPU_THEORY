@@ -27,7 +27,7 @@ $$
 ## 3. Potenziale V(δ) — Derivato dal RG
 
 Deve avere:
-- minimo a $\delta = \delta_*$
+- minimo a $\delta = \delta_{\ast}$
 - barriera UV ($\delta \to 1$)
 
 Forma minimale coerente con il flusso RG:
@@ -37,7 +37,7 @@ V(\delta) = A(\delta - \delta_{\ast})^2 + B(\delta - \delta_{\ast})^4
 $$
 
 con:
-- $\delta_* \approx 0.633$ — punto fisso IR
+- $\delta_{\ast} \approx 0.633$ — punto fisso IR
 - $A > 0$, $B > 0$ — derivati dal fixed point RG
 
 ---
@@ -76,7 +76,7 @@ $$
 ## 6. Azione Completa
 
 $$
-\boxed{\Gamma[\delta] = \int d^4x \sqrt{-g} \left[ \frac{Z}{2}(\nabla\delta)^2 + A(\delta-\delta_*)^2 + B(\delta-\delta_*)^4 + \xi\delta R + \left(\frac{R_s}{r^3} - \kappa\Sigma\right)\delta \right]}
+\boxed{\Gamma[\delta] = \int d^4x \sqrt{-g} \left[ \frac{Z}{2}(\nabla\delta)^2 + A(\delta-\delta_{\ast})^2 + B(\delta-\delta_{\ast})^4 + \xi\delta R + \left(\frac{R_s}{r^3} - \kappa\Sigma\right)\delta \right]}
 $$
 
 ---
@@ -86,7 +86,7 @@ $$
 Dalla variazione $\dfrac{\delta\Gamma}{\delta\delta} = 0$:
 
 $$
-Z\,\Box\delta - 2A(\delta-\delta_*) - 4B(\delta-\delta_*)^3 + \xi R + \frac{R_s}{r^3} - \kappa\Sigma = 0
+Z\,\Box\delta - 2A(\delta-\delta_{\ast}) - 4B(\delta-\delta_{\ast})^3 + \xi R + \frac{R_s}{r^3} - \kappa\Sigma = 0
 $$
 
 ---
@@ -96,7 +96,7 @@ $$
 Trascurando i gradienti lontano dalle transizioni:
 
 $$
--2A(\delta-\delta_*) - 4B(\delta-\delta_*)^3 + \xi R + \frac{R_s}{r^3} - \kappa\Sigma = 0
+-2A(\delta-\delta_{\ast}) - 4B(\delta-\delta_{\ast})^3 + \xi R + \frac{R_s}{r^3} - \kappa\Sigma = 0
 $$
 
 ---
@@ -106,7 +106,7 @@ $$
 Per piccole deviazioni dal punto fisso:
 
 $$
-\delta - \delta_* \approx \frac{1}{2A}\left(\xi R + \frac{R_s}{r^3} - \kappa\Sigma\right)
+\delta - \delta_{\ast} \approx \frac{1}{2A}\left(\xi R + \frac{R_s}{r^3} - \kappa\Sigma\right)
 $$
 
 ---
@@ -121,7 +121,7 @@ Usando:
 Si ricostruisce la formula compatta:
 
 $$
-\boxed{\delta = \frac{\delta_*}{1+f_{\mathrm{IR}}} \cdot \frac{1 + \dfrac{R_s}{r}}{\left(1 + \left(\dfrac{\ell_{\mathrm{SP}}}{r}\right)^2\right)\left(1 + \dfrac{\Sigma}{\Sigma_{\mathrm{SP}}}\right)}}
+\boxed{\delta = \frac{\delta_{\ast}}{1+f_{\mathrm{IR}}} \cdot \frac{1 + \dfrac{R_s}{r}}{\left(1 + \left(\dfrac{\ell_{\mathrm{SP}}}{r}\right)^2\right)\left(1 + \dfrac{\Sigma}{\Sigma_{\mathrm{SP}}}\right)}}
 $$
 
 ---
