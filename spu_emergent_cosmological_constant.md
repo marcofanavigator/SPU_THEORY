@@ -117,12 +117,4 @@ In SPU, the cosmological constant is not a mysterious energy density of empty sp
 - Prediction: $w = -1$ exactly, with negligible running at late times
 - Fully falsifiable via next-generation cosmological surveys
 
-This completes the derivation of the cosmological constant from first principles within the SPU framework.
 
----
-
-> **Repository Cross-References:**  
-> - Spectral density derivation: [`Analisi Analitica del Fattore IRCoset e7su8.md`](./Analisi%20Analitica%20del%20Fattore%20IRCoset%20e7su8.md)  
-> - RG flow of $\delta$: [`rg_flow_delta.py`](./rg_flow_delta.py)  
-> - Stiffness scale derivation: [`Semi_Analytic_Determination_Gravitational_Scale_SPU.md`](./Semi_Analytic_Determination_Gravitational_Scale_SPU.md)  
-> - Numerical verification script: [`verify_lambda_spu.py`](./verify_lambda_spu.py) *(to be added)*
