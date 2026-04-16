@@ -26,21 +26,20 @@ Consequently, UV consistency is not an additional requirement but a **mathematic
 ## 2. Unitarity from Finite Capacity & Spectral Trace
 
 ### 2.1 Hilbert Space Dimension
-The SPU medium admits a finite number of independent collective modes:
-$$
-\dim \mathcal{H}_{\text{SPU}} = N_f^{\text{eff}}(\mu) = 128 - \delta(\mu)
-$$
+The SPU medium admits a finite number of independent collective mode:
+
+$$\dim \mathcal{H}_{\text{SPU}} = N_f^{\text{eff}}(\mu) = 128 - \delta(\mu)$$
 At the IR fixed point, $\dim \mathcal{H} \approx 127.37$. The state space is therefore **strictly finite-dimensional** at any finite scale $\mu$.
 
 ### 2.2 Probability Conservation
-The effective action is derived from a fermion determinant:
-$$
-\Gamma_{\text{eff}}[g,\delta] = -\log \det \left( i\not{D} + M(\delta) \right)
-$$
+The effective action is derived from a fermion determinant
+
+$$\Gamma_{\text{eff}}[g,\delta] = -\log \det \left( i\not{D} + M(\delta) \right)$$
+
 For a compact medium, the determinant is well-defined and satisfies the optical theorem:
-$$
-2 \, \text{Im} \, \mathcal{M}(s \to s) = \sum_n |\mathcal{M}(s \to n)|^2
-$$
+
+$$2 \, \text{Im} \, \mathcal{M}(s \to s) = \sum_n |\mathcal{M}(s \to n)|^2$$
+
 The sum over intermediate states $n$ is bounded by $N_f^{\text{eff}}$, guaranteeing **exact unitarity** at all energies below the geometric cutoff $\Lambda_{\text{SP}}$.
 
 ### 2.3 Absence of Ghosts
@@ -52,23 +51,21 @@ Higher-derivative terms ($R^2, R_{\mu\nu}^2$) typically introduce Ostrogradsky g
 
 ### 3.1 Microcausality Condition
 The emergent metric perturbation $h_{\mu\nu}$ responds to stress-energy via a non-local kernel:
-$$
-h_{\mu\nu}(x) = \int d^4y \, G_{\mu\nu\rho\sigma}(x-y) \, T^{\rho\sigma}(y)
-$$
+
+$$h_{\mu\nu}(x) = \int d^4y \, G_{\mu\nu\rho\sigma}(x-y) \, T^{\rho\sigma}(y)$$
+
 Causality requires $G(x-y) = 0$ for $(x-y)^2 < 0$ (spacelike separation).
 
 ### 3.2 Spectral Representation & Kramers-Kronig
 The Green's function admits a spectral decomposition:
-$$
-G(p^2) = \int_0^{\lambda_{\max}} d\lambda \, \frac{\rho(\lambda)}{p^2 - \lambda + i\epsilon}
-$$
+
+$$G(p^2) = \int_0^{\lambda_{\max}} d\lambda \, \frac{\rho(\lambda)}{p^2 - \lambda + i\epsilon}$$
+
 Since $\rho(\lambda) \geq 0$ and $\lambda_{\max} \sim N_f^{\text{nom}}$, the function $G(p^2)$ is analytic in the upper half-plane and satisfies the Kramers-Kronig relations. This guarantees **strict adherence to microcausality**.
 
 ### 3.3 Suppression of Superluminal Modes
 In modified gravity, superluminal propagation often arises from IR instabilities. In SPU, the collective stiffness $\Lambda_{\text{SP}}$ and the factor $(1-\delta)$ exponentially suppress spacelike correlations:
-$$
-G_{\text{spacelike}}(r) \sim e^{-r \Lambda_{\text{SP}} (1-\delta)}
-$$
+$$G_{\text{spacelike}}(r) \sim e^{-r \Lambda_{\text{SP}} (1-\delta)}$$
 No acausal signals can propagate beyond the coherence length $\xi \sim 1/\Lambda_{\text{SP}}$.
 
 ---
@@ -77,27 +74,19 @@ No acausal signals can propagate beyond the coherence length $\xi \sim 1/\Lambda
 
 ### 4.1 Spectral Renormalization Scheme
 Traditional perturbation theory fails for emergent gravity. SPU replaces it with **spectral renormalization**: loop integrals become finite sums over the Laplacian spectrum of $E_7/SU(8)$:
-$$
-\int \frac{d^4k}{(2\pi)^4} \, \mathcal{F}(k) \quad \longrightarrow \quad \frac{1}{\mathcal{V}_M} \sum_{\lambda \in \text{Spec}} \mathcal{F}(\lambda)
-$$
+$$\int \frac{d^4k}{(2\pi)^4} \, \mathcal{F}(k) \quad \longrightarrow \quad \frac{1}{\mathcal{V}_M} \sum_{\lambda \in \text{Spec}} \mathcal{F}(\lambda)$$
 All UV divergences are automatically cut off by the finite capacity.
 
 ### 4.2 Two-Loop Stability of $\delta$
 The beta function for $\delta$ receives higher-order corrections:
-$$
-\frac{d\delta}{dt} = \beta_1 \delta(1-\delta) + \beta_2 \delta^2(1-\delta)^2 + \mathcal{O}(\delta^3)
-$$
+$$\frac{d\delta}{dt} = \beta_1 \delta(1-\delta) + \beta_2 \delta^2(1-\delta)^2 + \mathcal{O}(\delta^3)$$
 Using the spectral measure $\rho(\lambda) \sim \lambda^{34}(\log\lambda)^6$, one finds:
-$$
-\beta_2 \sim \frac{1}{N_f^{\text{eff}}} \ll 1
-$$
+$$\beta_2 \sim \frac{1}{N_f^{\text{eff}}} \ll 1$$
 The IR fixed point $\delta_{\text{IR}} \approx 0.633$ remains an **attractor** at all loop orders. No new relevant operators are generated.
 
 ### 4.3 Power Counting & Finiteness
 The effective dimension of operators is shifted by the spectral weight:
-$$
-[\mathcal{O}_d]_{\text{eff}} = d - \frac{2}{\pi} \int_0^{\lambda_{\max}} d\lambda \, \frac{\rho(\lambda)}{\lambda + \mu^2}
-$$
+$$[\mathcal{O}_d]_{\text{eff}} = d - \frac{2}{\pi} \int_0^{\lambda_{\max}} d\lambda \, \frac{\rho(\lambda)}{\lambda + \mu^2}$$
 For $d \leq 4$, all operators are marginal or irrelevant. The theory is **finite by construction** above $\Lambda_{\text{SP}}$.
 
 ---
