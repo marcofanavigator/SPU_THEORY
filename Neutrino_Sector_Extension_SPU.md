@@ -88,7 +88,6 @@ dove il termine esponenziale modella il decadimento del condensato lontano dal c
 ### A.3 Integrale di overlap esplicito (caso $\ell = \ell'$)
 
 Per elementi diagonali ($i = j = \ell$):
-
 $$M_{\ell\ell} = \Delta(0) (1 - \delta_*) \int_0^\infty dr \, r \, [f_\ell(r)]^2 \exp\left( -\frac{r^2}{2\xi^2} \right).$$
 
 Sostituendo la forma di $f_\ell$ e usando le proprietà dei Laguerre, l'integrale si riduce a:
