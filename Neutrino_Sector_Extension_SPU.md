@@ -33,6 +33,7 @@ $$\psi_\ell(r,\theta) \sim e^{i(\ell + 1/2)\theta} \, f_\ell(r).$$
 ### 2.1 Effective Mass Operator
 
 Integrating out heavy modes near the vortex core generates an effective operator:
+
 $$\mathcal{L}_{\nu\text{-mass}} = \frac{1}{\Lambda_{\text{SP}}} \left( \bar{\psi}_\ell^c \, \mathcal{O} \, \psi_{\ell'} \right) \Phi_{\text{cond}} + \text{h.c.}$$
 
 ### 2.2 Mass Matrix from Overlap Integrals
