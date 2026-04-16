@@ -79,13 +79,16 @@ All UV divergences are automatically cut off by the finite capacity.
 
 ### 4.2 Two-Loop Stability of $\delta$
 The beta function for $\delta$ receives higher-order corrections:
+
 $$\frac{d\delta}{dt} = \beta_1 \delta(1-\delta) + \beta_2 \delta^2(1-\delta)^2 + \mathcal{O}(\delta^3)$$
 Using the spectral measure $\rho(\lambda) \sim \lambda^{34}(\log\lambda)^6$, one finds:
+
 $$\beta_2 \sim \frac{1}{N_f^{\text{eff}}} \ll 1$$
 The IR fixed point $\delta_{\text{IR}} \approx 0.633$ remains an **attractor** at all loop orders. No new relevant operators are generated.
 
 ### 4.3 Power Counting & Finiteness
 The effective dimension of operators is shifted by the spectral weight:
+
 $$[\mathcal{O}_d]_{\text{eff}} = d - \frac{2}{\pi} \int_0^{\lambda_{\max}} d\lambda \, \frac{\rho(\lambda)}{\lambda + \mu^2}$$
 For $d \leq 4$, all operators are marginal or irrelevant. The theory is **finite by construction** above $\Lambda_{\text{SP}}$.
 
