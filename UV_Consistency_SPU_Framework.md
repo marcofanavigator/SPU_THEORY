@@ -90,6 +90,7 @@ The IR fixed point $\delta_{\text{IR}} \approx 0.633$ remains an **attractor** a
 The effective dimension of operators is shifted by the spectral weight:
 
 $$[\mathcal{O}_d]_{\text{eff}} = d - \frac{2}{\pi} \int_0^{\lambda_{\max}} d\lambda \, \frac{\rho(\lambda)}{\lambda + \mu^2}$$
+
 For $d \leq 4$, all operators are marginal or irrelevant. The theory is **finite by construction** above $\Lambda_{\text{SP}}$.
 
 ---
