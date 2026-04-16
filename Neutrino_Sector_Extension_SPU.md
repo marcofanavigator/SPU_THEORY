@@ -68,9 +68,11 @@ The model predicts normal hierarchy, $m_1 \sim 10^{-3}$ eV and $\sum m_\nu \appr
 Le funzioni radiali normalizzate sono approssimate da:
 
 $$f_\ell(r) = \mathcal{N}_\ell \left( \frac{r}{\xi} \right)^{\ell + 1/2} e^{-r/\xi} L_\ell^{(2\ell+1)}\left( \frac{2r}{\xi} \right),$$
+
 dove 
 
 $L_\ell^{(k)}$ sono i polinomi associati di Laguerre, $\xi \sim 1/\Delta(0)$ 
+
 è la larghezza del vortice, e la costante di normalizzazione è:
 
 $$\mathcal{N}_\ell = \sqrt{ \frac{2}{\xi^2 \Gamma(\ell+1) \Gamma(\ell+2)} }.$$
