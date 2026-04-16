@@ -799,132 +799,107 @@ It reflects:
 
 # Appendix A — Derivation of the Full Rotation Curve in SPU
 
-### A.1 Derivazione rigorosa della forma di \( v^2(r) \)
+# Appendix A — Derivation of the Full Rotation Curve in SPU
 
-Nel framework SPU l’accelerazione radiale efficace esperita da una particella di prova è data da
+### A.1 Derivazione rigorosa della forma di $v^2(r)$
 
-\[
-a(r) = \frac{G_N M_b(r)}{r^2} \cdot f\left( \frac{r}{r_t} \right),
-\]
+Nel framework SPU l’accelerazione radiale efficace esperita da una particella di prova è data da:
 
-dove \( f(x) \) è la funzione di interpolazione che codifica il passaggio dal regime puramente newtoniano (dominato dalla massa barionica locale) al regime collettivo del mezzo fermionico saturo.
+$$a(r) = \frac{G_N M_b(r)}{r^2} \cdot f\left( \frac{r}{r_t} \right)$$
 
-**Requisiti fisici che \( f(x) \) deve soddisfare**:
-1. \( f(x) \to 1 \) per \( x \ll 1 \) (limite newtoniano).
-2. \( f(x) \to x \) per \( x \gg 1 \) (in modo che \( a(r) \propto 1/r \) e quindi \( v^2(r) = a(r) \cdot r \) diventi costante).
+dove $f(x)$ è la funzione di interpolazione che codifica il passaggio dal regime puramente newtoniano (dominato dalla massa barionica locale) al regime collettivo del mezzo fermionico saturo.
 
-Una forma semplice e naturale, motivata dalla saturazione quadratica della capacità fermionica residua, è
+**Requisiti fisici che $f(x)$ deve soddisfare:**
 
-\[
-f(x) = \sqrt{1 + x^2}.
-\]
+1. $f(x) \to 1$ per $x \ll 1$ (limite newtoniano).
+2. $f(x) \to x$ per $x \gg 1$ (in modo che $a(r) \propto 1/r$ e quindi $v^2(r) = a(r) \cdot r$ diventi costante).
 
-**Sostituzione**:
+Una forma semplice e naturale, motivata dalla saturazione quadratica della capacità fermionica residua, è:
 
-\[
-a(r) = \frac{G_N M_b(r)}{r^2} \sqrt{1 + \left( \frac{r}{r_t} \right)^2}.
-\]
+$$f(x) = \sqrt{1 + x^2}$$
 
-Moltiplicando per \( r \) si ottiene la velocità circolare:
+**Sostituzione:**
 
-\[
-v^2(r) = a(r) \cdot r = \frac{G_N M_b(r)}{r} \sqrt{1 + \left( \frac{r}{r_t} \right)^2}.
-\]
+$$a(r) = \frac{G_N M_b(r)}{r^2} \sqrt{1 + \left( \frac{r}{r_t} \right)^2}$$
 
-**Verifica esatta dei limiti**:
+Moltiplicando per $r$ si ottiene la velocità circolare:
 
-- **Regime newtoniano** (\( r \ll r_t \), ossia \( x = r/r_t \ll 1 \)):  
-  \[
-  \sqrt{1 + x^2} = 1 + \frac{1}{2}x^2 - \frac{1}{8}x^4 + \mathcal{O}(x^6) \approx 1,
-  \]
-  quindi
-  \[
-  v^2(r) \approx \frac{G_N M_b(r)}{r}.
-  \]
+$$v^2(r) = a(r) \cdot r = \frac{G_N M_b(r)}{r} \sqrt{1 + \left( \frac{r}{r_t} \right)^2}$$
 
-- **Regime asintotico piatto** (\( r \gg r_t \), \( x \gg 1 \)):  
-  \[
-  \sqrt{1 + x^2} = x \sqrt{1 + \frac{1}{x^2}} = x \left(1 + \frac{1}{2x^2} - \frac{1}{8x^4} + \cdots \right) \approx x = \frac{r}{r_t},
-  \]
-  quindi
-  \[
-  v^2(r) \approx \frac{G_N M_b}{r} \cdot \frac{r}{r_t} = \frac{G_N M_b}{r_t} = \text{costante}.
-  \]
-  Pertanto \( v(r) \to v_\infty = \sqrt{ G_N M_b / r_t } \).
+**Verifica esatta dei limiti:**
 
-Questa forma è compatibile con la metrica emergente del vortice n=3 (vedi `spu_vortex_metric.md`).
+* **Regime newtoniano** ($r \ll r_t$, ossia $x = r/r_t \ll 1$):
+    $$\sqrt{1 + x^2} = 1 + \frac{1}{2}x^2 - \frac{1}{8}x^4 + \mathcal{O}(x^6) \approx 1$$
+    quindi:
+    $$v^2(r) \approx \frac{G_N M_b(r)}{r}$$
 
-### A.2 Definizione e derivazione microscopica di \( r_t \)
+* **Regime asintotico piatto** ($r \gg r_t$, $x \gg 1$):
+    $$\sqrt{1 + x^2} = x \sqrt{1 + \frac{1}{x^2}} = x \left(1 + \frac{1}{2x^2} - \frac{1}{8x^4} + \cdots \right) \approx x = \frac{r}{r_t}$$
+    quindi:
+    $$v^2(r) \approx \frac{G_N M_b}{r} \cdot \frac{r}{r_t} = \frac{G_N M_b}{r_t} = \text{costante}$$
+    Pertanto $v(r) \to v_\infty = \sqrt{ G_N M_b / r_t }$.
 
-Il raggio di transizione \( r_t \) è la scala alla quale il carico barionico locale **satura** la capacità fermionica residua del mezzo SPU, attivando pienamente la risposta collettiva (emergenza del regime piatto).
+Questa forma è compatibile con la metrica emergente del vortice $n=3$ (vedi `spu_vortex_metric.md`).
 
-**Definizione formale del carico adimensionale**:
+---
 
-Sia \( \Sigma_b(r) = \frac{M_b(r)}{\pi r^2} \) la densità superficiale barionica media entro raggio \( r \).  
-L’accelerazione critica spettrale \( \alpha_{\text{eff}} \) è derivata dall’analisi spettrale del coset \( E_7 / \mathrm{SU}(8) \) (vedi `spectral_analysis_E7_SU8.md` e `SPU_Derivazione_Primo_Autovalore.md`):
+### A.2 Definizione e derivazione microscopica di $r_t$
 
-\[
-\alpha_{\text{eff}} = \frac{\hbar c}{R^2} \cdot \frac{\lambda_1}{2\pi} \approx \frac{c^2}{R} \cdot \text{(fattore geometrico)},
-\]
+Il raggio di transizione $r_t$ è la scala alla quale il carico barionico locale **satura** la capacità fermionica residua del mezzo SPU, attivando pienamente la risposta collettiva (emergenza del regime piatto).
 
-dove \( R^2 = 7.5 \) nella normalizzazione scelta (\( \lambda_1 = 2 \)).
+**Definizione formale del carico adimensionale:**
 
-Il parametro di saturazione è
+Sia $\Sigma_b(r) = \frac{M_b(r)}{\pi r^2}$ la densità superficiale barionica media entro raggio $r$.  
+L’accelerazione critica spettrale $\alpha_{\text{eff}}$ è derivata dall’analisi spettrale del coset $E_7 / SU(8)$ (vedi `spectral_analysis_E7_SU8.md` e `SPU_Derivazione_Primo_Autovalore.md`):
 
-\[
-\xi(r) = \frac{G_N \Sigma_b(r) \, r^2}{\alpha_{\text{eff}} (1 - \delta(\mu))},
-\]
+$$\alpha_{\text{eff}} = \frac{\hbar c}{R^2} \cdot \frac{\lambda_1}{2\pi} \approx \frac{c^2}{R} \cdot \text{(fattore geometrico)}$$
 
-dove \( \delta(\mu) \) è il parametro dinamico di deviazione dalla capacità nominale (piccolo a scale galattiche).
+dove $R^2 = 7.5$ nella normalizzazione scelta ($\lambda_1 = 2$).
 
-La transizione avviene quando \( \xi(r_t) \approx 1 \). Nel modello del vortice n=3 (con separazione di scale e causal invariance), risolvendo per \( r_t \) si ottiene
+Il parametro di saturazione è:
 
-\[
-r_t^2 \approx \frac{G_N M_b}{\alpha_{\text{eff}}} \cdot \frac{1}{1 - \delta_0},
-\]
+$$\xi(r) = \frac{G_N \Sigma_b(r) \cdot r^2}{\alpha_{\text{eff}} (1 - \delta(\mu))}$$
 
-dove \( \delta_0 = \delta(\mu_{\text{gal}}) \ll 1 \) è il valore quasi-costante di \( \delta \) alla scala galattica tipica.
+dove $\delta(\mu)$ è il parametro dinamico di deviazione dalla capacità nominale (piccolo a scale galattiche).
 
-**Approssimazione realistica** (\( \delta_0 \ll 1 \)):
+La transizione avviene quando $\xi(r_t) \approx 1$. Nel modello del vortice $n=3$ (con separazione di scale e *causal invariance*), risolvendo per $r_t$ si ottiene:
 
-\[
-r_t \approx \sqrt{ \frac{G_N M_b}{\alpha_{\text{eff}}} } \cdot (1 + \frac{\delta_0}{2} + \mathcal{O}(\delta_0^2)).
-\]
+$$r_t^2 \approx \frac{G_N M_b}{\alpha_{\text{eff}}} \cdot \frac{1}{1 - \delta_0}$$
 
-Quindi, al primo ordine,
+dove $\delta_0 = \delta(\mu_{\text{gal}}) \ll 1$ è il valore quasi-costante di $\delta$ alla scala galattica tipica.
 
-\[
-r_t \propto \sqrt{M_b}.
-\]
+**Approssimazione realistica ($\delta_0 \ll 1$):**
 
-Questa dipendenza è una **predizione diretta** del mezzo fermionico saturo e non un parametro libero.
+$$r_t \approx \sqrt{ \frac{G_N M_b}{\alpha_{\text{eff}}} } \cdot \left(1 + \frac{\delta_0}{2} + \mathcal{O}(\delta_0^2)\right)$$
+
+Quindi, al primo ordine:
+
+$$r_t \propto \sqrt{M_b}$$
+
+Questa dipendenza è una predizione diretta del mezzo fermionico saturo e non un parametro libero.
+
+---
 
 ### A.3 Dimostrazione esatta della Baryonic Tully-Fisher Relation (BTFR)
 
 Dal limite piatto:
 
-\[
-v_\infty^2 = \frac{G_N M_b}{r_t}.
-\]
+$$v_\infty^2 = \frac{G_N M_b}{r_t}$$
 
-Sostituendo \( r_t \propto \sqrt{M_b} \) (con costante di proporzionalità \( k = \sqrt{G_N / \alpha_{\text{eff}}} \)):
+Sostituendo $r_t \propto \sqrt{M_b}$ (con costante di proporzionalità $k = \sqrt{G_N / \alpha_{\text{eff}}}$):
 
-\[
-v_\infty^2 = \frac{G_N M_b}{k \sqrt{M_b}} = \frac{G_N}{k} \sqrt{M_b},
-\]
+$$v_\infty^2 = \frac{G_N M_b}{k \sqrt{M_b}} = \frac{G_N}{k} \sqrt{M_b}$$
 
-\[
-v_\infty^4 = \left( \frac{G_N}{k} \right)^2 M_b.
-\]
+$$v_\infty^4 = \left( \frac{G_N}{k} \right)^2 M_b$$
 
-Poiché \( G_N \) e \( \alpha_{\text{eff}} \) (quindi \( k \)) sono costanti universali derivate dal framework SPU, otteniamo esattamente
+Poiché $G_N$ e $\alpha_{\text{eff}}$ (quindi $k$) sono costanti universali derivate dal framework SPU, otteniamo esattamente:
 
-\[
-v_\infty^4 \propto M_b,
-\]
+$$v_\infty^4 \propto M_b$$
 
 con pendenza teorica determinata da parametri microfisici (non fenomenologici). Questo rende la BTFR una **conseguenza naturale** di SPU.
 
-### A.4 Compatibilità con il vortice n=3 e causal invariance
+---
 
-Nel formalismo del vortice n=3 la metrica emergente ha una componente angolare modificata dal contributo collettivo del mezzo fermionico. Nel limite \( r \gg r_t \), la velocità orbitale estratta da \( g_{\phi\phi} \) coincide esattamente con \( v_\infty = \sqrt{G_N M_b / r_t} \).
+### A.4 Compatibilità con il vortice $n=3$ e causal invariance
+
+Nel formalismo del vortice $n=3$ la metrica emergente ha una componente angolare modificata dal contributo collettivo del mezzo fermionico. Nel limite $r \gg r_t$, la velocità orbitale estratta da $g_{\phi\phi}$ coincide esattamente con $v_\infty = \sqrt{G_N M_b / r_t}$.
