@@ -92,8 +92,9 @@ $$M_{\ell\ell} = \Delta(0) (1 - \delta_*) \int_0^\infty dr \, r \, [f_\ell(r)]^2
 
 Sostituendo la forma di $f_\ell$ e usando le proprietà dei polinomi di Laguerre, l'integrale si riduce a:
 
-$$M_{\ell\ell} = \Delta(0) (1 - \delta_*) \frac{\Gamma(2\ell + 2)}{\Gamma(\ell + 1) \Gamma(\ell + 2)} \cdot \frac{1}{2^{\ell+1}} \cdot (1 - \delta_*)^{\ell}$$
-
+$$
+M_{\ell\ell} = \Delta(0) \, (1 - \delta_*) \, \frac{\Gamma(2\ell + 2)}{\Gamma(\ell + 1) \, \Gamma(\ell + 2)} \cdot \frac{1}{2^{\ell+1}} \cdot (1 - \delta_*)^{\ell}
+$$
 Quindi la scala di massa per ogni generazione è:
 
 $$m_\ell \propto (1 - \delta_*)^{\ell + 1}.$$
