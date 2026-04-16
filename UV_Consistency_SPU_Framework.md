@@ -139,10 +139,3 @@ This formulation provides a rigorous non-perturbative definition of SPU, analogo
 
 SPU is therefore a **UV-complete emergent framework** by mathematical construction, not by assumption.
 
----
-
-> **Repository Cross-References** (update with actual filenames):
-> - Spectral measure & Plancherel analysis: [UPDATE: insert filename]
-> - RG flow of delta: rg_flow_delta.py
-> - Stiffness scale derivation: Semi_Analytic_Determination_Gravitational_Scale_SPU.md
-> - Lattice implementation prototype: spu_lattice_sim.py (to be added)
