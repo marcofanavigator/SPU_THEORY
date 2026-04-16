@@ -1,6 +1,6 @@
 # 🚀 Spectral Physics Unit (SPU) - Framework Repository
 
-Benvenuto nel repository ufficiale del framework **SPU (Spectral Physics Unit)**. Questo progetto implementa la derivazione delle perturbazioni primordiali e delle osservabili cosmologiche basate sulla dinamica del coset $E_7/SU(8)$.
+ Questo progetto implementa la derivazione delle perturbazioni primordiali e delle osservabili cosmologiche basate sulla dinamica del coset $E_7/SU(8)$.
 
 ## 📊 1. Risultati del Fit Osservativo (Planck 2018)
 Il modello SPU fitta i dati del Fondo Cosmico a Microonde (CMB) senza l'introduzione di campi inflatonici ad-hoc, fornendo una precisione superiore ai modelli standard a singolo campo.
@@ -38,14 +38,3 @@ I test di correlazione eseguiti tramite lo script `spu_spectral_signature.py` di
 ### Interpretazione
 Poiché la correlazione $\mathcal{C} < 0.5$, la SPU non è degenerata con i modelli inflazionari classici. La presenza del gap spettrale $m$ rompe la simmetria locale, permettendo una rilevazione univoca nelle future missioni (LiteBIRD, CMB-S4).
 
-## 📂 4. Contenuto del Repository
-- `spu_spectral_signature.py`: Script Python per il calcolo della correlazione e generazione dei grafici di Dalitz.
-- `physics_engine.py`: Derivazione analitica dello spettro $\rho(\lambda)$ dal coset $E_7/SU(8)$.
-- `data/`: Output delle matrici di Fisher e simulazioni di likelihood.
-
-## 🚀 5. Come iniziare
-1. Clona il repository.
-2. Assicurati di avere installato `numpy` e `matplotlib`.
-3. Esegui l'analisi della firma:
-   ```bash
-   python spu_spectral_signature.py
