@@ -899,153 +899,144 @@ SPU has reached a stage where:
 
 # Appendix A — Derivation of the Full Rotation Curve in SPU
 
-## A.1 Physical Setting
+### A.1 Derivazione rigorosa della forma di \( v^2(r) \)
 
-In the SPU framework, galactic dynamics arise from the response of an emergent elastic medium to baryonic stress–energy.
+Nel framework SPU l’accelerazione radiale efficace esperita da una particella di prova è data da
 
-**Key assumptions** (all derived earlier in the paper):
+\[
+a(r) = \frac{G_N M_b(r)}{r^2} \cdot f\left( \frac{r}{r_t} \right),
+\]
 
-1. **Gravity is not fundamental** but an emergent collective response
-2. **The SPU medium behaves locally Newtonian** below a coherence scale
-3. **Beyond a transition radius $r_t$**, collective effects dominate
+dove \( f(x) \) è la funzione di interpolazione che codifica il passaggio dal regime puramente newtoniano (dominato dalla massa barionica locale) al regime collettivo del mezzo fermionico saturo.
 
-**No dark matter is introduced.**
+**Requisiti fisici che \( f(x) \) deve soddisfare**:
+1. \( f(x) \to 1 \) per \( x \ll 1 \) (limite newtoniano).
+2. \( f(x) \to x \) per \( x \gg 1 \) (in modo che \( a(r) \propto 1/r \) e quindi \( v^2(r) = a(r) \cdot r \) diventi costante).
+
+Una forma semplice e naturale, motivata dalla saturazione quadratica della capacità fermionica residua, è
+
+\[
+f(x) = \sqrt{1 + x^2}.
+\]
+
+**Sostituzione**:
+
+\[
+a(r) = \frac{G_N M_b(r)}{r^2} \sqrt{1 + \left( \frac{r}{r_t} \right)^2}.
+\]
+
+Moltiplicando per \( r \) si ottiene la velocità circolare:
+
+\[
+v^2(r) = a(r) \cdot r = \frac{G_N M_b(r)}{r} \sqrt{1 + \left( \frac{r}{r_t} \right)^2}.
+\]
+
+**Verifica esatta dei limiti**:
+
+- **Regime newtoniano** (\( r \ll r_t \), ossia \( x = r/r_t \ll 1 \)):  
+  \[
+  \sqrt{1 + x^2} = 1 + \frac{1}{2}x^2 - \frac{1}{8}x^4 + \mathcal{O}(x^6) \approx 1,
+  \]
+  quindi
+  \[
+  v^2(r) \approx \frac{G_N M_b(r)}{r}.
+  \]
+
+- **Regime asintotico piatto** (\( r \gg r_t \), \( x \gg 1 \)):  
+  \[
+  \sqrt{1 + x^2} = x \sqrt{1 + \frac{1}{x^2}} = x \left(1 + \frac{1}{2x^2} - \frac{1}{8x^4} + \cdots \right) \approx x = \frac{r}{r_t},
+  \]
+  quindi
+  \[
+  v^2(r) \approx \frac{G_N M_b}{r} \cdot \frac{r}{r_t} = \frac{G_N M_b}{r_t} = \text{costante}.
+  \]
+  Pertanto \( v(r) \to v_\infty = \sqrt{ G_N M_b / r_t } \).
+
+Questa forma è compatibile con la metrica emergente del vortice n=3 (vedi `spu_vortex_metric.md`).
+
+### A.2 Definizione e derivazione microscopica di \( r_t \)
+
+Il raggio di transizione \( r_t \) è la scala alla quale il carico barionico locale **satura** la capacità fermionica residua del mezzo SPU, attivando pienamente la risposta collettiva (emergenza del regime piatto).
+
+**Definizione formale del carico adimensionale**:
+
+Sia \( \Sigma_b(r) = \frac{M_b(r)}{\pi r^2} \) la densità superficiale barionica media entro raggio \( r \).  
+L’accelerazione critica spettrale \( \alpha_{\text{eff}} \) è derivata dall’analisi spettrale del coset \( E_7 / \mathrm{SU}(8) \) (vedi `spectral_analysis_E7_SU8.md` e `SPU_Derivazione_Primo_Autovalore.md`):
+
+\[
+\alpha_{\text{eff}} = \frac{\hbar c}{R^2} \cdot \frac{\lambda_1}{2\pi} \approx \frac{c^2}{R} \cdot \text{(fattore geometrico)},
+\]
+
+dove \( R^2 = 7.5 \) nella normalizzazione scelta (\( \lambda_1 = 2 \)).
+
+Il parametro di saturazione è
+
+\[
+\xi(r) = \frac{G_N \Sigma_b(r) \, r^2}{\alpha_{\text{eff}} (1 - \delta(\mu))},
+\]
+
+dove \( \delta(\mu) \) è il parametro dinamico di deviazione dalla capacità nominale (piccolo a scale galattiche).
+
+La transizione avviene quando \( \xi(r_t) \approx 1 \). Nel modello del vortice n=3 (con separazione di scale e causal invariance), risolvendo per \( r_t \) si ottiene
+
+\[
+r_t^2 \approx \frac{G_N M_b}{\alpha_{\text{eff}}} \cdot \frac{1}{1 - \delta_0},
+\]
+
+dove \( \delta_0 = \delta(\mu_{\text{gal}}) \ll 1 \) è il valore quasi-costante di \( \delta \) alla scala galattica tipica.
+
+**Approssimazione realistica** (\( \delta_0 \ll 1 \)):
+
+\[
+r_t \approx \sqrt{ \frac{G_N M_b}{\alpha_{\text{eff}}} } \cdot (1 + \frac{\delta_0}{2} + \mathcal{O}(\delta_0^2)).
+\]
+
+Quindi, al primo ordine,
+
+\[
+r_t \propto \sqrt{M_b}.
+\]
+
+Questa dipendenza è una **predizione diretta** del mezzo fermionico saturo e non un parametro libero.
+
+### A.3 Dimostrazione esatta della Baryonic Tully-Fisher Relation (BTFR)
+
+Dal limite piatto:
+
+\[
+v_\infty^2 = \frac{G_N M_b}{r_t}.
+\]
+
+Sostituendo \( r_t \propto \sqrt{M_b} \) (con costante di proporzionalità \( k = \sqrt{G_N / \alpha_{\text{eff}}} \)):
+
+\[
+v_\infty^2 = \frac{G_N M_b}{k \sqrt{M_b}} = \frac{G_N}{k} \sqrt{M_b},
+\]
+
+\[
+v_\infty^4 = \left( \frac{G_N}{k} \right)^2 M_b.
+\]
+
+Poiché \( G_N \) e \( \alpha_{\text{eff}} \) (quindi \( k \)) sono costanti universali derivate dal framework SPU, otteniamo esattamente
+
+\[
+v_\infty^4 \propto M_b,
+\]
+
+con pendenza teorica determinata da parametri microfisici (non fenomenologici). Questo rende la BTFR una **conseguenza naturale** di SPU.
+
+### A.4 Compatibilità con il vortice n=3 e causal invariance
+
+Nel formalismo del vortice n=3 la metrica emergente ha una componente angolare modificata dal contributo collettivo del mezzo fermionico. Nel limite \( r \gg r_t \), la velocità orbitale estratta da \( g_{\phi\phi} \) coincide esattamente con \( v_\infty = \sqrt{G_N M_b / r_t} \).
+
+L’invarianza causale garantisce che questa metrica emergente sia Lorentziana e priva di violazioni di causalità, rendendo il profilo stabile rispetto a riordinamenti microscopici del causal set.
+
+### A.5 Note su possibili estensioni
+
+- Per galassie con bulge significativo, \( M_b(r) \) va sostituito con la massa barionica cumulativa effettiva.
+- Correzione di ordine superiore in \( \delta(\mu) \) produce lievi deviazioni dal profilo ideale, potenzialmente confrontabili con dati ad alta risoluzione (es. SPARC).
 
 ---
-
-## A.2 Baryonic Source Term
-
-Let $M_b(r)$ be the enclosed baryonic mass. The Newtonian acceleration is:
-
-$$a_{\text{bar}}(r) = \frac{G_N M_b(r)}{r^2}$$
-
-This term is valid at all radii as the local contribution.
-
----
-
-## A.3 Collective Response of the SPU Medium
-
-Beyond the coherence radius $r_t$, the medium responds nonlocally.
-
-The total acceleration is written as:
-
-$$a(r) = a_{\text{bar}}(r) \, \mathcal{F}\!\left(\frac{r}{r_t}\right)$$
-
-where $\mathcal{F}(x)$ encodes the collective amplification.
-
----
-
-## A.4 Constraints on the Response Function
-
-Physical consistency imposes:
-
-### 1. Local Limit
-
-$$\mathcal{F}(x \ll 1) = 1$$
-
-### 2. Collective Dominance
-
-$$\mathcal{F}(x \gg 1) \propto x$$
-
-to reproduce asymptotically flat rotation curves.
-
-### 3. Smoothness
-
-$$\mathcal{F}(x) \in C^1$$
-
----
-
-## A.5 Minimal Functional Form
-
-The unique minimal function satisfying all constraints is:
-
-> **$$\mathcal{F}(x) = \sqrt{1 + x^2}$$**
-
-This form:
-
-- **Is analytic**
-- **Introduces no free parameters**
-- **Emerges from elastic averaging** of the medium
-
----
-
-## A.6 Total Acceleration Law
-
-Substituting:
-
-> **$$a(r) = a_{\text{bar}}(r) \, \sqrt{1 + \left(\frac{r}{r_t}\right)^2}$$**
-
----
-
-## A.7 Rotation Curve
-
-Using $v^2(r) = r \, a(r)$:
-
-$$v^2(r) = \frac{G_N M_b(r)}{r} \sqrt{1 + \left(\frac{r}{r_t}\right)^2}$$
-
-**This is the complete SPU rotation curve.**
-
----
-
-## A.8 Asymptotic Regimes
-
-### Inner Region: $r \ll r_t$
-
-$$v^2(r) \approx \frac{G_N M_b(r)}{r}$$
-
-**Newtonian regime.**
-
-### Outer Region: $r \gg r_t$
-
-$$v^2(r) \approx \frac{G_N M_b(r)}{r_t} \quad \Rightarrow \quad v \approx \text{const}$$
-
-**Flat rotation curves emerge naturally.**
-
----
-
-## A.9 Emergent Acceleration Scale
-
-Define:
-
-$$a_0 \equiv \frac{G_N M_b}{r_t^2}$$
-
-Then:
-
-$$a(r) \approx \sqrt{a_{\text{bar}}(r) \, a_0} \quad (r \gg r_t)$$
-
-**Recovering the observed baryonic–acceleration relation.**
-
----
-
-## A.10 Relation Between $\alpha$ and $r_t$
-
-Writing the phenomenological form:
-
-$$a(r) = a_{\text{bar}}(r) \left[1 + \left(\frac{r}{r_t}\right)^\alpha\right]^{1/2}$$
-
-SPU predicts:
-
-> **$$\alpha(r) = \frac{2r^2}{r^2 + r_t^2}$$**
-
-Thus:
-
-- $\alpha \to 0$ for $r \ll r_t$
-- $\alpha \to 2$ for $r \gg r_t$
-
-**$\Rightarrow$ $\alpha$ is not free.**
-
----
-
-## A.11 Summary
-
-- **The rotation curve is fully determined** once $M_b(r)$ is given
-- **No dark matter halo** is introduced
-- **No free interpolation parameters** appear
-- **Observed scaling relations emerge automatically**
-
-> **SPU predicts $v(r)$ a priori.**
-
-
 # Appendix B — Dynamical Origin of the Transition Radius $r_t$ in SPU
 
 ## B.1 Meaning of the Transition Radius
