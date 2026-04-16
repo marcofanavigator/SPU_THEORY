@@ -1,4 +1,4 @@
-# 🚀 Spectral Physics Unit (SPU) - Framework Repository
+
 
  Questo progetto implementa la derivazione delle perturbazioni primordiali e delle osservabili cosmologiche basate sulla dinamica del coset $E_7/SU(8)$.
 
