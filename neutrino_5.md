@@ -35,14 +35,14 @@ where $S_{\text{inst}}$ is derived from the equivariant homology of the bundle.
 
 ## 5.10 Summary of Quark Flavor Predictions
 
-| **Observable** | **SPU Prediction** | **Experimental Value (PDG 2024)** | **Status** |
-| :--- | :--- | :--- | :--- |
-| $m_c/m_t$ | $7.57 \times 10^{-3}$ | $7.38 \times 10^{-3}$ | ✅ Robust ($2.6\%$ dev) |
+| **Observable** | **SPU Prediction** | **Experimental (PDG 2024)** | **Status** |
+| :--- | :---: | :---: | :--- |
+| $m_c / m_t$ | $7.57 \times 10^{-3}$ | $7.38 \times 10^{-3}$ | ✅ Robust ($2.6\%$ dev) |
 | $\theta_C$ ($\theta_{12}$) | $12.48^\circ$ | $13.02^\circ$ | ✅ Robust ($4.1\%$ dev) |
-| $|V_{us}|$ | $0.216$ | $0.2243$ | ✅ Robust ($3.6\%$ dev) |
-| $|V_{cb}|$ | $0.029$ | $0.0410$ | ⚠️ Leading-order |
-| $|V_{ub}|$ | $0.0037$ | $0.0037$ | ✅ Robust ($0.0\%$ dev) |
-| $m_u/m_c$ | $5.8 \times 10^{-16}$ | $1.73 \times 10^{-3}$ | 🔓 Open problem |
+| $\|V_{us}\|$ | $0.216$ | $0.2243$ | ✅ Robust ($3.6\%$ dev) |
+| $\|V_{cb}\|$ | $0.029$ | $0.0410$ | ⚠️ Leading-order |
+| $\|V_{ub}\|$ | $0.0037$ | $0.0037$ | ✅ Robust ($0.0\%$ dev) |
+| $m_u / m_c$ | $5.8 \times 10^{-16}$ | $1.73 \times 10^{-3}$ | 🔓 Open problem |
 
 ---
 **Falsification Conditions Update**:
