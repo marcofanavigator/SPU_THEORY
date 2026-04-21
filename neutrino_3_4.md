@@ -48,7 +48,8 @@ $$U_{\text{PMNS}} = U_e^\dagger U_\nu \approx R_{12}(-\theta_e) \, U_{\text{TBM}
 Analytic mixing angles are extracted as:
 * $\sin^2\theta_{13} = \sin^2\theta_e$
 * $\tan^2\theta_{23} = 1 \implies \theta_{23} = 45^\circ$
- $$\sin^2\theta_{12} = \frac{|(U_{\text{PMNS}})_{e2}|^2}{1-|(U_{\text{PMNS}})_{e3}|^2}$$
+
+$$\sin^2\theta_{12} = \frac{|(U_{\text{PMNS}})_{e2}|^2}{1-|(U_{\text{PMNS}})_{e3}|^2}$$
 
 ### 4.2 Predicted Mixing Angles and CP Violation
 Substituting $\theta_e \approx 1.95^\circ$:
