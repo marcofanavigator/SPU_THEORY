@@ -65,7 +65,7 @@ Substituting $\theta_e \approx 1.95^\circ$:
 | $\theta_{12}$ | $34.2^\circ$ | $33.44^\circ \pm 0.77^\circ$ | $+1.0\sigma$ |
 | $\theta_{23}$ | $46.1^\circ$ | $49.0^\circ \pm 1.5^\circ$ | $-1.9\sigma$ |
 | $\theta_{13}$ | $8.7^\circ$ | $8.57^\circ \pm 0.46^\circ$ | $+0.3\sigma$ |
-| $\delta_{CP}$ | $\pm 90^\circ$ | $195^\circ_{-25^\circ}^{+51^\circ}$ | Compatible |
+| $\delta_{CP}$ | $\pm 90^\circ$ | $195^\circ {-25^\circ}^{+51^\circ}$ | Compatible |
 | Hierarchy | **Normal** | Normal ($>3\sigma$) | Consistent |
 | $\sum m_\nu$ | $0.062$ eV | $< 0.12$ eV (Planck+BAO) | Consistent |
 
