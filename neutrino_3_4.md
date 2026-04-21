@@ -20,16 +20,20 @@ The neutral collective sector preserves a residual Klein symmetry $Z_2 \times Z_
 $$M_\nu = m_0 \begin{pmatrix} 1 & \alpha & \alpha \\ \alpha & 1+\beta & 1-\beta \\ \alpha & 1-\beta & 1+\beta \end{pmatrix}$$
 
 where the dimensionless coefficients are fixed by the SPU spectral hierarchy:
+
 $$\alpha = \frac{1-\delta_*}{3} \approx 0.122, \quad \beta = \frac{(1-\delta_*)^2}{2} \approx 0.067 \quad (\text{for } \delta_* \approx 0.633)$$
 
 This matrix is diagonalized by the **Tribimaximal (TBM)** mixing matrix:
+
 $$U_{\text{TBM}} = \begin{pmatrix} \sqrt{2/3} & \sqrt{1/3} & 0 \\ -\sqrt{1/6} & \sqrt{1/3} & -\sqrt{1/2} \\ -\sqrt{1/6} & \sqrt{1/3} & \sqrt{1/2} \end{pmatrix}$$
 
 ### 3.3 Charged Lepton Mass Matrix: Residual $Z_3$ Symmetry
 Gauge interactions in the charged sector break the flavor symmetry to $Z_3 \subset A_4$. SPU radial overlap corrections introduce small off-diagonal entries:
+
 $$M_e M_e^\dagger = m_e^2 \left[ \mathbb{I} + \gamma \begin{pmatrix} 0 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2 \end{pmatrix} + \mathcal{O}(\gamma^2) \right], \quad \gamma = \frac{(1-\delta_*)^2}{4}$$
 
 Diagonalization requires a rotation in the $12$-plane:
+
 $$U_e \approx R_{12}(\theta_e), \quad \sin\theta_e \approx \frac{\gamma}{2} = \frac{(1-\delta_*)^2}{8} \implies \theta_e \approx 1.95^\circ$$
 
 ---
@@ -38,12 +42,13 @@ $$U_e \approx R_{12}(\theta_e), \quad \sin\theta_e \approx \frac{\gamma}{2} = \f
 
 ### 4.1 Analytic Extraction of $U_{\text{PMNS}}$
 The physical lepton mixing matrix is the mismatch between the neutrino and charged-lepton bases:
+
 $$U_{\text{PMNS}} = U_e^\dagger U_\nu \approx R_{12}(-\theta_e) \, U_{\text{TBM}}$$
 
 Analytic mixing angles are extracted as:
 * $\sin^2\theta_{13} = \sin^2\theta_e$
 * $\tan^2\theta_{23} = 1 \implies \theta_{23} = 45^\circ$
-* $\sin^2\theta_{12} = \frac{|(U_{\text{PMNS}})_{e2}|^2}{1-|(U_{\text{PMNS}})_{e3}|^2}$
+ $$\sin^2\theta_{12} = \frac{|(U_{\text{PMNS}})_{e2}|^2}{1-|(U_{\text{PMNS}})_{e3}|^2}$$
 
 ### 4.2 Predicted Mixing Angles and CP Violation
 Substituting $\theta_e \approx 1.95^\circ$:
