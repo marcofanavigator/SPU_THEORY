@@ -17,7 +17,11 @@ where $L_L = (\psi_0, \psi_1, \psi_2)^T$ is the triplet of vortex zero-modes. Th
 ### 3.2 Neutrino Mass Matrix: Residual $Z_2 \times Z_2$ Symmetry
 The neutral collective sector preserves a residual Klein symmetry $Z_2 \times Z_2 \subset A_4$. In the flavor basis, this enforces the neutrino mass matrix:
 
-$$M_\nu = m_0 \begin{pmatrix} 1 & \alpha & \alpha \\ \alpha & 1+\beta & 1-\beta \\ \alpha & 1-\beta & 1+\beta \end{pmatrix}$$
+$$\begin{aligned}
+\alpha &= \frac{1-\delta_{*}}{3} \approx 0.122 \\
+\beta &= \frac{(1-\delta_{*})^2}{2} \approx 0.067
+\end{aligned}
+\quad \text{per } \delta_* \approx 0.633$$
 
 where the dimensionless coefficients are fixed by the SPU spectral hierarchy:
 
