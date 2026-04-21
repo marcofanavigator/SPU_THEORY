@@ -21,11 +21,7 @@ $$M_\nu = m_0 \begin{pmatrix} 1 & \alpha & \alpha \\ \alpha & 1+\beta & 1-\beta 
 
 where the dimensionless coefficients are fixed by the SPU spectral hierarchy:
 
-$$\begin{aligned}
-\alpha &= \frac{1-\delta_*}{3} \approx 0.122 \\
-\beta &= \frac{(1-\delta_*)^2}{2} \approx 0.067
-\end{aligned}
-\quad \text{per } \delta_* \approx 0.633$$
+$$\begin{aligned}\alpha &= \frac{1-\delta_*}{3} \approx 0.122 \\\beta &= \frac{(1-\delta_*)^2}{2} \approx 0.067\end{aligned}\quad \text{per } \delta_* \approx 0.633$$
 
 This matrix is diagonalized by the **Tribimaximal (TBM)** mixing matrix:
 
