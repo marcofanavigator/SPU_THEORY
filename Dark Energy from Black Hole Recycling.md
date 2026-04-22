@@ -3,14 +3,18 @@
 In the SPU framework, the observed dark energy density is not a fundamental constant but an emergent phenomenon arising from the continuous recycling of black hole mass into the finite-capacity fermionic medium. As supermassive black holes accrete and evaporate (or merge), their mass-energy is reintegrated into the vacuum structure, acting as a dynamic source for the cosmological constant.
 
 The effective dark energy density $\rho_\Lambda$ scales with the cumulative recycled mass density $\rho_{\text{recycled}}$:
+
 $$ \rho_\Lambda \approx \eta \, \rho_{\text{recycled}}(t_0) $$
+
 where $\eta$ is an efficiency factor determined by the spectral geometry of $E_7/SU(8)$.
 
 ### Phenomenological Predictions
 We evaluate the model using two sets of astrophysical parameters (Table 1):
 1. **Baseline Model**: Conservative estimates ($M_{\text{BH}} \sim 10^7 M_\odot$, Salpeter time $\sim 45$ Myr). This yields $\Omega_\Lambda^{\text{base}} \approx 0.06$, establishing the lower bound of the mechanism.
 2. **Improved Model**: Parameters consistent with active galactic nuclei observations ($M_{\text{BH}} \sim 10^8 M_\odot$, active fraction $\sim 25\%$, Salpeter time $\sim 10$ Myr). This yields:
+3. 
 $$ \Omega_\Lambda^{\text{improved}} \approx 0.674 $$
+
 in remarkable agreement with the observed value $0.685$ (deviation $<1.6\%$).
 
 **Table 1: SPU Dark Energy Predictions vs. Observations**
