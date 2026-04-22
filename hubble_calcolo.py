@@ -236,15 +236,27 @@ print("\n" + "=" * 80)
 print("EVOLUZIONE TEMPORALE ρ_Λ(z) - INTEGRAZIONE NUMERICA")
 print("=" * 80)
 
-def age_at_z_improved(z, H0_SI, Omega_m0=0.315, Omega_L0=0.685):
+def age_at_z_improved(z, H0_SI, Omega_m0=0.315, Omega_L0=0.685, Omega_r0=9.2e-5):
     """
-    Età dell'universo al redshift z con integrazione numerica.
-    Usa l'equazione di Friedmann per ΛCDM come approssimazione di background.
+    Calcola l'età dell'universo al redshift z con integrazione robusta.
+    Include radiazione, materia e energia oscura.
+    Usa approssimazioni analitiche per z elevati per evitare instabilità numeriche.
     """
+    # Per z molto alti domina la radiazione: soluzione analitica stabile
+    if z > 1e5:
+        return 1.0 / (2.0 * H0_SI * np.sqrt(Omega_r0) * (1 + z)**2)
+
+    # Integrazione numerica precisa per z intermedi/bassi
     def integrand(x):
-        return 1.0 / np.sqrt(Omega_m0 * (1+x)**3 + Omega_L0)
-    result, error = quad(integrand, z, 1e4, limit=200)  # integrate to high z
-    return result / H0_SI
+        E2 = Omega_r0 * (1 + x)**4 + Omega_m0 * (1 + x)**3 + Omega_L0
+        return 1.0 / ((1 + x) * np.sqrt(E2))
+
+    # Integrazione da z a 1e4 (oltre questo limite il contributo è <10^-6)
+    result, _ = quad(integrand, z, 1e4, limit=200, epsabs=1e-12, epsrel=1e-12)
+    t = result / H0_SI
+
+    # Protezione contro valori negativi da errori di floating-point
+    return max(t, 0.0)
 
 # Valori di redshift
 z_values = np.logspace(-3, 3.2, 150)
