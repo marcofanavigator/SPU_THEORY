@@ -35,7 +35,7 @@ Key predictions:
 
 ![SPU Dark Energy phenomenology](spu_dark_energy_corrected_v2.png)
 *Figure: SPU Dark Energy phenomenology. **Top-Left:** Evolution of 
-$\Omega_\Lambda(z)$, 
+$\Omega\Lambda(z)$, 
 showing negligible contribution at CMB epoch. **Top-Right:** Comparison of 
 $\Omega_\Lambda$ 
 values (Base vs. Improved vs. Observed). **Bottom-Left:** Astrophysical parameters required for the Improved model. **Bottom-Right:** Evolution of the Hubble parameter $H(z)$, showing deviation from $\Lambda$CDM at low redshift.*
