@@ -38,7 +38,9 @@ Key predictions:
 
 ### Falsifiability
 The emergent dark energy scenario is explicitly falsifiable:
+
 * Precise measurement of $\Omega_\Lambda(z)$ at $z > 2$ (e.g., via Euclid/DESI) must show evolution distinct from a cosmological constant.
+* 
 * The mass function of supermassive black holes must support a mean mass $\langle M_{\text{BH}} \rangle \sim 10^8 M_\odot$ for the active population.
 
 ### Key Numerical Results (from `spu_dark_energy_results.json`)
