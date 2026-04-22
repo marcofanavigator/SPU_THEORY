@@ -34,7 +34,11 @@ Key predictions:
 * **Hubble Tension Resolution**: The time-dependent nature of $\rho_\Lambda(z)$ modifies the expansion history $H(z)$. SPU predicts a slightly higher expansion rate at low redshift ($z < 1$) compared to $\Lambda$CDM, naturally bridging the gap between local $H_0$ measurements ($\sim 73$ km/s/Mpc) and CMB-inferred values without requiring exotic early dark energy components.
 
 ![SPU Dark Energy phenomenology](spu_dark_energy_corrected_v2.png)
-*Figure: SPU Dark Energy phenomenology. **Top-Left:** Evolution of $\Omega_\Lambda(z)$, showing negligible contribution at CMB epoch. **Top-Right:** Comparison of $\Omega_\Lambda$ values (Base vs. Improved vs. Observed). **Bottom-Left:** Astrophysical parameters required for the Improved model. **Bottom-Right:** Evolution of the Hubble parameter $H(z)$, showing deviation from $\Lambda$CDM at low redshift.*
+*Figure: SPU Dark Energy phenomenology. **Top-Left:** Evolution of 
+$\Omega_\Lambda(z)$, 
+showing negligible contribution at CMB epoch. **Top-Right:** Comparison of 
+$\Omega_\Lambda$ 
+values (Base vs. Improved vs. Observed). **Bottom-Left:** Astrophysical parameters required for the Improved model. **Bottom-Right:** Evolution of the Hubble parameter $H(z)$, showing deviation from $\Lambda$CDM at low redshift.*
 
 ### Falsifiability
 The emergent dark energy scenario is explicitly falsifiable:
