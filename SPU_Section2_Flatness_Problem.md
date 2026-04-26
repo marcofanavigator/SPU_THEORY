@@ -138,7 +138,7 @@ This is well within the observational bound $|\Omega_k| < 0.005$ (Planck 2018).
 ### 2.5 Physical Interpretation
 The SPU resolution of the flatness problem operates through a different mechanism than standard inflation:
 - **Standard inflation:** drives $|\Omega-1| \to 0$ by exponential expansion over $N_e \gtrsim 60$ e-folds. The flatness is achieved dynamically by stretching the spatial curvature radius to scales much larger than the Hubble horizon.
-- **SPU mechanism:** the initial value of $|\Omega-1|$ is already small — suppressed by the geometric factor $\mathcal{F}(\delta^*)/f_{\text{IR}}^2 \approx 6\times 10^{-3}$ — because the vacuum capacity of E₇/SU(8) constrains the allowable energy configurations at the moment of spacetime emergence. The subsequent $N_e \sim 20$ e-folds of expansion then reduce it further to $\sim 10^{-20}$, and standard post-inflationary evolution leaves it at $\sim 10^{-15}$ today.
+- **SPU mechanism:** the initial value of $|\Omega-1|$ is already small — suppressed by the geometric factor $\mathcal{F}(\delta^{\ast})/f_{\text{IR}}^2 \approx 6\times 10^{-3}$ — because the vacuum capacity of E₇/SU(8) constrains the allowable energy configurations at the moment of spacetime emergence. The subsequent $N_e \sim 20$ e-folds of expansion then reduce it further to $\sim 10^{-20}$, and standard post-inflationary evolution leaves it at $\sim 10^{-15}$ today.
 
 The key conceptual point is: flatness in SPU is not achieved — it is inherited. The emerging spacetime is born nearly flat because the geometric structure of the condensate constrains the curvature of the manifold it generates.
 
@@ -151,7 +151,7 @@ The key conceptual point is: flatness in SPU is not achieved — it is inherited
 | $|\Omega_k|$ today | arbitrary | $\sim 10^{-43}$ | $\sim 10^{-15}$ |
 | Observational bound | $|\Omega_k| < 0.005$ | ✅ satisfied | ✅ satisfied |
 | Mechanism | — | Dynamical (e-folds) | Geometric (coset structure) |
-| Free parameters | — | Inflaton potential | Zero ($\delta^*$, $f_{\text{IR}}$ derived) |
+| Free parameters | — | Inflaton potential | Zero ($\delta^{\ast}$, $f_{\text{IR}}$ derived) |
 
 ### 2.7 Falsifiable Prediction: Residual Spatial Curvature
 The SPU mechanism predicts a specific residual spatial curvature:
@@ -183,12 +183,12 @@ The flatness prediction is therefore robust against small variations in $\delta^
 
 ### 2.9 Summary
 The flatness problem in SPU is resolved by two cooperating mechanisms:
-1. **Geometric suppression:** The finite vacuum capacity of E₇/SU(8) constrains the initial curvature to $|\Omega-1|_{\text{initial}} \sim \mathcal{F}(\delta^*)/f_{\text{IR}}^2 \approx 6\times 10^{-3}$, dramatically smaller than the Planck-scale naive estimate of $\mathcal{O}(1)$.
+1. **Geometric suppression:** The finite vacuum capacity of E₇/SU(8) constrains the initial curvature to $|\Omega-1|_{\text{initial}} \sim \mathcal{F}(\delta^{\ast})/f_{\text{IR}}^2 \approx 6\times 10^{-3}$, dramatically smaller than the Planck-scale naive estimate of $\mathcal{O}(1)$.
 2. **Inflationary suppression:** $N_e \sim 20$ e-folds of expansion at the GUT transition reduce $|\Omega-1|$ by a further factor $e^{-40} \sim 10^{-18}$.
 
 The combined result is $|\Omega_k|_{\text{today}} \sim 10^{-15}$, fully consistent with observations and produced without fine-tuning of initial conditions.
 
-All quantities entering the calculation — $\delta^*$, $f_{\text{IR}}$, $N_f^{\text{eff}}$, $M_{\text{GUT}}$ — are derived from the geometry of E₇/SU(8), not adjusted to fit the result.
+All quantities entering the calculation — $\delta^{\ast}$, $f_{\text{IR}}$, $N_f^{\text{eff}}$, $M_{\text{GUT}}$ — are derived from the geometry of E₇/SU(8), not adjusted to fit the result.
 
 ### References
 - `spu_why_e7_su8.md` — Uniqueness of E₇/SU(8)
