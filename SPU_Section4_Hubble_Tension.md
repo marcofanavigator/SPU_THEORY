@@ -63,7 +63,7 @@ $$\frac{d\delta}{d\ln\mu} = 2\delta(1-\delta)(\gamma_M - 1)$$
 
 where γ_M is the anomalous dimension of the fermionic mass operator. At late times (μ ≪ M_GUT), γ_M approaches its IR fixed point value γ_M^* < 1, giving:
 
-$$\frac{d\delta}{d\ln\mu}\bigg|_{\mu \to 0} = 2\delta^*(1-\delta^*)(\gamma_M^* - 1) \approx -\epsilon \cdot \delta^*(1-\delta^*)$$
+$$\frac{d\delta}{d\ln\mu}\bigg|_{\mu \to 0} = 2\delta*(1-\delta^*)(\gamma_M^* - 1) \approx -\epsilon \cdot \delta^*(1-\delta^*)$$
 
 where ε = 1 - γ_M^* > 0 is a small positive quantity characterizing the deviation from the exact fixed point.
 
