@@ -167,19 +167,19 @@ Future 21cm surveys and next-generation CMB experiments (CMB-S4, SKA) may approa
 This constitutes a genuinely falsifiable distinction between SPU and standard inflationary cosmology.
 
 ### 2.8 The Role of $\delta^*$ in Curvature Regulation
-It is worth noting that the suppression factor $\mathcal{F}(\delta^*) = (1-\delta^*)^2$ depends on the RG fixed point $\delta^* \approx 0.63$. Since $\delta^*$ is itself derived (not a free parameter), the curvature suppression is fully determined by the geometry of E₇/SU(8).
+It is worth noting that the suppression factor $\mathcal{F}(\delta^{\ast}) = (1-\delta^{\ast})^2$ depends on the RG fixed point $\delta^{\ast} \approx 0.63$. Since $\delta^{\ast}$ is itself derived (not a free parameter), the curvature suppression is fully determined by the geometry of E₇/SU(8).
 
-Small variations in $\delta^*$ affect $\mathcal{F}(\delta^*)$ as:
+Small variations in $\delta^{\ast}$ affect $\mathcal{F}(\delta^{\ast})$ as:
 
 $$\frac{d\mathcal{F}}{d\delta^{/ast}} = -2(1-\delta^{/ast}) \approx -0.74$$
 
-A variation $\Delta\delta^* \sim 0.05$ (the estimated RG uncertainty in $\delta^*$) produces:
+A variation $\Delta\delta^{\ast} \sim 0.05$ (the estimated RG uncertainty in $\delta^{\ast}$) produces:
 
 $$\Delta\mathcal{F} \approx 0.74 \times 0.05 \approx 0.037$$
 
 This shifts $|\Omega_k|_{\text{today}}$ by less than one order of magnitude — within the predicted range $10^{-15}$ to $10^{-12}$.
 
-The flatness prediction is therefore robust against small variations in $\delta^*$.
+The flatness prediction is therefore robust against small variations in $\delta^{\ast}$.
 
 ### 2.9 Summary
 The flatness problem in SPU is resolved by two cooperating mechanisms:
