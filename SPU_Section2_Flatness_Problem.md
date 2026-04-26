@@ -151,7 +151,7 @@ The key conceptual point is: flatness in SPU is not achieved — it is inherited
 | $|\Omega_k|$ today | arbitrary | $\sim 10^{-43}$ | $\sim 10^{-15}$ |
 | Observational bound | $|\Omega_k| < 0.005$ | ✅ satisfied | ✅ satisfied |
 | Mechanism | — | Dynamical (e-folds) | Geometric (coset structure) |
-| Free parameters | — | Inflaton potential | Zero ($\delta^{\ast}$, $f_{\text{IR}}$ derived) |
+| Free parameters | — | Inflaton potential | Zero ($\delta^*$, $f_{\text{IR}}$ derived) |
 
 ### 2.7 Falsifiable Prediction: Residual Spatial Curvature
 The SPU mechanism predicts a specific residual spatial curvature:
