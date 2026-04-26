@@ -185,7 +185,7 @@ The flatness prediction is therefore robust against small variations in $\delta^
 The flatness problem in SPU is resolved by two cooperating mechanisms:
 1. **Geometric suppression:** The finite vacuum capacity of E₇/SU(8) constrains the initial curvature to
 
-3. $$|\Omega - 1|_{\mathrm{initial}} \sim \frac{\mathcal{F}(\delta^{*})}{f_{\mathrm{IR}}^{2}} \approx 6 \times 10^{-3}$$
+3.$$|\Omega - 1|_{\mathrm{initial}} \sim \frac{\mathcal{F}(\delta^{*})}{f_{\mathrm{IR}}^{2}} \approx 6 \times 10^{-3}$$
 
    , dramatically smaller than the Planck-scale naive estimate of $\mathcal{O}(1)$.
 5. **Inflationary suppression:** $N_e \sim 20$ e-folds of expansion at the GUT transition reduce $|\Omega-1|$ by a further factor $e^{-40} \sim 10^{-18}$.
