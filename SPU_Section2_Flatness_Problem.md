@@ -110,9 +110,7 @@ The spectral weight function w(λ,μ) = λ/(1+λ) evaluated at the curvature mod
 ### Sensitivity to Fixed Point Variations
 Small variations in $\delta_{*}$ affect $\mathcal{F}(\delta_{*})$ according to:
 
-$$
-\frac{d\mathcal{F}}{d\delta_{*}} = -2(1 - \delta_{*}) \approx -0.74
-$$
+$$\frac{d\mathcal{F}}{d\delta_{*}} = -2(1 - \delta_{*}) \approx -0.74$$
 
 Where the approximation holds for the SPU fixed point $\delta_{*} \approx 0.633$.
 
