@@ -171,7 +171,7 @@ It is worth noting that the suppression factor $\mathcal{F}(\delta^*) = (1-\delt
 
 Small variations in $\delta^*$ affect $\mathcal{F}(\delta^*)$ as:
 
-$$\frac{d\mathcal{F}}{d\delta^*} = -2(1-\delta^*) \approx -0.74$$
+$$\frac{d\mathcal{F}}{d\delta^{/ast}} = -2(1-\delta^{/ast}) \approx -0.74$$
 
 A variation $\Delta\delta^* \sim 0.05$ (the estimated RG uncertainty in $\delta^*$) produces:
 
