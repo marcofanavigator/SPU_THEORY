@@ -77,7 +77,7 @@ where δ_0 is the value of δ at some reference scale μ_0 ~ M_GUT and ε charac
 
 Substituting the running δ(μ) into the vacuum energy:
 
-$$\rho_\Lambda(\mu) \approx \zeta_M\!\left(-\tfrac{1}{2}\right) \cdot \mu^4 \cdot \left[1 - \delta^* - (\delta_0 - \delta^*)\left(\frac{\mu}{\mu_0}\right)^\epsilon\right]^2$$
+$$\rho_\Lambda(\mu) \approx \zeta_M\!\left(-\tfrac{1}{2}\right) \cdot \mu^4 \cdot \left[1 - \delta^{\ast} - (\delta_0 - \delta^{\ast})\left(\frac{\mu}{\mu_0}\right)^\epsilon\right]^2$$
 
 At early times (μ ~ μ_0 ~ M_GUT):
 
@@ -85,7 +85,7 @@ $$\rho_\Lambda(\mu_0) \approx \zeta_M \cdot \mu_0^4 \cdot (1 - \delta_0)^2$$
 
 At late times (μ ≪ μ_0):
 
-$$\rho_\Lambda(\mu) \approx \zeta_M \cdot \mu^4 \cdot (1 - \delta^*)^2 \left[1 - 2\frac{(\delta_0-\delta^*)}{(1-\delta^*)}\left(\frac{\mu}{\mu_0}\right)^\epsilon + \cdots\right]$$
+$$\rho_\Lambda(\mu) \approx \zeta_M \cdot \mu^4 \cdot (1 - \delta^*)^2 \left[1 - 2\frac{(\delta_0-\delta^{\ast})}{(1-\delta^{\ast})}\left(\frac{\mu}{\mu_0}\right)^\epsilon + \cdots\right]$$
 
 The key point: as μ decreases, δ(μ) decreases toward δ*, meaning (1-δ(μ)) **increases**. This produces a **late-time enhancement** of the effective vacuum energy relative to what a fixed-Λ model would predict at the same epoch.
 
@@ -129,11 +129,11 @@ $$H(z) = H_{\Lambda CDM}(z)\left[1 + \eta(z)\right]$$
 
 where η(z) ≪ 1 is the fractional deviation. Substituting into the Friedmann equation and expanding to first order in η and in ε:
 
-$$\eta(z) \approx \frac{\Omega_\Lambda}{\Omega_\Lambda + \Omega_m(1+z)^3} \cdot \frac{2(\delta_0 - \delta^*)}{1-\delta^*} \cdot \left(\frac{H(z)}{H_0}\right)^\epsilon$$
+$$\eta(z) \approx \frac{\Omega_\Lambda}{\Omega_\Lambda + \Omega_m(1+z)^3} \cdot \frac{2(\delta_0 - \delta^{\ast})}{1-\delta^{\ast}} \cdot \left(\frac{H(z)}{H_0}\right)^\epsilon$$
 
 At z = 0 (local measurement):
 
-$$\eta_0 \equiv \eta(z=0) \approx \frac{\Omega_\Lambda}{\Omega_\Lambda + \Omega_m} \cdot \frac{2(\delta_0 - \delta^*)}{1 - \delta^*}$$
+$$\eta_0 \equiv \eta(z=0) \approx \frac{\Omega_\Lambda}{\Omega_\Lambda + \Omega_m} \cdot \frac{2(\delta_0 - \delta^{\ast})}{1 - \delta^{\ast}}$$
 
 **Numerical evaluation:**
 
@@ -143,7 +143,7 @@ $$\frac{\Omega_\Lambda}{\Omega_\Lambda + \Omega_m} = \frac{0.685}{1.000} = 0.685
 
 The quantity (δ_0 - δ*)/(1-δ*) parametrizes how far δ is from its fixed point at the GUT scale. From the RG analysis in `spu_consistency_bound_delta.md`, the deviation at μ_0 ~ M_GUT satisfies:
 
-$$\frac{\delta_0 - \delta^*}{1 - \delta^*} \approx \frac{\Delta\delta}{\Delta\delta_{\max}} \sim \frac{0.02}{0.37} \approx 0.054$$
+$$\frac{\delta_0 - \delta^*}{1 - \delta^{\ast}} \approx \frac{\Delta\delta}{\Delta\delta_{\max}} \sim \frac{0.02}{0.37} \approx 0.054$$
 
 where Δδ ~ 0.02 is the estimated RG uncertainty in δ at the GUT scale (from `spu_refined_semi_analytic_bound.md`).
 
@@ -171,7 +171,7 @@ A critical consistency check: the CMB measurement of H₀ must remain at 67.4 km
 
 The CMB is formed at z ~ 1100, when μ = H(z_rec) ~ 10⁵ H₀. At this scale, δ(μ) is much closer to δ₀ (its GUT-scale value) than to δ* (its z=0 value), because:
 
-$$\delta(H_{\text{rec}}) = \delta^* + (\delta_0 - \delta^*)\left(\frac{H_{\text{rec}}}{H_0}\right)^\epsilon \approx \delta_0$$
+$$\delta(H_{\text{rec}}) = \delta^{\ast} + (\delta_0 - \delta^*)\left(\frac{H_{\text{rec}}}{H_0}\right)^\epsilon \approx \delta_0$$
 
 for small ε. Therefore, the vacuum energy at recombination is:
 
@@ -201,7 +201,7 @@ The physical origin of the late-time enhancement of ρ_Λ in SPU involves the co
 
 As the universe evolves and matter collapses into black holes, the information encoded in the fermionic condensate is not lost — it is redistributed within the condensate according to the RG flow. Black hole formation at rate Ṁ_BH per unit volume feeds energy back into the vacuum condensate through the spectral coupling:
 
-$$\dot{\rho}_\Lambda^{\text{BH}} \sim \frac{\dot{M}_{\text{BH}}}{V} \cdot \frac{\delta^*}{N_f^{\text{eff}}} \cdot \frac{1}{\ell_{SP}^3}$$
+$$\dot{\rho}_\Lambda^{\text{BH}} \sim \frac{\dot{M}_{\text{BH}}}{V} \cdot \frac{\delta^{\ast}}{N_f^{\text{eff}}} \cdot \frac{1}{\ell_{SP}^3}$$
 
 This is not Hawking radiation — it is a collective redistribution of fermionic degrees of freedom within the condensate. The rate is proportional to δ*/N_f^eff ≈ 0.005, making it a small but cumulative correction to the vacuum energy over cosmic time.
 
@@ -213,7 +213,7 @@ $$\rho_{\text{BH},0} \sim 10^5 M_\odot \text{ Mpc}^{-3} \sim 2 \times 10^{35} \t
 
 The fractional contribution to ρ_Λ at z = 0:
 
-$$\frac{\Delta\rho_\Lambda^{\text{BH}}}{\rho_\Lambda^{\text{SPU}}} \sim \frac{\rho_{\text{BH},0}}{\rho_\Lambda^{\text{SPU}}} \cdot \frac{\delta^*}{N_f^{\text{eff}}} \sim \frac{10^5 M_\odot \text{ Mpc}^{-3}}{10^{11} M_\odot \text{ Mpc}^{-3}} \cdot 0.005 \sim 5 \times 10^{-9}$$
+$$\frac{\Delta\rho_\Lambda^{\text{BH}}}{\rho_\Lambda^{\text{SPU}}} \sim \frac{\rho_{\text{BH},0}}{\rho_\Lambda^{\text{SPU}}} \cdot \frac{\delta^{\ast}}{N_f^{\text{eff}}} \sim \frac{10^5 M_\odot \text{ Mpc}^{-3}}{10^{11} M_\odot \text{ Mpc}^{-3}} \cdot 0.005 \sim 5 \times 10^{-9}$$
 
 This is negligibly small — the BH recycling mechanism contributes at the 10⁻⁹ level to ρ_Λ, far below the ~7% enhancement needed to explain the Hubble tension.
 
@@ -256,7 +256,7 @@ Current BAO measurements have percent-level precision at z < 1. The SPU predicti
 
 DESI 2024 data already shows hints of evolving dark energy (w ≠ -1 at ~2σ). The SPU prediction of a running ρ_Λ(H) is qualitatively consistent with this hint. Specifically, SPU predicts:
 
-$$w_{\text{eff}}(z) = -1 + \frac{\epsilon \cdot \Omega_\Lambda(z) \cdot 2(\delta_0 - \delta^*)/(1-\delta^*)}{3\Omega_\Lambda(z) + 3\Omega_m(1+z)^3 \cdot \eta(z)}$$
+$$w_{\text{eff}}(z) = -1 + \frac{\epsilon \cdot \Omega_\Lambda(z) \cdot 2(\delta_0 - \delta^{\ast})/(1-\delta^{\ast})}{3\Omega_\Lambda(z) + 3\Omega_m(1+z)^3 \cdot \eta(z)}$$
 
 At z = 0: w_eff ≈ -1 + 0.050 ≈ -0.95
 At z = 0.5: w_eff ≈ -1 + 0.022 ≈ -0.978
