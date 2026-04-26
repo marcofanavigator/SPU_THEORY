@@ -167,7 +167,7 @@ Future 21cm surveys and next-generation CMB experiments (CMB-S4, SKA) may approa
 This constitutes a genuinely falsifiable distinction between SPU and standard inflationary cosmology.
 
 ### 2.8 The Role of $\delta^*$ in Curvature Regulation
-It is worth noting that the suppression factor $\mathcal{F}(\delta^{\ast}) = (1-\delta^{\ast})^2$ depends on the RG fixed point $\delta^{\ast} \approx 0.63$. Since $\delta^{\ast}$ is itself derived (not a free parameter), the curvature suppression is fully determined by the geometry of E₇/SU(8).
+It is worth noting that the suppression factor $\mathcal{F}(\delta^{\ast}) = (1-\delta^*)^2$ depends on the RG fixed point $\delta^{\ast} \approx 0.63$. Since $\delta^{\ast}$ is itself derived (not a free parameter), the curvature suppression is fully determined by the geometry of E₇/SU(8).
 
 Small variations in $\delta^{\ast}$ affect $\mathcal{F}(\delta^{\ast})$ as:
 
