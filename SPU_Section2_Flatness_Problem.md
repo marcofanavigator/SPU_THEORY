@@ -107,7 +107,12 @@ $$\frac{M_{Pl}}{\Lambda_{SP}} = \frac{\sqrt{N_f^{\text{eff}}} \cdot f_{IR} \cdot
 
 The spectral weight function w(λ,μ) = λ/(1+λ) evaluated at the curvature modes (which are low-energy, IR modes) gives a suppression factor:
 
-$$\mathcal{F}(\delta^{*}) = (1 - \delta^{*})^2 \approx (1 - 0.63)^2 = (0.37)^2 \approx 0.137$$
+Sensitivity to Fixed Point Variations
+Small variations in $\delta_{*}$ affect $\mathcal{F}(\delta_{*})$ according to:
+
+$$\frac{d\mathcal{F}}{d\delta_{*}} = -2(1-\delta_{*}) \approx -0.74$$
+
+Where the approximation holds for the SPU fixed point $\delta_{*} \approx 0.633$.
 
 This factor arises because the curvature term in the Friedmann equation couples to the fermionic vacuum through the same spectral mechanism that generates Λ_eff. The fraction (1-δ*) of modes that remain active in the IR sector is the fraction that contributes to the curvature coupling.
 
