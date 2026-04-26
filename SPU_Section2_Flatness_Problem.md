@@ -88,7 +88,7 @@ $$\frac{M_{\text{Pl}}}{\Lambda_{\text{SP}}} = \frac{\sqrt{N_f^{\text{eff}}} \cdo
 **Factor 2 — The $\delta^*$ suppression of curvature modes:**
 The spectral weight function $w(\lambda,\mu) = \lambda/(1+\lambda)$ evaluated at the curvature modes (which are low-energy, IR modes) gives a suppression factor:
 
-$$\mathcal{F}(\delta^*) = (1-\delta^*)^2 \approx (1-0.63)^2 = (0.37)^2 \approx 0.137$$
+$$\mathcal{F}(\delta^{*}) = (1-\delta^{*})^2 \approx (1-0.63)^2 = (0.37)^2 \approx 0.137$$
 
 This factor arises because the curvature term in the Friedmann equation couples to the fermionic vacuum through the same spectral mechanism that generates $\Lambda_{\text{eff}}$. The fraction $(1-\delta^*)$ of modes that remain active in the IR sector is the fraction that contributes to the curvature coupling.
 
