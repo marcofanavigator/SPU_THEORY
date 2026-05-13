@@ -126,7 +126,9 @@ Since $\delta(t) \to \delta^*$ as an RG attractor, $w(t) \to -1$ dynamically, wi
 ### 5.3 Classical Cosmological Problems
 
 - **Horizon:** Resolved by topological correlations of the pre-spatial $n=3$ condensate; dynamical correlations propagate causally, but global winding is established before metric emergence.
-- **Flatness:** Geometric suppression by finite vacuum capacity yields $|\Omega - 1|_{\text{initial}} \sim 6 \times 10^{-3}$; $N_e \sim 20$ reduces it to $|\Omega_k|_{\text{today}} \sim 10^{-15}$.
+- **Flatness:** Geometric suppression by finite vacuum capacity yield
+- 
+ $$- |\Omega - 1|_{\text{initial}} \sim 6 \times 10^{-3}$; $N_e \sim 20$ reduces it to $|\Omega_k|_{\text{today}} \sim 10^{-15}$$
 - **Monopoles:** The vacuum manifold is $\mathcal{M}_{\text{vac}} \cong S^1$, giving $\pi_2(S^1) = 0$. Monopoles are structurally non-produced.
 
 ### 5.4 Hubble Tension
