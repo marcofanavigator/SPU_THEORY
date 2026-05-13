@@ -135,7 +135,7 @@ Since $\delta(t) \to \delta^*$ as an RG attractor, $w(t) \to -1$ dynamically, wi
 
 The RG running of $\delta(H)$ generates a late-time enhancement of $\rho_\Lambda$. Linearizing the Friedmann equation yields
 
-$$\eta_0 \approx \frac{\Omega_\Lambda}{\Omega_\Lambda + \Omega_m}\frac{2(\delta_0 - \delta^*)}{1 - \delta^*} \approx 0.074 \quad \Rightarrow \quad H_0^{\text{local}} \approx 72.4\ \text{km/s/Mpc},$$
+$$\eta_0 \approx \frac{\Omega_\Lambda}{\Omega_\Lambda + \Omega_m}\frac{2(\delta_0 - \delta^{ast})}{1 - \delta^{ast}} \approx 0.074 \quad \Rightarrow \quad H_0^{\text{local}} \approx 72.4\ \text{km/s/Mpc},$$
 
 within $1\sigma$ of distance-ladder measurements, while leaving CMB-inferred $H_0^{\text{CMB}} \approx 67.4$ unchanged.
 
