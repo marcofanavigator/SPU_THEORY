@@ -48,7 +48,7 @@ $$\frac{d\delta}{d\ln\mu} = \beta_\delta(\delta)$$
 
 con:
 
-$$\beta_\delta(\delta^*) = 0, \quad \beta_\delta'(\delta^*) < 0$$
+$$\beta_\delta(\delta^{\ast}) = 0, \quad \beta_\delta'(\delta^{\ast}) < 0$$
 
 👉 **δ* è un attrattore IR**
 
