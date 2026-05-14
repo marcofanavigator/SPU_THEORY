@@ -110,7 +110,9 @@ Where:
 
 Effective degrees: $N_f^{\text{eff}}(\mu) = 128 - \delta(\mu)$, where δ(μ) > 0 from one-loop effects.
 
-Minimal interaction: $\mathcal{L}_{\text{int}} = g \Phi \bar{\Psi}_\star \Psi_\star$, $g = O(1)$.
+Minimal interaction: 
+
+$$\mathcal{L}_{\text{int}} = g \Phi \bar{\Psi}_\star \Psi_\star$, $g = O(1)$$
 
 ### 3.2 Explicit Derivation
 
