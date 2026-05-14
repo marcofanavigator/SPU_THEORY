@@ -76,12 +76,12 @@ La Lagrangiana UV **non è postulata**, ma **indotta** dai seguenti vincoli:
 
 La Lagrangiana UV più generale, renormalizzabile e compatibile con la geometria, è:
 
-$$\mathcal{L}_{\text{UV}} = i\bar{\Psi}^A \slashed{D}_{SU(8)} \Psi_A + g \Phi \bar{\Psi}^A \Psi_A - \frac{1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \frac{1}{2}(\partial_\mu \Phi)^2 - V(\Phi)$$
+$$\mathcal{L}_{\text{UV}} = i\bar{\Psi}^A \not{D}_{SU(8)} \Psi_A + g \Phi \bar{\Psi}^A \Psi_A - \frac{1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \frac{1}{2}(\partial_\mu \Phi)^2 - V(\Phi)$$
 
 ### Componenti della Lagrangiana
 
 - $\Psi_A$, $A = 1, \ldots, 128$ — fermioni in rappresentazioni di $SU(8)$
-- $\slashed{D}_{SU(8)} = \gamma^\mu(\partial_\mu - igA_\mu^a T_a)$ — derivata di gauge
+- $\not{D}_{SU(8)} = \gamma^\mu(\partial_\mu - igA_\mu^a T_a)$ — derivata di gauge
 - $\Phi$ — campo scalare emergente (defetto topologico o condensato collettivo)
 - $F^a_{\mu\nu}$ — curvatura del fibrato principale $SU(8)$
 
@@ -102,7 +102,7 @@ Importante: **non compaiono**:
 
 La forma della lagrangiana è coerente con il principio dell'**azione spettrale** (Connes–Chamseddine):
 
-$$S_{\text{spec}} = \mathrm{Tr} \, f\left(\frac{\slashed{D}^2}{\Lambda^2}\right)$$
+$$S_{\text{spec}} = \mathrm{Tr} \, f\left(\frac{\not{D}^2}{\Lambda^2}\right)$$
 
 dove $\slashed{D}$ è l'operatore di Dirac generalizzato sul prodotto noncommutativo $M \times A$.
 
@@ -110,7 +110,7 @@ dove $\slashed{D}$ è l'operatore di Dirac generalizzato sul prodotto noncommuta
 
 L'espansione asintotica per $\Lambda \to \infty$ produce:
 
-$$S_{\text{spec}} \supset \int d^4x \sqrt{g} \left[\frac{1}{g_0^2} \mathrm{Tr}(F_{\mu\nu}F^{\mu\nu}) + \bar{\Psi} i\slashed{D} \Psi + \cdots \right]$$
+$$S_{\text{spec}} \supset \int d^4x \sqrt{g} \left[\frac{1}{g_0^2} \mathrm{Tr}(F_{\mu\nu}F^{\mu\nu}) + \bar{\Psi} i\not{D} \Psi + \cdots \right]$$
 
 con
 
