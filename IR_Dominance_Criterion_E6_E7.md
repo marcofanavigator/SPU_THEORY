@@ -95,7 +95,7 @@ This value replaces the previous working estimate $\mathcal{R}_0 \approx 0.65$. 
 
 ### 2.1 Effective Potential from Fermionic Determinant
 The effective potential arises from the fermionic determinant:
-$$V_{\text{eff}}(\theta;\mu) = -\frac{1}{2} \text{Tr} \log\left[ \frac{\slashed{D}^\dagger \slashed{D} + \Phi(\theta)^\dagger \Phi(\theta)}{\mu^2} \right].$$
+$$V_{\text{eff}}(\theta;\mu) = -\frac{1}{2} \text{Tr} \log\left[ \frac{\not{D}^\dagger \not{D} + \Phi(\theta)^\dagger \Phi(\theta)}{\mu^2} \right].$$
 Expanding in phase harmonics yields:
 
 $$V_{\text{eff}}(\theta;\mu) = -\kappa_3(\mu)\cos(3\theta) - \kappa_4(\mu)\cos(4\theta) + \mathcal{O}(\cos m\theta).$$
