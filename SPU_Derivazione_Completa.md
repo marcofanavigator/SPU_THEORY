@@ -46,7 +46,7 @@ Questo viene da:
 
 Il Dirac chirale ha la forma standard su spazio omogeneo:
 
-$$\slashed{D} = \gamma^a \left( e^a_\mu \partial^\mu + \omega_a + A^{EW}_a \right)$$
+$$\not{D} = \gamma^a \left( e^a_\mu \partial^\mu + \omega_a + A^{EW}_a \right)$$
 
 dove:
 - $\omega_a$: connessione di spin del coset
