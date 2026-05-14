@@ -13,7 +13,7 @@ The SPU framework makes three structurally interdependent predictions:
 3. **Family origin**: Exactly three normalizable chiral zero modes arise in the $n=3$ background (Jackiw–Rebbi mechanism).
 
 Full validation requires:
-- (A) Exact computation of $\log\det(i\slashed{D} + \Phi_n)$ for $n=1,2,3,4$,
+- (A) Exact computation of $\log\det(i\not{D} + \Phi_n)$ for $n=1,2,3,4$,
 - (B) Numerical solution of the coupled $\rho(r), \theta(r)$ core equations with $V_{\text{eff}} \sim -\kappa\cos(4\theta)$,
 - (C) Direct spectral counting of zero modes on the $E_7/SU(8)$ lattice.
 
