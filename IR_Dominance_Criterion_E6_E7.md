@@ -123,7 +123,7 @@ $$\boxed{ \mu_*^2 = M_0^2 \, \frac{\mathcal{R}_0 \cdot C_2(\mathbf{56}) - C_2(\m
 
 $$\mathcal{R}_0 \in \left( \frac{C_2(\mathbf{27})}{C_2(\mathbf{56})}, \, 1 \right) \approx (0.304, \, 1).$$
 
-If $\mu_*$ lies within the collective IR regime ($\mu_* \gg \ell_{\text{SP}}^{-1}$), the vacuum dynamically locks to $Z_3$ below $\mu_*$.
+If $\mu_{\ast}$ lies within the collective IR regime ($\mu_{\ast} \gg \ell_{\text{SP}}^{-1}$), the vacuum dynamically locks to $Z_3$ below $\mu_{\ast}$.
 
 ### 4.4 Numerical Evaluation (Updated with $\mathcal{R}_0^{\text{geom}} = 0.895$)
 Using $M_0 = M_{\text{GUT}} \approx 1.8 \times 10^{16}$ GeV:
