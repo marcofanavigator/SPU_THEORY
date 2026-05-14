@@ -126,9 +126,9 @@ $$\mathcal{R}_0 \in \left( \frac{C_2(\mathbf{27})}{C_2(\mathbf{56})}, \, 1 \righ
 If $\mu_{\ast}$ lies within the collective IR regime ($\mu_{\ast} \gg \ell_{\text{SP}}^{-1}$), the vacuum dynamically locks to $Z_3$ below $\mu_{\ast}$.
 
 ### 4.4 Numerical Evaluation (Updated with $\mathcal{R}_0^{\text{geom}} = 0.895$)
-Using $M_0 = M_{\text{GUT}} \approx 1.8 \times 10^{16}$ GeV:
+Using $M_0 = M_{\text{\GUT}} \approx 1.8 \times 10^{\16}$ GeV:
 
-| $\mathcal{R}_0$ | $\mu_{\ast}$ [GeV] | $\mu_{\ast}/M_{\text{GUT}}$ | $\log_{10}(\mu_{\ast}/\text{GeV})$ | Status |
+| $\mathcal{R}_0$ | $\mu_{\ast}$ [GeV] | $\mu_{\ast}/M_{\text{\GUT}}$ | $\log_{10}(\mu_{\ast}/\text{\GeV})$ | Status |
 |:---|:---|:---|:---|:---|
 | **0.40** | $3.84 \times 10^{16}$ | 2.13 | 16.58 | ✅ Accessible |
 | **0.65** (previous working) | $9.55 \times 10^{16}$ | 5.31 | 16.98 | ✅ Accessible |
