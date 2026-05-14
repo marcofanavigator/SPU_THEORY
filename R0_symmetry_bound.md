@@ -10,7 +10,7 @@
 
 We derive algebraic bounds on the UV ratio R₀ = κ₃⁰/κ₄⁰ entering the
 IR dominance mechanism of SPU. Using only the branching rule
-E�� ⊃ E₆ × U(1), the Dynkin indices and quadratic Casimirs of the
+E�� ⊃ E₆ × U(1), the Dynkin indices and quadratic Casimirs of the
 relevant representations, we show that R₀ is **not a free parameter**
 but lies in the range (0.304, 0.964), with a geometrically preferred
 value R₀ ≈ 0.895 at μ = M_GUT.
@@ -130,4 +130,4 @@ $$R_0 \in \left(\frac{52}{171},\, \frac{27}{28}\right) \approx (0.304,\, 0.964)$
 with geometric preference R₀ ≈ 0.895 at μ = M_GUT from the differential
 Casimir suppression of the two sectors. The SPU value R₀ ≈ 0.65 is
 compatible. Full determination requires a heat-kernel calculation on
-E��/SU(8), which constitutes the primary open computational task.
+E��/SU(8), which constitutes the primary open computational task.
