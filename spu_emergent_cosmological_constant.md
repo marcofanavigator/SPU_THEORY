@@ -28,7 +28,9 @@ where:
 - $\dim(SU(8)) = 63$ is the suppression exponent.
 - $\text{Vol}(E_7/SU(8)) \approx 8.12 \times 10^{-16}$ is the dimensionless Macdonald volume.
 
- $$\mathcal{C}_{\text{geo}} = \frac{1-\delta_{\ast}}{(4\pi)^2} \zeta_M(-1/2)$$ is the regularized geometric coefficient.
+ 
+ $$\mathcal{C}_{\text{geo}} = \frac{1-\delta_{\ast}}{(4\pi)^2} \zeta_M(-1/2)$$ 
+ is the regularized geometric coefficient.
 
 ---
 
