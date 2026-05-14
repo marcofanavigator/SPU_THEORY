@@ -115,7 +115,7 @@ $$\mathcal{R}(\mu) \equiv \frac{\kappa_3(\mu)}{\kappa_4(\mu)} = \mathcal{R}_0 \c
 | **IR** | $\mu \ll M_0\sqrt{C_2(\mathbf{27})}$ | $\mathcal{R}(\mu) \approx \mathcal{R}_0 \cdot \dfrac{C_2(\mathbf{56})}{C_2(\mathbf{27})} \approx \mathcal{R}_0 \times 3.28$ | Cubic enhanced by geometric factor |
 
 ### 4.3 Crossover Scale $\mu_*$ (Corrected Formula)
-The IR dominance threshold is defined by $\mathcal{R}(\mu_*) = 1$. Solving for $\mu_*$:
+The IR dominance threshold is defined by $\mathcal{R}(\mu_{\st}) = 1$. Solving for $\mu_{\ast}$:
 
 $$\boxed{ \mu_*^2 = M_0^2 \, \frac{\mathcal{R}_0 \cdot C_2(\mathbf{56}) - C_2(\mathbf{27})}{1 - \mathcal{R}_0} }$$
 
