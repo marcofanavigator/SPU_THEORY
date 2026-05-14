@@ -196,7 +196,7 @@ SPU makes zero-parameter predictions across multiple channels:
 
 The framework is advanced conditionally under a transparent falsifiability protocol. Three rigorous computations are required to elevate SPU from structurally consistent to numerically definitive:
 
-1. **Fermionic determinant:** Compute $\log\det(i\slashed{D} + \Phi_n)$ for $n = 1,2,3,4$ on the $E_7/SU(8)$ background. Success requires $n=3$ to be the global minimum.
+1. **Fermionic determinant:** Compute $\log\det(i\not{D} + \Phi_n)$ for $n = 1,2,3,4$ on the $E_7/SU(8)$ background. Success requires $n=3$ to be the global minimum.
 
 2. **Vortex core solver:** Solve coupled $\rho(r),\, \theta(r)$ equations with $V_{\text{eff}} \sim -\kappa\cos(4\theta)$. Success requires $E[3]$ to be stable with positive fluctuation spectrum.
 
