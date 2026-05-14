@@ -128,14 +128,14 @@ If $\mu_{\ast}$ lies within the collective IR regime ($\mu_{\ast} \gg \ell_{\tex
 ### 4.4 Numerical Evaluation (Updated with $\mathcal{R}_0^{\text{geom}} = 0.895$)
 Using $M_0 = M_{\text{GUT}} \approx 1.8 \times 10^{16}$ GeV:
 
-| $\mathcal{R}_0$ | $\mu_*$ [GeV] | $\mu_*/M_{\text{GUT}}$ | $\log_{10}(\mu_*/\text{GeV})$ | Status |
+| $\mathcal{R}_0$ | $\mu_{\ast}$ [GeV] | $\mu_{\ast}/M_{\text{GUT}}$ | $\log_{10}(\mu_{\ast}/\text{GeV})$ | Status |
 |:---|:---|:---|:---|:---|
 | **0.40** | $3.84 \times 10^{16}$ | 2.13 | 16.58 | ✅ Accessible |
 | **0.65** (previous working) | $9.55 \times 10^{16}$ | 5.31 | 16.98 | ✅ Accessible |
 | **0.895** (geometric) | $2.28 \times 10^{17}$ | 12.7 | 17.36 | ✅ Accessible |
 | **0.95** | $4.12 \times 10^{17}$ | 22.9 | 17.61 | ✅ Accessible |
 
-**Key observation:** For the geometrically preferred value $\mathcal{R}_0^{\text{geom}} \approx 0.895$, the crossover occurs at $\mu_{ast} \approx 12.7 \times M_{\text{GUT}} \approx 2.3 \times 10^{17}$ GeV. This is still well below the Planck scale ($M_{\text{Pl}} \approx 1.2 \times 10^{19}$ GeV) and within the regime where the collective description of the SPU medium is valid. The IR dominance of the cubic harmonic ($\mathcal{R}(\mu \to 0) \approx 0.895 \times 3.28 \approx 2.94 > 1$) is preserved.
+**Key observation:** For the geometrically preferred value $\mathcal{R}_0^{\text{geom}} \approx 0.895$, the crossover occurs at $\mu_{\ast} \approx 12.7 \times M_{\text{GUT}} \approx 2.3 \times 10^{17}$ GeV. This is still well below the Planck scale ($M_{\text{Pl}} \approx 1.2 \times 10^{19}$ GeV) and within the regime where the collective description of the SPU medium is valid. The IR dominance of the cubic harmonic ($\mathcal{R}(\mu \to 0) \approx 0.895 \times 3.28 \approx 2.94 > 1$) is preserved.
 
 ---
 
