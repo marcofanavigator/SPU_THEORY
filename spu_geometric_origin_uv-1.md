@@ -81,7 +81,9 @@ $$\mathcal{L}_{\text{UV}} = i\bar{\Psi}^A \not{D}_{SU(8)} \Psi_A + g \Phi \bar{\
 ### Componenti della Lagrangiana
 
 - $\Psi_A$, $A = 1, \ldots, 128$ — fermioni in rappresentazioni di $SU(8)$
-- $\not{D}_{SU(8)} = \gamma^\mu(\partial_\mu - igA_\mu^a T_a)$ — derivata di gauge
+  
+$$\not{D}_{SU(8)} = \gamma^\mu(\partial_\mu - igA_\mu^a T_a)$$
+   — derivata di gauge
 - $\Phi$ — campo scalare emergente (defetto topologico o condensato collettivo)
 - $F^a_{\mu\nu}$ — curvatura del fibrato principale $SU(8)$
 
@@ -104,7 +106,7 @@ La forma della lagrangiana è coerente con il principio dell'**azione spettrale*
 
 $$S_{\text{spec}} = \mathrm{Tr} \, f\left(\frac{\not{D}^2}{\Lambda^2}\right)$$
 
-dove $\slashed{D}$ è l'operatore di Dirac generalizzato sul prodotto noncommutativo $M \times A$.
+dove $\not{D}$ è l'operatore di Dirac generalizzato sul prodotto noncommutativo $M \times A$.
 
 ### Espansione Asintotica
 
