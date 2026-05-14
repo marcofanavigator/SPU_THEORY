@@ -25,7 +25,7 @@ $$N_f^{\text{nom}} = \dim H^*(\mathcal{M}) = 2^7 = 128.$$
 
 This number is topological, not tunable, and fixes the maximal number of independent fermionic directions. The UV Lagrangian is not postulated but induced by the coset geometry: the canonical $SU(8)$ connection forces a unique kinetic term
 
-$$\mathcal{L}_{\text{kin}} = \sum_{A=1}^{128} \bar{\Psi}_A \, i \slashed{D}_{SU(8)} \Psi_A,$$
+$$\mathcal{L}_{\text{kin}} = \sum_{A=1}^{128} \bar{\Psi}_A \, i \not{D}_{SU(8)} \Psi_A,$$
 
 while the space of allowed interactions is strictly finite and classified by $E_7$-invariant operators. No fundamental masses, gravity, or inflaton are inserted at this stage.
 
