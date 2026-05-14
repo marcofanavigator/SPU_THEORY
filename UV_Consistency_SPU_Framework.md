@@ -29,6 +29,7 @@ Consequently, UV consistency is not an additional requirement but a **mathematic
 The SPU medium admits a finite number of independent collective mode:
 
 $$\dim \mathcal{H}_{\text{SPU}} = N_f^{\text{eff}}(\mu) = 128 - \delta(\mu)$$
+
 At the IR fixed point, $\dim \mathcal{H} \approx 127.37$. The state space is therefore **strictly finite-dimensional** at any finite scale $\mu$.
 
 ### 2.2 Probability Conservation
@@ -65,7 +66,9 @@ Since $\rho(\lambda) \geq 0$ and $\lambda_{\max} \sim N_f^{\text{nom}}$, the fun
 
 ### 3.3 Suppression of Superluminal Modes
 In modified gravity, superluminal propagation often arises from IR instabilities. In SPU, the collective stiffness $\Lambda_{\text{SP}}$ and the factor $(1-\delta)$ exponentially suppress spacelike correlations:
+
 $$G_{\text{spacelike}}(r) \sim e^{-r \Lambda_{\text{SP}} (1-\delta)}$$
+
 No acausal signals can propagate beyond the coherence length $\xi \sim 1/\Lambda_{\text{SP}}$.
 
 ---
@@ -74,13 +77,16 @@ No acausal signals can propagate beyond the coherence length $\xi \sim 1/\Lambda
 
 ### 4.1 Spectral Renormalization Scheme
 Traditional perturbation theory fails for emergent gravity. SPU replaces it with **spectral renormalization**: loop integrals become finite sums over the Laplacian spectrum of $E_7/SU(8)$:
+
 $$\int \frac{d^4k}{(2\pi)^4} \, \mathcal{F}(k) \quad \longrightarrow \quad \frac{1}{\mathcal{V}_M} \sum_{\lambda \in \text{Spec}} \mathcal{F}(\lambda)$$
+
 All UV divergences are automatically cut off by the finite capacity.
 
 ### 4.2 Two-Loop Stability of $\delta$
 The beta function for $\delta$ receives higher-order corrections:
 
 $$\frac{d\delta}{dt} = \beta_1 \delta(1-\delta) + \beta_2 \delta^2(1-\delta)^2 + \mathcal{O}(\delta^3)$$
+
 Using the spectral measure $\rho(\lambda) \sim \lambda^{34}(\log\lambda)^6$, one finds:
 
 $$\beta_2 \sim \frac{1}{N_f^{\text{eff}}} \ll 1$$
