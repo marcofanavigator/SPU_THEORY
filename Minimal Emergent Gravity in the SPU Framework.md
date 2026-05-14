@@ -131,7 +131,11 @@ The derivation is stable under:
 - regulator choices in the spectral trace (topological and spectral terms are scheme-independent)
 - different RG weighting functions (physical cutoff enforces $w(\lambda) \to 1$ in IR)
 
-The factorization $\mathcal{Z}_{\mathrm{IR}} = \sqrt{N_f^{\mathrm{eff}}} \cdot f_{\mathrm{IR}}$ ensures that neither component can be arbitrarily adjusted without breaking the underlying geometric consistency.
+The factorization
+
+$$\mathcal{Z}_{\mathrm{IR}} = \sqrt{N_f^{\mathrm{eff}}} \cdot f_{\mathrm{IR}}$$
+
+ensures that neither component can be arbitrarily adjusted without breaking the underlying geometric consistency.
 
 ---
 
