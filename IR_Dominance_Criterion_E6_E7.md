@@ -10,7 +10,11 @@
 
 We derive the semi-analytical renormalization group (RG) flow for the cubic ($\kappa_3$) and quartic ($\kappa_4$) phase harmonics in the SPU effective potential. By exploiting the spectral decoupling of fermionic modes across the branching 
 
-$$E_7 \to E_6 \times U(1)$, we show that the ratio $\mathcal{R}(\mu) \equiv \kappa_3(\mu)/\kappa_4(\mu)$$
+$$E_7 \to E_6 \times U(1)$$
+
+, we show that the ratio
+
+$$\mathcal{R}(\mu) \equiv \kappa_3(\mu)/\kappa_4(\mu)$$
 
 exhibits power-law enhancement in the infrared. A strict dominance criterion is established, yielding a crossover scale
 
