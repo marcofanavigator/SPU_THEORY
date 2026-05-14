@@ -90,11 +90,11 @@ $$H^*(M;\mathbb{Q}) \cong \mathbb{Q}[x_4, x_{12}, x_{20}, x_{28}, x_{36}, x_{44}
 
 The UV Lagrangian is induced by geometry:
 
-$$\mathcal{L}_{\text{UV}} = i\bar{\Psi}^A \slashed{D}_{SU(8)} \Psi_A + g \Phi \bar{\Psi}^A \Psi_A - \frac{1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \frac{1}{2}(\partial_\mu \Phi)^2 - V(\Phi)$$
+$$\mathcal{L}_{\text{UV}} = i\bar{\Psi}^A \not{D}_{SU(8)} \Psi_A + g \Phi \bar{\Psi}^A \Psi_A - \frac{1}{4}F^a_{\mu\nu}F_a^{\mu\nu} + \frac{1}{2}(\partial_\mu \Phi)^2 - V(\Phi)$$
 
 Where:
 - Ψ_A (A=1,...,128): fermions in SU(8) representations.
-- $\slashed{D}_{SU(8)} = \gamma^\mu(\partial_\mu - ig A_\mu^a T_a)$
+- $\not{D}_{SU(8)} = \gamma^\mu(\partial_\mu - ig A_\mu^a T_a)$
 - Φ: emergent scalar defect.
 - No fundamental masses or gravity.
 
@@ -184,6 +184,7 @@ Heat kernel:
 $$\Gamma[g] = \int d^4x \sqrt{-g} \left[\Lambda_{\text{eff}} + \frac{M_{\text{Pl}}^2}{2} R + O(R^2)\right]$$
 
 **Planck mass:** 
+
 $$M_{\text{Pl}}^2 = \frac{N_f^{\text{eff}}}{96\pi^2} M_{\text{GUT}}^2$$
 
 ### 4.2 Minimal Emergent Scale
