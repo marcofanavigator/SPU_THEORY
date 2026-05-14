@@ -30,6 +30,7 @@ where:
 
  
  $$\mathcal{C}_{\text{geo}} = \frac{1-\delta_{\ast}}{(4\pi)^2} \zeta_M(-1/2)$$ 
+ 
  is the regularized geometric coefficient.
 
 ---
