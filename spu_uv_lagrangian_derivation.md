@@ -96,14 +96,14 @@ On any symmetric coset $G/H$, there exists a **canonical $H$-connection**.
 
 For $E_7/SU(8)$, this induces:
 
-- A **unique covariant derivative** $\slashed{D}_{SU(8)}$
+- A **unique covariant derivative** $\not{D}_{SU(8)}$
 - **Acting on fermions** transforming under $SU(8)$
 
 ### The Kinetic Term Is Forced
 
 Therefore, the kinetic term:
 
-$$\mathcal{L}_{\text{kin}} = \sum_{i=1}^{128} \bar{\psi}^i \, i\slashed{D}_{SU(8)} \psi_i$$
+$$\mathcal{L}_{\text{kin}} = \sum_{i=1}^{128} \bar{\psi}^i \, i\not{D}_{SU(8)} \psi_i$$
 
 is **not chosen**, but **forced**.
 
@@ -354,7 +354,7 @@ No parameters are fit because:
 The explicit computation of coupling constants requires:
 
 1. **Harmonic analysis on $E_7/SU(8)$** — decompose coset functions into harmonics
-2. **Fermionic determinant** — compute $\det(\slashed{D}_{SU(8)})$ on the coset
+2. **Fermionic determinant** — compute $\det(\not{D}_{SU(8)})$ on the coset
 3. **Effective potential** — derive $V(\Phi)$ from fermionic contributions
 4. **Numerical integration** — evaluate $\int_{E_7/SU(8)} \mathcal{L}_{\text{micro}}$
 
