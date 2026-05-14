@@ -53,7 +53,7 @@ This setup represents the weakest possible mechanism capable of dynamically redu
 
 At one loop, the scalar $\Phi$ receives a fermionic self-energy correction:
 
-$$\Pi_\Phi(p^2) = g^2 \int \frac{d^4 k}{(2\pi)^4} \frac{\mathrm{Tr}[(\slashed{k})(\slashed{k}+\slashed{p})]}{k^2 (k+p)^2}$$
+$$\Pi_\Phi(p^2) = g^2 \int \frac{d^4 k}{(2\pi)^4} \frac{\mathrm{Tr}[(\not{k})(\not{k}+\not{p})]}{k^2 (k+p)^2}$$
 
 Using standard dimensional regularization, for momenta $p^2 \sim \mu^2$ one obtains
 
