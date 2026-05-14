@@ -64,7 +64,7 @@ $$\begin{cases}
 
 The Atiyah–Singer–Jackiw–Rebbi index theorem guarantees:
 
-$$\text{Ind}(\slashed{D}) = n = 3.$$
+$$\text{Ind}(\not{D}) = n = 3.$$
 
 Asymptotic analysis for $r \gg \xi$ gives $f_\ell, g_\ell \sim e^{-\int \Delta(r) dr}$, ensuring exponential decay. For $r \ll \xi$, regularity requires $f_\ell \sim r^{\ell+1/2}$, which is normalizable for $\ell = 0,1,2$. No normalizable solutions exist for $\ell \geq 3$. Semi-analytical matching confirms exactly three chiral zero modes, consistent with the observed fermion families.
 
