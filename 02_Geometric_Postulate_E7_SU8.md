@@ -48,8 +48,11 @@ The coset $M = E_7/SU(8)$ satisfies all SPU requirements simultaneously:
 
 ### Finite and Maximal Cohomological Capacity
 The de Rham cohomology is known (Borel):
+
 $$H^*(E_7/SU(8)) \cong \mathbb{Q}[x_4, x_{12}, x_{20}, x_{28}, x_{36}, x_{44}, x_{52}]$$
+
 yielding:
+
 $$\dim H^*(M) = 2^7 = 128$$
 
 This is:
