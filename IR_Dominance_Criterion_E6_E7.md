@@ -18,26 +18,39 @@ We derive the semi-analytical renormalization group (RG) flow for the cubic ($\k
 
 ### 1.1 Fundamental Invariants of $E_7$ and $E_6$
 The fundamental fermionic representation of $E_7$ is $\mathbf{56}$, whose lowest-degree invariant is quartic:
+
 $$I_4(\mathbf{56}) = t_{ABCD} \Psi^A \Psi^B \Psi^C \Psi^D \quad \Rightarrow \quad V_{\text{eff}} \supset -\kappa_4 \cos(4\theta).$$
+
 This naturally suggests a $Z_4$ vacuum structure at high energies.
 
 Under the maximal branching:
+
 $$E_7 \supset E_6 \times U(1), \qquad \mathbf{56} \to \mathbf{27}_{+1} \oplus \overline{\mathbf{27}}_{-1} \oplus \mathbf{1}_{+4} \oplus \mathbf{1}_{-4},$$
+
 the $E_6$ sector admits a unique cubic invariant:
+
 $$I_3(\mathbf{27}) = d_{abc} \phi^a \phi^b \phi^c \quad \Rightarrow \quad V_{\text{eff}} \supset -\kappa_3 \cos(3\theta).$$
 
 ### 1.2 Quadratic Casimir Gap
 The quadratic Casimir gap between the two sectors is strictly positive:
+
 $$\Delta C_2 \equiv C_2(\mathbf{56}) - C_2(\mathbf{27}) > 0,$$
+
 with standard normalization (long root² = 2):
+
 $$C_2(\mathbf{56}) = \frac{57}{2} = 28.5, \qquad C_2(\mathbf{27}) = \frac{26}{3} \approx 8.667.$$
+
 This gap controls the spectral decoupling rate and dictates the infrared dominance of one harmonic over the other.
 
 ### 1.3 Algebraic Bounds on $\mathcal{R}_0$ (New)
 As derived in `R0_Symmetry_Bound_E7_Algebraic.md`, the UV ratio $\mathcal{R}_0 = \kappa_3^0/\kappa_4^0$ is not a free parameter but is constrained by pure group theory:
+
 $$\boxed{\mathcal{R}_0 \in \left( \frac{C_2(\mathbf{27})}{C_2(\mathbf{56})}, \; \frac{27}{28} \right) \approx (0.304, \; 0.964)}$$
+
 The geometrically preferred value at $\mu = M_{\text{GUT}}$, obtained from the spectral weight function $w(\lambda,\mu) = \lambda/(\lambda+\mu^2)$ applied to the branching structure, is:
+
 $$\boxed{\mathcal{R}_0^{\text{geom}} \approx 0.895}$$
+
 This value replaces the previous working estimate $\mathcal{R}_0 \approx 0.65$. The shift reflects higher-order spectral corrections and does not alter the qualitative conclusions: the cubic harmonic still dominates in the IR, and the $Z_4 \to Z_3$ transition remains robust.
 
 ---
@@ -48,15 +61,20 @@ This value replaces the previous working estimate $\mathcal{R}_0 \approx 0.65$. 
 The effective potential arises from the fermionic determinant:
 $$V_{\text{eff}}(\theta;\mu) = -\frac{1}{2} \text{Tr} \log\left[ \frac{\slashed{D}^\dagger \slashed{D} + \Phi(\theta)^\dagger \Phi(\theta)}{\mu^2} \right].$$
 Expanding in phase harmonics yields:
+
 $$V_{\text{eff}}(\theta;\mu) = -\kappa_3(\mu)\cos(3\theta) - \kappa_4(\mu)\cos(4\theta) + \mathcal{O}(\cos m\theta).$$
 
 ### 2.2 Spectral Weight Function
 Each coefficient $\kappa_m(\mu)$ receives contributions from modes in the representation $R_m$ associated with the $m$-th harmonic. In the spectral action formalism, the running is governed by the heat-kernel weight:
+
 $$w(\lambda/\mu^2) = \frac{\lambda}{\lambda + \mu^2},$$
+
 which suppresses heavy modes ($\lambda \gg \mu^2$) as $\mu$ decreases.
 
 The dominant eigenvalue in each sector scales with the quadratic Casimir:
+
 $$\lambda_{\min}^{(m)} \simeq M_0^2 \, C_2(R_m),$$
+
 where $M_0 \sim M_{\text{GUT}}$ sets the UV spectral normalization.
 
 ---
@@ -65,6 +83,7 @@ where $M_0 \sim M_{\text{GUT}}$ sets the UV spectral normalization.
 
 ### 3.1 Beta Functions
 Differentiating the spectral trace with respect to $\ln\mu$ yields the beta functions:
+
 $$\boxed{ \mu \frac{d\kappa_m}{d\mu} = -2 \, \gamma_m(\mu) \, \kappa_m(\mu), \qquad \gamma_m(\mu) \equiv \frac{C_2(R_m)}{C_2(R_m) + \mu^2/M_0^2} }$$
 
 The anomalous dimension $\gamma_m(\mu)$ interpolates between:
@@ -73,7 +92,9 @@ The anomalous dimension $\gamma_m(\mu)$ interpolates between:
 
 ### 3.2 Integrated Running
 Integrating from the GUT scale $\Lambda_{\text{GUT}}$ to scale $\mu$ gives the explicit running:
+
 $$\boxed{ \kappa_m(\mu) = \kappa_m^0 \left[ \frac{C_2(R_m)}{C_2(R_m) + \mu^2/M_0^2} \right] }$$
+
 where $\kappa_m^0 \equiv \kappa_m(\Lambda_{\text{GUT}})$ are the UV boundary values determined by the $E_7$ invariant structure.
 
 ---
@@ -82,6 +103,7 @@ where $\kappa_m^0 \equiv \kappa_m(\Lambda_{\text{GUT}})$ are the UV boundary val
 
 ### 4.1 Running Ratio
 Define the running ratio:
+
 $$\mathcal{R}(\mu) \equiv \frac{\kappa_3(\mu)}{\kappa_4(\mu)} = \mathcal{R}_0 \cdot \frac{C_2(\mathbf{56}) + \mu^2/M_0^2}{C_2(\mathbf{27}) + \mu^2/M_0^2}, \qquad \mathcal{R}_0 \equiv \frac{\kappa_3^0}{\kappa_4^0}.$$
 
 ### 4.2 Asymptotic Behavior
@@ -94,10 +116,13 @@ $$\mathcal{R}(\mu) \equiv \frac{\kappa_3(\mu)}{\kappa_4(\mu)} = \mathcal{R}_0 \c
 
 ### 4.3 Crossover Scale $\mu_*$ (Corrected Formula)
 The IR dominance threshold is defined by $\mathcal{R}(\mu_*) = 1$. Solving for $\mu_*$:
+
 $$\boxed{ \mu_*^2 = M_0^2 \, \frac{\mathcal{R}_0 \cdot C_2(\mathbf{56}) - C_2(\mathbf{27})}{1 - \mathcal{R}_0} }$$
 
 **Existence condition:** $\mu_*^2 > 0$ requires:
+
 $$\mathcal{R}_0 \in \left( \frac{C_2(\mathbf{27})}{C_2(\mathbf{56})}, \, 1 \right) \approx (0.304, \, 1).$$
+
 If $\mu_*$ lies within the collective IR regime ($\mu_* \gg \ell_{\text{SP}}^{-1}$), the vacuum dynamically locks to $Z_3$ below $\mu_*$.
 
 ### 4.4 Numerical Evaluation (Updated with $\mathcal{R}_0^{\text{geom}} = 0.895$)
