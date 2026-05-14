@@ -37,8 +37,11 @@ $$(0.304, 0.964)$$,
 with a geometrically preferred value
 
 $$\mathcal{R}_0 \approx 0.895$$
+
 at 
+
 $$\mu = M_{\text{GUT}}$$
+
  This replaces the previous working estimate 
  
  $$\mathcal{R}_0 \approx 0.65$$
