@@ -83,7 +83,8 @@ $$\mathcal{L}_{\text{UV}} = i\bar{\Psi}^A \not{D}_{SU(8)} \Psi_A + g \Phi \bar{\
 - $\Psi_A$, $A = 1, \ldots, 128$ — fermioni in rappresentazioni di $SU(8)$
   
 $$\not{D}_{SU(8)} = \gamma^\mu(\partial_\mu - igA_\mu^a T_a)$$
-   — derivata di gauge
+  
+— derivata di gauge
 - $\Phi$ — campo scalare emergente (defetto topologico o condensato collettivo)
 - $F^a_{\mu\nu}$ — curvatura del fibrato principale $SU(8)$
 
