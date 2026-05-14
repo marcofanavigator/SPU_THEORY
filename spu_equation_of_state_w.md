@@ -32,6 +32,7 @@ $$w = -1 - \frac{1}{3H}\frac{d \ln \rho}{dt}$$
 ## 3 Energia del Vuoto in SPU
 
 In SPU:
+
 $$\rho_\Lambda(t) = \rho_\Lambda\bigl(\delta(t)\bigr)$$
 
 con proprietà già dimostrate:
@@ -41,20 +42,22 @@ con proprietà già dimostrate:
 3. $\rho_\Lambda$ è finita solo vicino a $\delta^*$
 
 ---
-4 RG Flow di δ (ingrediente cruciale)
- 
-:
+4 RG Flow di δ (ingrediente cruciale):
+
 $$\frac{d\delta}{d\ln\mu} = \beta_\delta(\delta)$$
 
 con:
+
 $$\beta_\delta(\delta^*) = 0, \quad \beta_\delta'(\delta^*) < 0$$
 
 👉 **δ* è un attrattore IR**
 
 Ora, in cosmologia:
+
 $$\mu \sim H$$
 
 quindi:
+
 $$\dot{\delta} = \beta_\delta(\delta)\,H$$
 
 ---
