@@ -94,7 +94,9 @@ $$\mathcal{L}_{\text{UV}} = i\bar{\Psi}^A \not{D}_{SU(8)} \Psi_A + g \Phi \bar{\
 
 Where:
 - Ψ_A (A=1,...,128): fermions in SU(8) representations.
-- $\not{D}_{SU(8)} = \gamma^\mu(\partial_\mu - ig A_\mu^a T_a)$
+  
+ $$\not{D}_{SU(8)} = \gamma^\mu(\partial_\mu - ig A_\mu^a T_a)$$
+ 
 - Φ: emergent scalar defect.
 - No fundamental masses or gravity.
 
