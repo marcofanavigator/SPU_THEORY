@@ -25,47 +25,47 @@ Full validation requires:
 
 ### 2.1 Check (A): Determinant Scaling & Binding Energy
 The fermionic determinant contributes an effective binding term proportional to the phase-winding density. In the $Z_4$ lattice, the spectral weight per mode scales as:
-$$
-w_n(\lambda) \sim \frac{\lambda}{\lambda + \mu^2} \cos\!\left(\frac{2\pi n}{4}\right).
-$$
+
+$$w_n(\lambda) \sim \frac{\lambda}{\lambda + \mu^2} \cos\!\left(\frac{2\pi n}{4}\right).$$
+
 The leading-order determinant contribution to the free energy is:
-$$
-\Gamma_n \sim -\sum_{\lambda} g_\lambda \log\!\left(1 + \frac{\lambda}{\mu^2}\right) \cos\!\left(\frac{n\pi}{2}\right).
-$$
+
+$$\Gamma_n \sim -\sum_{\lambda} g_\lambda \log\!\left(1 + \frac{\lambda}{\mu^2}\right) \cos\!\left(\frac{n\pi}{2}\right).$$
+
 For $n=3$, $\cos(3\pi/2) = 0$ at the vacuum minima, but gradient corrections induce a residual binding:
-$$
-\Delta E_{\text{det}}(n) \sim -n \Delta_{\text{bind}} \left(1 - \frac{n}{4}\right)^2,
-$$
+
+$$Delta E_{\text{det}}(n) \sim -n \Delta_{\text{bind}} \left(1 - \frac{n}{4}\right)^2,$$
+
 where the $(1-n/4)^2$ factor encodes mismatch with the $Z_4$ period. Combined with the gradient cost $E_{\text{grad}} \propto n^2 \log(R/\xi)$, the total energy per saturated degree of freedom is:
-$$
-\mathcal{E}(n) \sim \frac{n^2 \log(R/\xi) + \epsilon_0 n (1-n/4)^2 - n \Delta_{\text{bind}}}{n}.
-$$
+
+$$\mathcal{E}(n) \sim \frac{n^2 \log(R/\xi) + \epsilon_0 n (1-n/4)^2 - n \Delta_{\text{bind}}}{n}.$$
+
 For $\Delta_{\text{bind}} \gtrsim \epsilon_0$ and $\log(R/\xi) \sim \mathcal{O}(10)$, $\mathcal{E}(n)$ exhibits a minimum at $n=3$. This scaling is consistent with $n=3$ being the global minimum, not metastable.
 
 ### 2.2 Check (B): Core Energy Functional in $Z_4$ Potential
 The Ginzburg–Landau-type energy functional for a static, axisymmetric vortex in a $\cos(4\theta)$ potential reads:
-$$
-E[n] = 2\pi \int_0^\infty dr \, r \left[ \rho'^2 + \frac{n^2}{r^2}\rho^2 + V_{\text{eff}}(\rho,\theta) \right],
-$$
+
+$$E[n] = 2\pi \int_0^\infty dr \, r \left[ \rho'^2 + \frac{n^2}{r^2}\rho^2 + V_{\text{eff}}(\rho,\theta) \right],$$
+
 with $V_{\text{eff}} \approx \lambda(\rho^2-v^2)^2 - \kappa\rho^4\cos(4\theta)$. Near the core ($r \lesssim \xi$), $\rho(r) \sim v(r/\xi)^n$, yielding:
-$$
-E_{\text{core}}(n) \sim \pi v^2 \xi^2 \left[ n^2 + \frac{\kappa}{\lambda} \left(1 - \cos\frac{2\pi n}{4}\right) \right].
-$$
+
+$$E_{\text{core}}(n) \sim \pi v^2 \xi^2 \left[ n^2 + \frac{\kappa}{\lambda} \left(1 - \cos\frac{2\pi n}{4}\right) \right].$$
+
 For $\kappa/\lambda \sim \mathcal{O}(1)$, the discrete phase barrier penalizes fractional windings but leaves integer $n$ stable. The combined cost $E_{\text{grad}} + E_{\text{core}}$ grows superlinearly with $n$, while the determinant binding saturates at $n=3$ due to $SU(8)$ antisymmetry constraints. Semi-analytical minimization confirms $n=3$ lies at the bottom of the energy landscape for physically reasonable parameter ranges.
 
 ### 2.3 Check (C): Jackiw–Rebbi Index & Normalizability
 In the $n=3$ vortex background, the Dirac equation reduces to:
-$$
-\begin{cases}
+
+$$\begin{cases}
 \left(\partial_r + \frac{\ell + 1/2}{r}\right) f_\ell - \Delta(r) g_\ell = 0, \\
 \left(\partial_r - \frac{\ell + 3 + 1/2}{r}\right) g_\ell + \Delta(r) f_\ell = 0,
 \end{cases}
-\quad \ell = 0,1,2.
-$$
+\quad \ell = 0,1,2.$$
+
 The Atiyah–Singer–Jackiw–Rebbi index theorem guarantees:
-$$
-\text{Ind}(\slashed{D}) = n = 3.
-$$
+
+$$\text{Ind}(\slashed{D}) = n = 3.$$
+
 Asymptotic analysis for $r \gg \xi$ gives $f_\ell, g_\ell \sim e^{-\int \Delta(r) dr}$, ensuring exponential decay. For $r \ll \xi$, regularity requires $f_\ell \sim r^{\ell+1/2}$, which is normalizable for $\ell = 0,1,2$. No normalizable solutions exist for $\ell \geq 3$. Semi-analytical matching confirms exactly three chiral zero modes, consistent with the observed fermion families.
 
 ---
