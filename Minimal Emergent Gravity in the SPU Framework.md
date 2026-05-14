@@ -116,8 +116,20 @@ $$M_{\mathrm{Pl}}^{\mathrm{obs}} \approx 54.0 \times 2.26 \times 10^{17}\,\mathr
 ## 6. Physical Interpretation
 
 This result reveals a two-stage emergence of gravity in SPU:
-1. **UV Stage:** Collective averaging over $N_f^{\mathrm{eff}}$ fermionic modes suppresses the gravitational coupling relative to gauge forces, setting $M_{\mathrm{Pl}}^{\mathrm{bare}} \sim 10^{17}$ GeV.
-2. **IR Stage:** Spectral geometry of the vacuum medium enhances the coupling by $\mathcal{Z}_{\mathrm{IR}} \approx 54$ through coherent low-energy mode weighting, yielding the observed $M_{\mathrm{Pl}}^{\mathrm{obs}} \sim 10^{19}$ GeV.
+1. **UV Stage:** Collective averaging over
+   
+   $$N_f^{\mathrm{eff}}$$
+    fermionic modes suppresses the gravitational coupling relative to gauge forces, setting
+
+   $$M_{\mathrm{Pl}}^{\mathrm{bare}} \sim 10^{17}$$ GeV.
+   
+3. **IR Stage:** Spectral geometry of the vacuum medium enhances the coupling by
+
+$$\mathcal{Z}_{\mathrm{IR}} \approx 54$$
+
+through coherent low-energy mode weighting, yielding the observed 
+
+$$M_{\mathrm{Pl}}^{\mathrm{obs}} \sim 10^{19}$$ GeV.
 
 The hierarchy between gauge and gravitational interactions arises naturally from the difference between local excitations and global coherence, with no fine-tuning or ad-hoc scales.
 
