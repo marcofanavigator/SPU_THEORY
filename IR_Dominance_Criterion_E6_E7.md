@@ -137,7 +137,9 @@ Using $M_0 = M_{\text{\GUT}} \approx 1.8 \times 10^{\16}$ GeV:
 
 **Key observation:** For the geometrically preferred value 
 $\mathcal{R}_0^{\text{geom}} \approx 0.895$, the crossover occurs at 
-$\mu_{\ast} \approx 12.7 \times M_{\text{GUT}} \approx 2.3 \times 10^{17}\,\text{GeV}$. 
+
+$$\mu_{\ast} \approx 12.7 \times M_{\text{GUT}} \approx 2.3 \times 10^{17}\,\text{GeV}$$. 
+
 This is still well below the Planck scale 
 ($M_{\text{Pl}} \approx 1.2 \times 10^{19}\,\text{GeV}$) and within the regime 
 where the collective description of the SPU medium is valid. 
