@@ -16,7 +16,7 @@ The objectives are:
 
 Consider a Euclidean Dirac operator coupled to a gauge field:
 
-$$\mathcal{D} = i\slashed{D}$$
+$$\mathcal{D} = i\not{D}$$
 
 The one-loop effective action is given by:
 
