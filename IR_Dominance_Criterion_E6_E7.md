@@ -18,9 +18,32 @@ $$\mathcal{R}(\mu) \equiv \kappa_3(\mu)/\kappa_4(\mu)$$
 
 exhibits power-law enhancement in the infrared. A strict dominance criterion is established, yielding a crossover scale
 
-$\mu_*$ that separates the UV $Z_4$-locked regime from the IR $Z_3$-locked regime. The framework remains fully parameter-free, spectrally grounded, and explicitly falsifiable.
+$$\mu_*$ that separates the UV $Z_4$$
 
-**Update (May 2026):** The UV ratio $\mathcal{R}_0 = \kappa_3^0/\kappa_4^0$ is now constrained by pure group theory to lie in the interval $(0.304, 0.964)$, with a geometrically preferred value $\mathcal{R}_0 \approx 0.895$ at $\mu = M_{\text{GUT}}$. This replaces the previous working estimate $\mathcal{R}_0 \approx 0.65$ and shifts the predicted crossover scale accordingly, while preserving all structural conclusions.
+-locked regime from the IR
+
+$$Z_3$$
+
+-locked regime. The framework remains fully parameter-free, spectrally grounded, and explicitly falsifiable.
+
+**Update (May 2026):** The UV ratio
+
+$$\mathcal{R}_0 = \kappa_3^0/\kappa_4^0$$
+
+is now constrained by pure group theory to lie in the interval
+
+$$(0.304, 0.964)$$,
+
+with a geometrically preferred value
+
+$$\mathcal{R}_0 \approx 0.895$$
+at 
+$$\mu = M_{\text{GUT}}$$
+ This replaces the previous working estimate 
+ 
+ $$\mathcal{R}_0 \approx 0.65$$
+ 
+ and shifts the predicted crossover scale accordingly, while preserving all structural conclusions.
 
 ---
 
