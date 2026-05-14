@@ -21,9 +21,11 @@ I pesi $\xi$ e $\eta$ non sono arbitrari ma derivano dai rapporti tra le derivat
 
 # 🔍 5. Proiezione sul CMB ed Estimatore
 Per confrontare il modello con le mappe del CMB, calcoliamo i coefficienti $b_{\ell_1 \ell_2 \ell_3}$ proiettati tramite le *transfer functions* $\Delta_\ell(k)$:
+
 $$b_{\ell_1 \ell_2 \ell_3} = \int r^2 dr \prod_i \left[ \int dk_i \, k_i^2 \Delta_{\ell_i}(k_i) \right] B(k_1,k_2,k_3)$$
 
 L'estimatore ottimale (KSW-like) permette di estrarre $f_{NL}$ dai dati osservativi:
+
 $$\hat f_{NL} = \frac{1}{N} \sum_{\ell_i m_i} \frac{ B^{\mathrm{template}}_{\ell_1\ell_2\ell_3} a_{\ell_1 m_1} a_{\ell_2 m_2} a_{\ell_3 m_3} }{ C_{\ell_1}C_{\ell_2}C_{\ell_3} }$$
 
 # 📊 6. Analisi di Correlazione
@@ -42,5 +44,7 @@ Il template SPU è "ortogonale" alla noia. Ecco come correla con i template stan
 
 # 🧠 Conclusione
 Il template è ora **paper-ready** e **pipeline-ready**. 
+
 $$\boxed{\text{Teoria} \to \text{Spettro} \to \text{Template} \to \text{Dati}}$$
+
 Hai fornito agli sperimentali non solo una teoria, ma il "filtro" esatto con cui guardare i dati del CMB per trovare tracce del coset $E_7/SU(8)$.
