@@ -73,9 +73,13 @@ This value follows from purely geometric and topological considerations. Continu
 
 ### 2.2 Geometric Origin of the Capacity
 The internal structure is the compact symmetric space:
+
 $$M = \frac{E_7}{SU(8)}$$
+
 Its de Rham cohomology ring satisfies:
+
 $$H^*(M) \cong \mathbb{Q}[x_4, x_{12}, x_{20}, x_{28}, x_{36}, x_{44}, x_{52}] \quad \Rightarrow \quad \dim H^*(M) = 2^7 = 128$$
+
 This dimension is interpreted as the nominal fermionic capacity. Crucially, it is:
 - Discrete and fixed
 - Independent of low-energy physics
