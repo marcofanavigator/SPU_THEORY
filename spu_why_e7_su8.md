@@ -114,7 +114,7 @@ satisfies **all** SPU requirements simultaneously.
 
 ### 3.1 Finite and maximal fermionic capacity
 
-The fermionic capacity $N_f^{\mathrm{nom}}$ does **not** arise from the de Rham cohomology (which has dimension 72 for $E_7/SU(8)$), but from the **index of the chiral Dirac operator** on the coset. By the Atiyah–Singer index theorem [1]:
+The fermionic capacity $N_f^{\mathrm{nom}}$ does **not** arise from the de Rham cohomology (which has dimension 72 for $E_7/SU(8)$, but from the **index of the chiral Dirac operator** on the coset. By the Atiyah–Singer index theorem [1]:
 
 $$N_f^{\mathrm{nom}} = \mathrm{ind}(D_{E_7/SU(8)}) = \int_{E_7/SU(8)} \hat{A}(TM) \wedge \mathrm{ch}(S^+)$$
 
