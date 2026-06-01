@@ -130,7 +130,9 @@ Because the vacuum is a finite-capacity medium, $\rho_\Lambda$ is global and non
 
 $$\rho_\Lambda(H) \sim \delta\, H^2 M_{\text{Pl}}^2.$$
 
-The equation of state follows from $\dot{\rho}_\Lambda + 3H(1+w)\rho_\Lambda = 0$:
+The equation of state follows from 
+
+$$\dot{\rho}_\Lambda + 3H(1+w)\rho_\Lambda = 0$$:
 
 $$w + 1 = -\frac{1}{3}\frac{d\ln\rho_\Lambda}{d\delta}\beta_\delta(\delta) \propto (\delta - \delta^*).$$
 
