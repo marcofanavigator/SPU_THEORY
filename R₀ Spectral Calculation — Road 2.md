@@ -113,7 +113,11 @@ The physical window for the SPU mechanism (IR dominance of cubic harmonic) is:
 
 $$\boxed{\mathcal{R}_0 \in \left(\frac{C_2(\mathbf{27})}{C_2(\mathbf{56})},\; \frac{27}{28}\right) = (0.304,\; 0.964)}$$
 
-The spectral formula $\mathcal{R}_0(\mu)$ traverses this entire range as $\mu$ goes from $M_{\text{GUT}}$ to $\sim 10 \times M_{\text{GUT}}$, guaranteeing that the $Z_4 \to Z_3$ transition is accessible across all physically relevant matching scales.
+The spectral formula $\mathcal{R}_0(\mu)$ traverses this entire range as $\mu$ goes from $M_{\text{GUT}}$ to 
+
+$$\sim 10 \times M_{\text{GUT}}$$
+
+, guaranteeing that the $Z_4 \to Z_3$ transition is accessible across all physically relevant matching scales.
 
 ---
 
