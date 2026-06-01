@@ -132,7 +132,7 @@ $$\rho_\Lambda(H) \sim \delta\, H^2 M_{\text{Pl}}^2.$$
 
 The equation of state follows from 
 
-$$\dot{\rho}_\Lambda + 3H(1+w)\rho_\Lambda = 0$$:
+$$\dot{\rho}_\Lambda + 3H(1+w)\rho_\Lambda = 0$$
 
 $$w + 1 = -\frac{1}{3}\frac{d\ln\rho_\Lambda}{d\delta}\beta_\delta(\delta) \propto (\delta - \delta^*).$$
 
@@ -143,7 +143,10 @@ Since $\delta(t) \to \delta^*$ as an RG attractor, $w(t) \to -1$ dynamically, wi
 - **Horizon:** Resolved by topological correlations of the pre-spatial $n=3$ condensate; dynamical correlations propagate causally, but global winding is established before metric emergence.
 - **Flatness:** Geometric suppression by finite vacuum capacity yield
 - 
- $$- |\Omega - 1|_{\text{initial}} \sim 6 \times 10^{-3}$; $N_e \sim 20$ reduces it to $|\Omega_k|_{\text{today}} \sim 10^{-15}$$
+ $- \Omega - 1_{\text{initial}} \sim 6 \times 10^{-3}$; $N_e \sim 20$ reduces it to
+
+$$\Omega_k|_{\text{today}} \sim 10^{-15}$$
+
 - **Monopoles:** The vacuum manifold is $\mathcal{M}_{\text{vac}} \cong S^1$, giving $\pi_2(S^1) = 0$. Monopoles are structurally non-produced.
 
 ### 5.4 Hubble Tension
@@ -162,7 +165,12 @@ within $1\sigma$ of distance-ladder measurements, while leaving CMB-inferred $H_
 
 ### 6.1 Three Families from the $n=3$ Vortex
 
-Below $M_{\text{GUT}}$, the condensate forms a phase field $\Psi = \rho e^{i\theta}$. The fundamental quartic invariant $I_4(56)$ of $E_7$ generates a $\mathbb{Z}_4$ vacuum baseline $V_{\text{eff}} \sim -\kappa\cos(4\theta)$. Within this lattice, energetic minimization under $SU(8)$ antisymmetry constraints dynamically selects winding $n=3$ as the global minimum. The Jackiw–Rebbi index theorem guarantees exactly three normalizable chiral zero modes, identified with the fermion families.
+Below $M_{\text{GUT}}$, the condensate forms a phase field $\Psi = \rho e^{i\theta}$. The fundamental quartic invariant $I_4(56)$ of $E_7$ generates a 
+$\mathbb{Z}_4$ vacuum baseline 
+
+$$V_{\text{eff}} \sim -\kappa\cos(4\theta)$$
+
+. Within this lattice, energetic minimization under $SU(8)$ antisymmetry constraints dynamically selects winding $n=3$ as the global minimum. The Jackiw–Rebbi index theorem guarantees exactly three normalizable chiral zero modes, identified with the fermion families.
 
 ### 6.2 Composite Higgs
 
@@ -178,7 +186,7 @@ Discrete symmetry projection $W(E_7) \to A_4/S_4$ from the vortex background, co
 
 - $\theta_{13} \approx 8.7°$
 - $\delta_{CP} \approx \pm 90°$
-- Normal hierarchy: $\sum m_\nu \approx 0.06$–$0.08\ \text{eV}$
+- Normal hierarchy: $\sum m_\nu \approx 0.06$ – $0.08\ \text{eV}$
 
 Quark hierarchies follow power-law scaling $\epsilon_\nu^{\text{eff}}$ from the Plancherel measure, with CKM angles arising from geometric projection and instanton suppression for $V_{ub}$.
 
@@ -192,12 +200,12 @@ SPU makes zero-parameter predictions across multiple channels:
 
 | Observable | SPU Prediction | Experimental Test | Falsification Condition |
 |---|---|---|---|
-| Tensor-to-scalar ratio $r$ | $0.01$–$0.10$ | CMB-S4, LiteBIRD | $r < 0.005$ |
+| Tensor-to-scalar ratio $r$ | $0.01$ – $0.10$ | CMB-S4, LiteBIRD | $r < 0.005$ |
 | Dark energy $w(z=0)$ | $\approx -0.95$ | DESI Year 5 | $w = -1$ at $\sigma < 0.02$ |
-| $H(z)$ profile | Smooth rise to $72.4$ at $z=0$ | DESI, Euclid | Flat $\Lambda$CDM at $< 0.5\%$ |
+| $H(z)$ profile | Smooth rise to $72.4$ at $z=0$ | DESI, Euclid | Flat $\Lambda$ CDM at $< 0.5\%$ |
 | BTFR acceleration $a_{\text{SP}}$ | $\approx 1.2 \times 10^{-10}$ m/s² | SPARC, DESI BGS | Non-universal $a_{\text{SP}}$ or slope $\neq 4$ |
-| Proton lifetime $\tau_p$ | $10^{34}$–$10^{35}$ yr | Hyper-Kamiokande | $\tau_p > 10^{36}$ yr |
-| Spatial curvature $\Omega_k$ | $10^{-15}$–$10^{-12}$ | CMB-S4, Euclid | $\|\Omega_k\| > 10^{-3}$ |
+| Proton lifetime $\tau_p$ | $10^{34}$ – $10^{35}$ yr | Hyper-Kamiokande | $\tau_p > 10^{36}$ yr |
+| Spatial curvature $\Omega_k$ | $10^{-15}$ – $10^{-12}$ | CMB-S4, Euclid | $\|\Omega_k\| > 10^{-3}$ |
 | Magnetic monopoles | Absent ($\pi_2(S^1) = 0$) | POEMMA, AugerPrime | Any confirmed detection |
 | Running of $G_N$ | Zero | LISA, ET | Confirmed variation at any scale |
 
