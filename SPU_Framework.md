@@ -35,7 +35,17 @@ while the space of allowed interactions is strictly finite and classified by $E_
 
 ## Chapter 2: Dynamical Reduction & RG Flow of $\delta$
 
-Physical observables depend on how many of the 128 modes actively participate in low-energy dynamics. Quasi-critical fermions couple to an emergent defect/scalar $\Phi$ via $\mathcal{L}_{\text{int}} = g\Phi\bar{\Psi}\Psi$. At one loop, $\Phi$ acquires a mass $\Pi_\Phi(\mu^2) \sim g^2\mu^2/(8\pi^2)$, inducing an effective fermion mass $M_{\text{eff}}^2(\mu)$. The RG participation weight is
+Physical observables depend on how many of the 128 modes actively participate in low-energy dynamics. Quasi-critical fermions couple to an emergent defect/scalar 
+$$\Phi$ via $\mathcal{L}_{\text{int}} = g\Phi\bar{\Psi}\Psi$$.
+
+At one loop, $\Phi$ acquires a mass 
+
+$$\Pi_\Phi(\mu^2) \sim g^2\mu^2/(8\pi^2)$$
+ inducing an effective fermion mass 
+ 
+ $$M_{\text{eff}}^2(\mu)$$. 
+ 
+ The RG participation weight is
 
 $$w(\mu) = \frac{1}{1 + M_{\text{eff}}^2/\mu^2},$$
 
