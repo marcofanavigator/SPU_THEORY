@@ -36,7 +36,10 @@ while the space of allowed interactions is strictly finite and classified by $E_
 ## Chapter 2: Dynamical Reduction & RG Flow of $\delta$
 
 Physical observables depend on how many of the 128 modes actively participate in low-energy dynamics. Quasi-critical fermions couple to an emergent defect/scalar 
-$$\Phi$ via $\mathcal{L}_{\text{int}} = g\Phi\bar{\Psi}\Psi$$.
+
+$\Phi$ via 
+
+$$\mathcal{L}_{\text{int}} = g\Phi\bar{\Psi}\Psi$$.
 
 At one loop, $\Phi$ acquires a mass 
 
