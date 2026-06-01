@@ -112,13 +112,18 @@ Gravity is not fundamental. It emerges as the macroscopic elastic response of th
 
 ### 3.2 Definition of the Stiffness Scale
 The response is controlled by a stiffness scale $\Lambda_{\SP}$:
+
 $$G_N \equiv \frac{1}{\Lambda_{\SP}^2}$$
+
 This defines Newton's constant as an emergent quantity.
 
 ### 3.3 Upper Bound from Gauge Dynamics
 RG evolution predicts gauge unification at:
+
 $$M_{\GUT} \sim (1\text{--}2) \times 10^{16} \text{ GeV}$$
+
 The vacuum medium cannot be stiffer than its internal reorganization scale:
+
 $$\Lambda_{\SP} \lesssim M_{\GUT}$$
 
 ### 3.4 Collective Suppression Mechanism
