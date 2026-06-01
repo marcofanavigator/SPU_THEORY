@@ -143,7 +143,7 @@ The spectral formula above uses the leading-order (tree-level) spectral weight. 
 
 | Correction | Expected size | Effect on $\mathcal{R}_0$ |
 |-----------|--------------|--------------------------|
-| Singlet mixing ($\mathbf{1}_{\pm 4}$ in $\mathbf{56} \to E_6 \times U(1)$) | $\mathcal{O}(2/56 \approx 4\%)$ | ↓ small |
+| Singlet mixing ($\mathbf{1}_{\pm 4}$ in $$\mathbf{56} \to E_6 \times U(1)$$) | $\mathcal{O}(2/56 \approx 4\%)$ | ↓ small |
 | Loop corrections $\mathcal{O}(g^2)$ at $M_{\text{GUT}}$ | $\mathcal{O}(g^2/16\pi^2 \approx 0.3\%)$ | ↓ small |
 | Threshold effects at $M_{\text{GUT}}$ | $\mathcal{O}(M_{\text{GUT}}/M_{\text{Pl}})$ | ↓ small |
 | **Dynamical $\mu_{\text{match}}$** (condensate scale) | **dominant** | **↓ large** |
