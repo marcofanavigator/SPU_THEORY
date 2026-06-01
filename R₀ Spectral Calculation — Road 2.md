@@ -12,7 +12,12 @@
 
 We compute the UV ratio $\mathcal{R}_0 = \kappa_3^0/\kappa_4^0$ via numerical spectral traces on the coset $E_7/SU(8)$. Using the Peter-Weyl decomposition, the Casimir eigenvalues of the Laplacian on the coset, and the SPU spectral weight function, we derive a closed formula for $\mathcal{R}_0(\mu)$ and establish its full range from group-theoretic inputs alone.
 
-**Key result:** The value $\mathcal{R}_0 = 0.65$ used in SPU corresponds to a matching scale $\mu_{\text{match}} \approx 2.76 \times M_{\text{GUT}}$, physically consistent with the scale at which the $E_7 \to E_6 \times U(1)$ branching completes dynamically.
+**Key result:** The value 
+$\mathcal{R}_0 = 0.65$  used in SPU corresponds to a matching scale 
+
+$$\mu_{\text{match}} \approx 2.76 \times M_{\text{GUT}}$$
+
+physically consistent with the scale at which the $E_7 \to E_6 \times U(1)$ branching completes dynamically.
 
 ---
 
@@ -118,9 +123,9 @@ The spectral formula $\mathcal{R}_0(\mu)$ traverses this entire range as $\mu$ g
 
 Solving $\mathcal{R}_0(\mu^*) = 0.65$:
 
-$$\frac{27}{28} \cdot \frac{C_2(\mathbf{27})}{C_2(\mathbf{27}) + x^*} \cdot \frac{C_2(\mathbf{56}) + x^*}{C_2(\mathbf{56})} = 0.65$$
+$$\frac{27}{28} \cdot \frac{C_2(\mathbf{27})}{C_2(\mathbf{27}) + x^{\ast}} \cdot \frac{C_2(\mathbf{56}) + x^{\ast}}{C_2(\mathbf{56})} = 0.65$$
 
-$$\Rightarrow x^* = 7.635 \quad \Rightarrow \quad \mu^* = 2.763 \times M_{\text{GUT}} \approx 4.97 \times 10^{16}\,\text{GeV}$$
+$$\Rightarrow x^{\ast} = 7.635 \quad \Rightarrow \quad \mu^{\ast} = 2.763 \times M_{\text{GUT}} \approx 4.97 \times 10^{16}\,\text{GeV}$$
 
 ### 4.2 Physical Motivation
 
@@ -138,7 +143,7 @@ The spectral formula above uses the leading-order (tree-level) spectral weight. 
 
 | Correction | Expected size | Effect on $\mathcal{R}_0$ |
 |-----------|--------------|--------------------------|
-| Singlet mixing ($\mathbf{1}_{\pm 4}$ in $\mathbf{56} \to E_6 \times U(1)$) | $\mathcal{O}(2/56 \approx 4\%)$ | ↓ small |
+| Singlet mixing ($\mathbf{1}_{\pm 4}$ in $$\mathbf{56} \to E_6 \times U(1)$$) | $\mathcal{O}(2/56 \approx 4\%)$ | ↓ small |
 | Loop corrections $\mathcal{O}(g^2)$ at $M_{\text{GUT}}$ | $\mathcal{O}(g^2/16\pi^2 \approx 0.3\%)$ | ↓ small |
 | Threshold effects at $M_{\text{GUT}}$ | $\mathcal{O}(M_{\text{GUT}}/M_{\text{Pl}})$ | ↓ small |
 | **Dynamical $\mu_{\text{match}}$** (condensate scale) | **dominant** | **↓ large** |
