@@ -13,10 +13,9 @@
 We compute the UV ratio $\mathcal{R}_0 = \kappa_3^0/\kappa_4^0$ via numerical spectral traces on the coset $E_7/SU(8)$. Using the Peter-Weyl decomposition, the Casimir eigenvalues of the Laplacian on the coset, and the SPU spectral weight function, we derive a closed formula for $\mathcal{R}_0(\mu)$ and establish its full range from group-theoretic inputs alone.
 
 **Key result:** The value 
-$$\mathcal{R}_0 = 0.65$$
-used in SPU corresponds to a matching scale 
-$$\mu_{\text{match}} \approx 2.76 \times M_{\text{GUT}}$$,
-physically consistent with the scale at which the $$E_7 \to E_6 \times U(1)$$ branching completes dynamically.
+$mathcal{R}_0 = 0.65$  used in SPU corresponds to a matching scale 
+$mu_{\text{match}} \approx 2.76 \times M_{\text{GUT}}$
+physically consistent with the scale at which the $E_7 \to E_6 \times U(1)$ branching completes dynamically.
 
 ---
 
