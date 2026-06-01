@@ -118,9 +118,9 @@ The spectral formula $\mathcal{R}_0(\mu)$ traverses this entire range as $\mu$ g
 
 Solving $\mathcal{R}_0(\mu^*) = 0.65$:
 
-$$\frac{27}{28} \cdot \frac{C_2(\mathbf{27})}{C_2(\mathbf{27}) + x^*} \cdot \frac{C_2(\mathbf{56}) + x^*}{C_2(\mathbf{56})} = 0.65$$
+$$\frac{27}{28} \cdot \frac{C_2(\mathbf{27})}{C_2(\mathbf{27}) + x^{\ast}} \cdot \frac{C_2(\mathbf{56}) + x^{\ast}}{C_2(\mathbf{56})} = 0.65$$
 
-$$\Rightarrow x^* = 7.635 \quad \Rightarrow \quad \mu^* = 2.763 \times M_{\text{GUT}} \approx 4.97 \times 10^{16}\,\text{GeV}$$
+$$\Rightarrow x^{\ast} = 7.635 \quad \Rightarrow \quad \mu^{\ast} = 2.763 \times M_{\text{GUT}} \approx 4.97 \times 10^{16}\,\text{GeV}$$
 
 ### 4.2 Physical Motivation
 
