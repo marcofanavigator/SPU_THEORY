@@ -17,12 +17,17 @@ We derive the semi-analytical renormalization group (RG) flow for the cubic ($\k
 ### 1.1 Fundamental Invariants of $E_7$ and $E_6$
 
 The fundamental fermionic representation of $E_7$ is $\mathbf{56}$, whose lowest-degree invariant is quartic:
+
 $$I_4(\mathbf{56}) = t_{ABCD} \Psi^A \Psi^B \Psi^C \Psi^D \quad \Rightarrow \quad V_{\text{eff}} \supset -\kappa_4 \cos(4\theta).$$
+
 This naturally suggests a $Z_4$ vacuum structure at high energies.
 
 Under the maximal branching:
+
 $$E_7 \supset E_6 \times U(1), \qquad \mathbf{56} \to \mathbf{27}_{+1} \oplus \overline{\mathbf{27}}_{-1} \oplus \mathbf{1}_{+4} \oplus \mathbf{1}_{-4},$$
+
 the $E_6$ sector admits a unique cubic invariant:
+
 $$I_3(\mathbf{27}) = d_{abc} \phi^a \phi^b \phi^c \quad \Rightarrow \quad V_{\text{eff}} \supset -\kappa_3 \cos(3\theta).$$
 
 ### 1.2 Quadratic Casimir Gap
@@ -95,20 +100,20 @@ $$\mathcal{R}(\mu) \equiv \frac{\kappa_3(\mu)}{\kappa_4(\mu)} = \mathcal{R}_0 \c
 
 ### 4.3 Crossover Scale $\mu_*$ (Corrected Formula)
 
-The IR dominance threshold is defined by $\mathcal{R}(\mu_*) = 1$. Solving for $\mu_*$:
+The IR dominance threshold is defined by $\mathcal{R}(\mu_{\ast}) = 1$. Solving for $\mu_{\ast}$:
 
-$$\boxed{ \mu_*^2 = M_0^2 \, \frac{\mathcal{R}_0 \cdot C_2(\mathbf{56}) - C_2(\mathbf{27})}{1 - \mathcal{R}_0} }$$
+$$\boxed{ \mu_{\ast}^2 = M_0^2 \, \frac{\mathcal{R}_0 \cdot C_2(\mathbf{56}) - C_2(\mathbf{27})}{1 - \mathcal{R}_0} }$$
 
 **Existence condition:** $\mu_*^2 > 0$ requires:
 $$\mathcal{R}_0 \in \left( \frac{C_2(\mathbf{27})}{C_2(\mathbf{56})}, \, 1 \right) \approx (0.304, \, 1).$$
 
-If $\mu_*$ lies within the collective IR regime ($\mu_* \gg \ell_{\text{SP}}^{-1}$), the vacuum dynamically locks to $Z_3$ below $\mu_*$.
+If $\mu_{\ast}$ lies within the collective IR regime ($\mu_{\ast} \gg \ell_{\text{SP}}^{-1}$), the vacuum dynamically locks to $Z_3$ below $\mu_{\ast}$.
 
 ### 4.4 Numerical Evaluation
 
 Using $M_0 = M_{\text{GUT}} \approx 1.8 \times 10^{16}$ GeV and representative values of $\mathcal{R}_0$:
 
-| $\mathcal{R}_0$ | $\mu_*$ [GeV] | $\mu_*/M_{\text{GUT}}$ | $\log_{10}(\mu_*/\text{GeV})$ | Status |
+| $\mathcal{R}_0$ | $\mu_{\ast}$ [GeV] | $\mu_{\ast}/M_{\text{GUT}}$ | $\log_{10}(\mu_{\ast}/\text{GeV})$ | Status |
 |----------------|---------------|------------------------|-------------------------------|--------|
 | **0.40** | $3.84 \times 10^{16}$ | 2.13 | 16.58 | ✅ Accessible |
 | **0.55** | $7.10 \times 10^{16}$ | 3.95 | 16.85 | ✅ Accessible |
@@ -116,7 +121,15 @@ Using $M_0 = M_{\text{GUT}} \approx 1.8 \times 10^{16}$ GeV and representative v
 | **0.70** | $1.10 \times 10^{17}$ | 6.13 | 17.04 | ✅ Accessible |
 | **0.85** | $1.83 \times 10^{17}$ | 10.18 | 17.26 | ✅ Accessible |
 
-**Key observation:** For natural values $\mathcal{R}_0 \sim 0.5\text{--}0.8$, the crossover occurs at $\mu_* \sim (2\text{--}10) \times M_{\text{GUT}}$, i.e., just above the unification scale but well below the Planck scale.
+**Key observation:** For natural values 
+
+$$\mathcal{R}_0 \sim 0.5\text{--}0.8$$,
+
+the crossover occurs at 
+
+$$\mu_{\ast} \sim (2\text{--}10) \times M_{\text{GUT}}$$
+
+, i.e., just above the unification scale but well below the Planck scale.
 
 ---
 
