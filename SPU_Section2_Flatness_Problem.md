@@ -148,10 +148,10 @@ The key conceptual point is: flatness in SPU is not achieved — it is inherited
 | Quantity | Standard ΛCDM | Standard Inflation ($N_e=60$) | SPU ($N_e \sim 20$) |
 |---|---|---|---|
 | Required fine-tuning at $t_{\mathrm{Pl}}$ | $10^{-60}$ | None (inflation resolves it) | None (geometry resolves it) |
-| Initial $|\Omega-1|$ at GUT scale | arbitrary | $e^{-120} \sim 10^{-52}$ | $\sim 6\times 10^{-3}$ |
-| $|\Omega-1|$ after inflation | arbitrary | $\sim 10^{-52}$ | $\sim 2.5\times 10^{-20}$ |
-| $|\Omega_k|$ today | arbitrary | $\sim 10^{-43}$ | $\sim 10^{-15}$ |
-| Observational bound | $|\Omega_k| < 0.005$ | ✅ satisfied | ✅ satisfied |
+| Initial $\Omega -1$ at GUT scale | arbitrary | $e^{-120} \sim 10^{-52}$ | $\sim 6\times 10^{-3}$ |
+| $\Omega -1$ after inflation | arbitrary | $\sim 10^{-52}$ | $\sim 2.5\times 10^{-20}$ |
+| $\Omega_k$ today | arbitrary | $\sim 10^{-43}$ | $\sim 10^{-15}$ |
+| Observational bound | $\Omega_k < 0.005$ | ✅ satisfied | ✅ satisfied |
 | Mechanism | — | Dynamical (e-folds) | Geometric (coset structure) |
 | Free parameters | — | Inflaton potential | Zero ($\delta^{\ast}$, $f_{\mathrm{IR}}$ derived) |
 
