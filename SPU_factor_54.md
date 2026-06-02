@@ -14,7 +14,7 @@ Dalla struttura discreta emerge una beta-funzione a saturazione logistica:
 $$\mu \frac{d\delta}{d\mu} = \beta(\delta) \sim - A \, \delta (1 - \delta) + O(\delta^2/N_f)$$
 
 * **$\delta = 0$ (UV):** Mezzo completamente non condensato.
-* **$\delta \to \delta_* \approx 0.633$ (IR):** Fixed point stabile di saturazione.
+* **$\delta \to \delta_{\ast} \approx 0.633$ (IR):** Fixed point stabile di saturazione.
 
 > **Conseguenza:** Il flusso è universale e genera un'emergenza di scala naturale $\Lambda_{\mathrm{SP}} \sim \sqrt{N_f^{\mathrm{eff}}} \, M_{\mathrm{GUT}}$.
 
