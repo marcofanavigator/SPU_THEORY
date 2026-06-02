@@ -141,7 +141,7 @@ dove $Q$ è la carica elettrica nel modello. **In SPU**, $\mathrm{Tr}_{128}(Q^2)
 
 ### Unicità Strutturale
 
-La Lagrangiana UV è quindi **unicamente determinata** (a meno di accoppiamenti adimensionali $O(1)$) dalla geometria.
+La Lagrangiana UV è quindi **unicamente determinata** (a meno di accoppiamenti adimensionali  $O (1)$ dalla geometria.
 
 $$\boxed{\text{Non è costruita per riprodurre il Modello Standard, ma lo contiene come conseguenza.}}$$
 
