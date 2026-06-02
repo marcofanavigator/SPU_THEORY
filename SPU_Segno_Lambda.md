@@ -17,7 +17,7 @@ con:
 
 La costante cosmologica nasce come parte scalare del determinante chirale:
 
-$$\boxed{\rho_\Lambda \;\equiv\; +\frac{1}{2} \{Tr}\,\ln\!\left(\slashed{D}^2\right)}$$
+$$\boxed{\rho_\Lambda \;\equiv\; +\frac{1}{2} \{Tr}\,\ln\!\left(\not{D}^2\right)}$$
 
 Scritta come integrale spettrale:
 
@@ -154,7 +154,7 @@ $$\delta = \frac{\Gamma\!\left(\frac{d_{\text{eff}}}{2},\, \mu^2/\Lambda_{\mathc
 | Regime | $\mu$ | $\delta$ | $\Lambda$ | Interpretazione |
 |--------|-------|---------|----------|-----------------|
 | **Bare** | $\mu \to 0$ | $\delta \to 1$ | $\rho_\Lambda^{\text{bare}}$ | Teoria nuda, geometria pura |
-| **EW scale** | $\mu = \mu_{EW}$ | $\delta \approx 0.65$–$0.72$ | $\rho_\Lambda^{\text{eff}}$ | Fenomenologia bassa energia |
+| **EW scale** | $\mu = \mu_{EW}$ | $\delta \approx 0.65$ – $0.72$ | $\rho_\Lambda^{\text{eff}}$ | Fenomenologia bassa energia |
 | **GUT scale** | $\mu = \Lambda_{\mathcal{C}}$ | $\delta \to 0$ | divergente | Grande unificazione |
 
 👉 **$\Lambda > 0$ e $\delta^* \neq 0$ sono due facce dello stesso oggetto spettrale.**
@@ -172,7 +172,7 @@ $$\boxed{\text{In SPU, la positività della costante cosmologica non è un'ipote
 | Passo | Risultato | Origine |
 |-------|-----------|---------|
 | 1 | Densità spettrale $\rho_{\text{chir}}(\lambda)$ | Heat kernel su coset |
-| 2 | Definizione $\rho_\Lambda = \frac{1}{2}\{Tr}\ln(\slashed{D}^2)$ | Determinante chirale |
+| 2 | Definizione $\rho_\Lambda = \frac{1}{2}\{Tr}\ln(\not{D}^2)$ | Determinante chirale |
 | 3 | Limite $\mu \to 0$ | Vuoto geometrico puro |
 | 4 | Integrale con funzioni Gamma/digamma | Teoria speciale delle funzioni |
 | 5 | Analisi di segno della parentesi quadra | $\ln(\Lambda_{\mathcal{C}}) \gg \psi(...)$ |
