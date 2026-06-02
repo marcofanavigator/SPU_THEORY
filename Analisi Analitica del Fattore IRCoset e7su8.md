@@ -39,7 +39,8 @@ $$\int_0^\infty d\lambda \,\lambda^{34} e^{-\lambda/\Lambda} = \Lambda^{35} \Gam
 
 **Numeratore:**
 $$\int_0^\infty d\lambda \,\lambda^{34} \log\lambda \, e^{-\lambda/\Lambda} = \Lambda^{35} \Gamma(35) \left[ \psi(35) + \log \Lambda \right]$$
-*(dove $\psi$ è la funzione digamma)*.
+
+(dove $\psi$  è la funzione digamma)
 
 ---
 
