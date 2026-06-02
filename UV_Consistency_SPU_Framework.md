@@ -123,7 +123,7 @@ This formulation provides a rigorous non-perturbative definition of SPU, analogo
 | Observable | SPU Prediction | Current Status | Falsification Condition |
 |------------|----------------|----------------|-------------------------|
 | Optical theorem violation | None up to $\Lambda_{\text{SP}}$ | Confirmed at LHC | $\sigma_{\text{tot}} > \sigma_{\text{unitarity bound}}$ |
-| Gravitational wave speed | $c_{\text{GW}} = c$ exactly | GW170817 bound $|c_{\text{GW}}-c|/c < 10^{-15}$ | $c_{\text{GW}} \neq c$ at $>5\sigma$ |
+| Gravitational wave speed | $c_{\text{GW}} = c$ exactly | GW170817 bound $c_{\text{GW}}-c/c < 10^{-15}$ | $c_{\text{GW}} \neq c$ at $>5\sigma$ |
 | Scattering amplitudes | Finite, bounded by $N_f^{\text{eff}}$ | No divergence observed up to 13 TeV | Polynomial growth $s^n$ with $n>0$ |
 | Lattice scaling | $\Lambda_{\text{SP}}$ independent of cell size | N/A (future numerical test) | Failure of continuum extrapolation |
 
