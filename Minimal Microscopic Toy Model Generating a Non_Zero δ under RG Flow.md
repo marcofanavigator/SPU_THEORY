@@ -59,7 +59,7 @@ Any infinitesimal g > 0 grows under RG → δ increases → δ = 0 is UV-unstabl
 
 - The toy model demonstrates the **dynamical mechanism** (Yukawa decoupling → finite δ).  
 - In the full SPU the same physics is realized on the coset background via the spectral action and the weight w(λ_n,μ).  
-- The value δ_* ≈ 0.63 obtained here matches the range required for gauge unification and 1/α_em ≈ 137.
+- The value δ_* ≈ 0.613 obtained here matches the range required for gauge unification and 1/α_em ≈ 137.
 
 ## Conclusion
 
