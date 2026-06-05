@@ -25,14 +25,17 @@ $$\boxed{B(k_1, k_2, k_3) = \frac{(2\pi)^4 \mathcal{P}_\zeta^2}{\prod_i k_i^3} \
 
 ### La Shape Function $\mathcal{S}$ in SPU:
 Sommando i contributi del formalismo *in-in*, otteniamo la struttura ibrida:
-$$\boxed{\mathcal{S} = \alpha \frac{\sum_{i<j} k_i^2 k_j^2}{k_t^3} + \beta \frac{\sum_i k_i^2 (\vec{k}_j \cdot \vec{k}_k)}{k_t^3} + \gamma \frac{1}{k_t^3}}$$
-*(con $k_t = k_1 + k_2 + k_3$)*
+
+$\boxed{\mathcal{S} = \alpha \frac{\sum_{i<j} k_i^2 k_j^2}{k_t^3} + \beta \frac{\sum_i k_i^2 (\vec{k}_j \cdot \vec{k}_k)}{k_t^3} + \gamma \frac{1}{k_t^3}}$
+
+(con $$k_t = k_1 + k_2 + k_3$$ )
 
 # 📊 5. Limiti e Firme Osservative
 
-1.  **Limite Squeezed ($k_1 \ll k_2, k_3$):** Presenta una lieve violazione della *consistency relation* di Maldacena ($\Delta_{\mathrm{SPU}} \neq 0$), segnale di una dinamica che non è puramente a singolo campo standard.
-2.  **Limite Equilatero ($k_1 = k_2 = k_3$):** Ampiezza massima data dalla combinazione lineare dei coefficienti spettrali.
-3.  **Limite Folded ($k_1 \approx k_2 + k_3$):** Esibisce un **enhancement moderato**, firma del "mezzo collettivo".
+1.  **Limite Squeezed ($k_1 \ll k_2, k_3$):
+2.  ** Presenta una lieve violazione della *consistency relation* di Maldacena ($\Delta_{\mathrm{SPU}} \neq 0$), segnale di una dinamica che non è puramente a singolo campo standard.
+3.  **Limite Equilatero ($k_1 = k_2 = k_3$):** Ampiezza massima data dalla combinazione lineare dei coefficienti spettrali.
+4.  **Limite Folded ($k_1 \approx k_2 + k_3$):** Esibisce un **enhancement moderato**, firma del "mezzo collettivo".
 
 # 📈 6. Confronto tra Modelli
 
